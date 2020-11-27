@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "heet9022",
+      "name": "Heet Sakaria",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/41733742?v=4",
+      "profile": "https://github.com/heet9022",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "Fake-news-classification-model",
+  "projectOwner": "hritik5102",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
