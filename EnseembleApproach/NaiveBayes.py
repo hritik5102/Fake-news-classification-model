@@ -30,11 +30,13 @@ def utills():
     y_pred = gnb.predict(xte)
     m = yte.shape[0]
     n = (yte != y_pred).sum()
-    print("Accuracy = " + format((m-n)/m*100, '.2f') + "%")   # 72.94%
+    print("Accuracy = " + format(round((m-n)/m*100, 2)) + "%")   # 72.94%
     # Draw the confusion matrix
     skplt.confusion_matrix(yte, y_pred)
     plt.show()
 
 
 utills()
+
+# utills()
 # gnb.fit()
