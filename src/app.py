@@ -114,27 +114,6 @@ def home_page():
     except Exception as ec:
         print(ec)
 
-    # site_with_articles = newspaper.build(user_input, memoize_articles=False)
-    # site_with_articles.print_summary()
-    # left, right = st.beta_columns((1, 2))
-    # name = ["Author", "Date", "Title", "Text", "Top Images",
-    #         "Movies", "Related tags", "Keywords (NLP)", "Summary (NLP)"]
-
-    # article_info = [my_article.authors, my_article.publish_date, my_article.title, my_article.text,
-    #                  my_article.top_image, my_article.movies, my_article.tags]
-
-    # if st.button('Generate Text'):
-    #     st.markdown('''---''')
-    #     with left:
-    #         left.markdown('''**Content**''', unsafe_allow_html=True)
-    #         for i in name:
-    #             left.write(i)
-
-    #     with right:
-    #         right.markdown('''**Discription**''', unsafe_allow_html=True)
-    #         for i in article_info:
-    #             right.write(i)
-
     if st.button('Check authenticity'):
         st.header("News site authencity")
         st.markdown('''---''')
@@ -287,59 +266,6 @@ def home_page():
         else:
             st.warning(
                 "Coudn\'t able to get the top keywords or Invalid URL Provided")
-
-        # st.markdown(f'''<table><tr>
-        #             <td>Summary (NLP)</td>
-        #             <td>{nlp_summary}</td>
-        #         </tr></table>''', unsafe_allow_html=True)
-
-        # if st.button('Generate Text'):
-        #     st.markdown(f'''
-        #                 <table class="table">
-        #                 <tbody>
-        #                 <tr>
-        #                     <td>Title</td>
-        #                     <td>{ my_article.title }</td>
-        #                 </tr>
-        #                 <tr>
-        #                     <td>Authors</td>
-        #                     <td>{ my_article.authors }</td>
-        #                 </tr>
-        #                 <tr>
-        #                     <td>Text</td>
-        #                     <td>{ my_article.text }</td>
-        #                 </tr>
-        #                 <tr>
-        #                     <td>Top Image</td>
-        #                     <td>
-        #                         <img src="{ my_article.top_image }"/>
-        #                     </td>
-        #                 </tr>
-        #                 <tr>
-        #                     <td>Movies (Videos)</td>
-        #                     <td>{ my_article.movies }</td>
-        #                 </tr>
-        #                 <tr>
-        #                     <td>Keywords (NLP)</td>
-        #                     <td>{ my_article.keywords }</td>
-        #                 </tr>
-        #                 <tr>
-        #                     <td>Summary (NLP)</td>
-        #                     <td>{ my_article.summary }</td>
-        #                 </tr>
-        #                 <tr>
-        #                     <td>my_article HTML</td>
-        #                     <td>
-        #             <pre>
-        #                 <code class="language-markup">
-        #                 { my_article.html }
-        #                 </code>
-        #             </pre>
-        #                     </td>
-        #                 </tr>
-        #                 </tbody>
-        #             </table>
-        #     ''', unsafe_allow_html=True)
 
 
 main_page()
