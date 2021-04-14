@@ -1,0 +1,14 @@
+{
+  "fake": "Fake News - Sources that entirely fabricate information, disseminate deceptive content, or grossly distort actual news reports",
+  "satire": "Satire - Sources that use humor, irony, exaggeration, ridicule, and false information to comment on current events.",
+  "bias": "Extreme Bias - Sources that come from a particular point of view and may rely on propaganda, decontextualized information, and opinions distorted as facts.",
+  "conspiracy": "Conspiracy Theory - Sources that are well-known promoters of kooky conspiracy theories.",
+  "rumor": "Rumor Mill - Sources that traffic in rumors, gossip, innuendo, and unverified claims.",
+  "state": "State News - Sources in repressive states operating under government sanction.",
+  "junksci": "Junk Science - Sources that promote pseudoscience, metaphysics, naturalistic fallacies, and other scientifically dubious claims.",
+  "hate": "Hate News - Sources that actively promote racism, misogyny, homophobia, and other forms of discrimination.",
+  "clickbait": "Clickbait - Sources that provide generally credible content, but use exaggerated, misleading, or questionable headlines, social media descriptions, and/or images.",
+  "unreliable": "Proceed With Caution - Sources that may be reliable but whose contents require further verification.",
+  "political": "Political - Sources that provide generally verifiable information in support of certain points of view or political orientations.",
+  "reliable": "Credible - Sources that circulate news and information in a manner consistent with traditional and ethical practices in journalism (Remember: even credible sources sometimes rely on clickbait-style headlines or occasionally make mistakes. No news organization is perfect, which is why a healthy news diet consists of multiple sources of information)."
+}
