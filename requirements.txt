@@ -19,4 +19,4 @@ wordcloud>=1.8.1
 requests==2.24.0
 newspaper3k==0.2.8
 validators==0.18.2
-newspaper==0.1.0.7
+

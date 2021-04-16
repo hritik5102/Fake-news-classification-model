@@ -1,24 +1,15 @@
 # library for regular expression operations
 from bs4 import BeautifulSoup
 import pickle
-from sklearn.metrics import (classification_report,                  # Metrics for calculation
-                             confusion_matrix,
-                             accuracy_score)
-from tensorflow.keras.callbacks import (EarlyStopping,                # Checkpoints
-                                        ReduceLROnPlateau,
-                                        ModelCheckpoint,
-                                        TensorBoard)
-from sklearn.model_selection import train_test_split                  # Train
-from sklearn.feature_extraction.text import CountVectorizer           # Bag of words
-from tensorflow.keras.layers import Bidirectional                     # BiDirectional
-from tensorflow.keras.layers import Dense                             # Dense layer
-from tensorflow.keras.layers import Dropout                           # Dropout
-from tensorflow.keras.layers import LSTM                              # LSTM
-from tensorflow.keras.layers import Embedding                         # Embeddings
+# from tensorflow.keras.layers import Bidirectional                     # BiDirectional
+# from tensorflow.keras.layers import Dense                             # Dense layer
+# from tensorflow.keras.layers import Dropout                           # Dropout
+# from tensorflow.keras.layers import LSTM                              # LSTM
+# from tensorflow.keras.layers import Embedding                         # Embeddings
 from tensorflow.keras.preprocessing.sequence import pad_sequences     # Pad Sequence
 from tensorflow.keras.preprocessing.text import Tokenizer             # Tokenizer keras
-from tensorflow.keras.preprocessing.text import one_hot               # One hot vector
-from tensorflow.keras.models import Sequential
+# from tensorflow.keras.preprocessing.text import one_hot               # One hot vector
+# from tensorflow.keras.models import Sequential
 from keras.models import load_model
 import re
 import io
@@ -37,10 +28,6 @@ from textblob import TextBlob, Word                 # textBlob library
 from nltk.corpus import stopwords
 import string                                       # for string operations
 
-# data processing, CSV file I/O (e.g. pd.read_csv)
-import pandas as pd
-import numpy as np                                  # linear algebra
-import matplotlib.pyplot as plt                     # library for visualization
 import os
 import warnings
 warnings.filterwarnings("ignore")
@@ -51,21 +38,6 @@ nltk.download('stopwords')
 nltk.download('wordnet')                            # Wordnet
 nltk.download('averaged_perceptron_tagger')         # POS Tagger
 nltk.download('punkt')
-
-# just for display
-LIGHTRED = '\033[91m'
-LIGHTGREEN = '\033[92m'
-LIGHTBLUE = '\033[94m'
-BLACK = '\033[30m'
-RED = '\033[31m'
-GREEN = '\033[32m'
-YELLOW = '\033[33m'
-BLUE = '\033[34m'
-MAGENTA = '\033[35m'
-CYAN = '\033[36m'
-WHITE = '\033[37m'
-BOLD = '\033[01m'
-LIGHTCYAN = '\033[96m'
 
 
 def process_text(content, stopwords_english):
