@@ -1,37 +1,21 @@
 # library for regular expression operations
-from bs4 import BeautifulSoup
-import pickle
-# from tensorflow.keras.layers import Bidirectional                     # BiDirectional
-# from tensorflow.keras.layers import Dense                             # Dense layer
-# from tensorflow.keras.layers import Dropout                           # Dropout
-# from tensorflow.keras.layers import LSTM                              # LSTM
-# from tensorflow.keras.layers import Embedding                         # Embeddings
-from tensorflow.keras.preprocessing.sequence import pad_sequences     # Pad Sequence
-from tensorflow.keras.preprocessing.text import Tokenizer             # Tokenizer keras
-# from tensorflow.keras.preprocessing.text import one_hot               # One hot vector
-# from tensorflow.keras.models import Sequential
-from keras.models import load_model
-import re
-import io
-
-# NLP library for features NER, POS tagging, dependency parsing
-import nltk                                         # Python library for NLP
+from textblob import TextBlob, Word                 # textBlob library
+from nltk.tokenize import TweetTokenizer
+from nltk.stem import WordNetLemmatizer             # module for Lemmatizer
+from nltk.corpus import stopwords
+from bs4 import BeautifulSoup                       # Scrapping article
 import contractions                                 # contraction libary
 import unicodedata                                  # charachter encoding library
-from nltk.stem import WordNetLemmatizer             # module for Lemmatizer
-from nltk.corpus import stopwords                   # stopwords
-from nltk.tokenize import TweetTokenizer
-from textblob import TextBlob, Word                 # textBlob library
-# module for tokenizing strings
-
-# module for stop words that come with NLTK
-from nltk.corpus import stopwords
-import string                                       # for string operations
-
+import nltk                                         # Python library for NLP
+from keras.models import load_model
+from tensorflow.keras.preprocessing.text import Tokenizer             # Tokenizer keras
+from tensorflow.keras.preprocessing.sequence import pad_sequences     # Pad Sequence
+import re
 import os
+import string                                       # for string operations
+import pickle
 import warnings
 warnings.filterwarnings("ignore")
-
 
 # download the stopwords from NLTK
 nltk.download('stopwords')
@@ -96,6 +80,7 @@ def process_text(content, stopwords_english):
     # tokenize content
     tokenizer = TweetTokenizer(preserve_case=False, strip_handles=True,
                                reduce_len=True)
+
     content_tokens = tokenizer.tokenize(content)
 
     content_clean = []
@@ -156,18 +141,8 @@ def bidirectional_glove_test(input_text):
     # Prediction
     result = model.predict_classes(fact_check_padding)
 
-    print(result)
-    print("Fake : 0 and Real : 1")
-
-    print("Input text : ", fact_check)
-
-    print('-'*100)
-
-    if result[0][0] == 1:
-        return "REAL"
-    else:
-        return "FAKE"
+    return result[0][0]
 
 
-fact_check = "Donald Trump was born in Pakistan as Dawood Ibrahim Khan New Delhi: A video has gone viral showing a Pakistani anchor claiming that US President-elect Donald Trump was born in Pakistan and not in the United States of America.  The report further alleged that Trump's original name is Dawood Ibrahim Khan. In the video, the Neo News anchor elaborated on Trump's journey from North Waziristan to England and then finally to Queens, New York.  Neo news had cited tweets and a picture on social media to back its claim. The video was broadcast last month but went viral after Trump’s election victory on November 8."
-print(bidirectional_glove_test(fact_check))
+# fact_check = "Donald Trump was born in Pakistan as Dawood Ibrahim Khan New Delhi: A video has gone viral showing a Pakistani anchor claiming that US President-elect Donald Trump was born in Pakistan and not in the United States of America.  The report further alleged that Trump's original name is Dawood Ibrahim Khan. In the video, the Neo News anchor elaborated on Trump's journey from North Waziristan to England and then finally to Queens, New York.  Neo news had cited tweets and a picture on social media to back its claim. The video was broadcast last month but went viral after Trump’s election victory on November 8."
+# print(bidirectional_glove_test(fact_check))
