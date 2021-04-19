@@ -9,6 +9,7 @@
 import os
 import json
 import nltk
+import requests
 import datetime
 import newspaper
 import numpy as np
@@ -97,6 +98,7 @@ def home_page():
 
         # Get formated domain
         formated_domain = format_url(domain_name)
+
     except Exception:
         st.warning("Enter an URL to suppress the warning !!")
 
@@ -115,8 +117,48 @@ def home_page():
         print(ec)
 
     if st.button('Check authenticity'):
+        st.header("VirusTotal - Malicious URL Scanner")
+        st.markdown('''---''')
+
+        try:
+            url = 'https://www.virustotal.com/vtapi/v2/url/report'
+            params = {
+                'apikey': os.environ.get('VIRUS_TOTAL_API_KEY'), 'resource': user_input}
+            response = requests.get(url, params=params)
+            json_object = response.json()
+        except Exception as ec:
+            pass
+            # response2 = requests.post(url2, data=params2)
+
+        if json_object['scans'] is not None:
+
+            scans = json_object['scans']
+            category_key = list(scans.keys())
+            category_value = [scans[i]['result'] for i in category_key]
+
+            left, center, right = st.beta_columns((1, 2, 1))
+
+            with left:
+                left.markdown('''**No.** ''', unsafe_allow_html=True)
+                for i in range(1, 21):
+                    left.write(i)
+            with center:
+                center.markdown('''**Detected by**''', unsafe_allow_html=True)
+                for i in category_key[:20]:
+                    center.write(i)
+            with right:
+                right.markdown('''**Result**''', unsafe_allow_html=True)
+                for link in category_value[:20]:
+                    if link == 'clean site':
+                        right.markdown(
+                            f'<span style="color:green">{link}</span>', unsafe_allow_html=True)
+                    else:
+                        right.markdown(
+                            f'<span style="color:red">{link}</span>', unsafe_allow_html=True)
+
         st.header("News site authencity")
         st.markdown('''---''')
+
         left, right = st.beta_columns((1, 2))
 
         # st.markdown(f'''<table><tr>
