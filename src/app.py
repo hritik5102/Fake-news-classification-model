@@ -116,14 +116,15 @@ def home_page():
     except Exception as ec:
         print(ec)
 
+    print(os.environ.get('VIRUS_TOTAL_API_KEY'))
+
     if st.button('Check authenticity'):
         st.header("VirusTotal - Malicious URL Scanner")
         st.markdown('''---''')
-
         try:
             url = 'https://www.virustotal.com/vtapi/v2/url/report'
-            params = {
-                'apikey': os.environ.get('VIRUS_TOTAL_API_KEY'), 'resource': user_input}
+            params = {'apikey': os.environ.get(
+                'VIRUS_TOTAL_API_KEY'), 'resource': user_input}
             response = requests.get(url, params=params)
             json_object = response.json()
         except Exception as ec:
@@ -131,11 +132,9 @@ def home_page():
             # response2 = requests.post(url2, data=params2)
 
         if json_object['scans'] is not None:
-
             scans = json_object['scans']
             category_key = list(scans.keys())
             category_value = [scans[i]['result'] for i in category_key]
-
             left, center, right = st.beta_columns((1, 2, 1))
 
             with left:
@@ -155,7 +154,9 @@ def home_page():
                     else:
                         right.markdown(
                             f'<span style="color:red">{link}</span>', unsafe_allow_html=True)
-
+        else:
+            st.warning(
+                "Couldn't able to get detect the site or Invalid URL provided !!")
         st.header("News site authencity")
         st.markdown('''---''')
 
