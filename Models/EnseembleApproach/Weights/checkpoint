@@ -1,2 +1,0 @@
-model_checkpoint_path: "fake_news_lstm_weights.temp.hd5"
-all_model_checkpoint_paths: "fake_news_lstm_weights.temp.hd5"

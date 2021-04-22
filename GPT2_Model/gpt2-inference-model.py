@@ -31,5 +31,5 @@ def predictGPT(text):
     return predict_label[0]
 
 
-sample_text = 'When asked by a reporter whether hes at the center of a criminal scheme to violate campaign laws, Gov. Scott Walker nodded yes.'
-print(predictGPT(sample_text))
+# sample_text = 'When asked by a reporter whether hes at the center of a criminal scheme to violate campaign laws, Gov. Scott Walker nodded yes.'
+# print(predictGPT(sample_text))
