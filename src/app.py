@@ -116,47 +116,50 @@ def home_page():
     except Exception as ec:
         print(ec)
 
-    print(os.environ.get('VIRUS_TOTAL_API_KEY'))
-
     if st.button('Check authenticity'):
         st.header("VirusTotal - Malicious URL Scanner")
         st.markdown('''---''')
-        try:
-            url = 'https://www.virustotal.com/vtapi/v2/url/report'
-            params = {'apikey': os.environ.get(
-                'VIRUS_TOTAL_API_KEY'), 'resource': user_input}
-            response = requests.get(url, params=params)
-            json_object = response.json()
-        except Exception as ec:
-            pass
+        with st.spinner(text="Fetching measures - Analysis in progress"):
+            try:
+                url = 'https://www.virustotal.com/vtapi/v2/url/report'
+                params = {'apikey': os.environ.get(
+                    'VIRUS_TOTAL_API_KEY'), 'resource': user_input}
+                response = requests.get(url, params=params)
+                json_object = response.json()
+
+                if json_object['scans'] is not None:
+                    scans = json_object['scans']
+                    category_key = list(scans.keys())
+                    category_value = [scans[i]['result'] for i in category_key]
+                    left, center, right = st.beta_columns((1, 2, 1))
+
+                    with left:
+                        left.markdown('''**No.** ''', unsafe_allow_html=True)
+                        for i in range(1, 21):
+                            left.write(i)
+                    with center:
+                        center.markdown('''**Detected by**''',
+                                        unsafe_allow_html=True)
+                        for i in category_key[:20]:
+                            center.write(i)
+                    with right:
+                        right.markdown('''**Result**''',
+                                       unsafe_allow_html=True)
+                        for link in category_value[:20]:
+                            if link == 'clean site':
+                                right.markdown(
+                                    f'<span style="color:green">{link}</span>', unsafe_allow_html=True)
+                            else:
+                                right.markdown(
+                                    f'<span style="color:red">{link}</span>', unsafe_allow_html=True)
+                else:
+                    st.warning(
+                        "Couldn't able to get detect the site or Invalid URL provided !!")
+            except Exception as ec:
+                st.info(
+                    "The URL analysis is in progress, you will not see live updates, the results will appear all at once in at most 60 seconds.")
             # response2 = requests.post(url2, data=params2)
 
-        if json_object['scans'] is not None:
-            scans = json_object['scans']
-            category_key = list(scans.keys())
-            category_value = [scans[i]['result'] for i in category_key]
-            left, center, right = st.beta_columns((1, 2, 1))
-
-            with left:
-                left.markdown('''**No.** ''', unsafe_allow_html=True)
-                for i in range(1, 21):
-                    left.write(i)
-            with center:
-                center.markdown('''**Detected by**''', unsafe_allow_html=True)
-                for i in category_key[:20]:
-                    center.write(i)
-            with right:
-                right.markdown('''**Result**''', unsafe_allow_html=True)
-                for link in category_value[:20]:
-                    if link == 'clean site':
-                        right.markdown(
-                            f'<span style="color:green">{link}</span>', unsafe_allow_html=True)
-                    else:
-                        right.markdown(
-                            f'<span style="color:red">{link}</span>', unsafe_allow_html=True)
-        else:
-            st.warning(
-                "Couldn't able to get detect the site or Invalid URL provided !!")
         st.header("News site authencity")
         st.markdown('''---''')
 
@@ -274,7 +277,7 @@ def home_page():
         st.markdown('''### **Movies / Videos**''')
         videos = my_article.movies
         if videos:
-            st.video(videos)
+            st.video(videos[0])
         else:
             st.warning(
                 "Coudn\'t able extract the publish videos or No videos were published or Invalid URL Provided ")
@@ -308,7 +311,7 @@ def home_page():
             st.markdown(f'{nlp_summary}', unsafe_allow_html=True)
         else:
             st.warning(
-                "Coudn\'t able to get the top keywords or Invalid URL Provided")
+                "Coudn\'t able to get the summary of the article or Invalid URL Provided")
 
 
 main_page()
@@ -317,3 +320,4 @@ main_page()
 # https://21stcenturywire.com/2021/04/07/texas-governor-signs-order-banning-use-of-vaccine-passports/
 # https://www.secondamendmentdaily.com/2021/03/chuck-schumer-says-that-law-abiding-licensed-firearms-dealers-are-evil-and-so-are-ghost-guns/
 # https://www.hindustantimes.com/india-news/cbse-class-10-exams-cancelled-class-12-exams-postponed-says-govt-after-pm-modi-s-covid-review-meet-101618383590781.html
+# https://indianexpress.com/article/india/pm-narendra-modi-address-to-nation-live-update-7281920/

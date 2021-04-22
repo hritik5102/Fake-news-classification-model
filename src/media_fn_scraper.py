@@ -2,7 +2,11 @@ import io
 import requests
 import bs4
 from bs4 import BeautifulSoup
-from url_utils import get_data_path
+import pandas as pd
+import os
+from url_utils import get_domain, format_url, get_data_path
+import urllib.parse
+import json
 
 
 def get_text(url):
@@ -20,26 +24,6 @@ def get_text(url):
             f.write(header.get_text() + u'\n')
     return test_text
 
-
-# output_file = open('output.txt', "r")
-# content = output_file.read()
-# # print(content)
-
-# content_list = content.split('\n')
-# # print(content_list)
-# site_title, site_link, site_categories = [], [], []
-# for i in content_list:
-#     x = i.split(', ')
-#     if len(x) != 0:
-#         try:
-#             site_title.append(x[0])
-#             site_link.append(x[1])
-#             # site_categories.append(x[2])
-#         except Exception as ec:
-#             print(i)
-
-# # # print("2nd Amendment Daily News (secondamendmentdaily.com)".split('('))
-# print(site_title[:5], site_link[:5], site_categories[:5])
 
 def get_url(url):
     try:
@@ -76,24 +60,92 @@ def get_categories(url):
 def get_fn_categories():
     output_file = open('output_links_page.txt', 'r').readlines()
     output_list = [line.strip() for line in output_file]
-    # print(output_list[:5])
     for i in output_list[344:]:
         get_categories(i)
 
 
-# get_fn_categories()
+def get_data_csv():
 
-A = {'rightwingnews.com', 'lewrockwell.com', 'vdare.com', 'clashdaily.com', 'usasupreme.com', 'uschronicle.com', 'other98.com', 'lifesitenews.com', 'thefederalistpapers.org', 'dcclothesline.com', 'newswithviews.com', 'oathkeepers.org', 'anonews.co', 'libertytalk.fm', 'projectveritas.com', 'thegatewaypundit.com', 'beforeitsnews.com', 'dailyheadlines.net', 'breaking911.com', 'pjmedia.com', 'cap-news.com', 'allnewspipeline.com', 'therightstuff.biz', '100percentfedup.com', 'amren.com', 'redstate.com', 'libertynews.com', 'conservativepapers.com', 'thepoliticalinsider.com', 'heartland.org', 'now8news.com', 'ilovemyfreedom.org', 'wnd.com', 'canadafreepress.com', 'teaparty.org', 'sputniknews.com', 'yesimright.com', 'redstatewatcher.com', 'americanpatriotdaily.com', 'truthandaction.org', 'occupydemocrats.com', 'prntly.com', 'americanthinker.com', 'bipartisanreport.com', 'ruptly.tv', 'unclesamsmisguidedchildren.com', 'judicialwatch.org', 'americanlookout.com', 'conservapedia.com', 'conservativefiringline.com', 'lifenews.com', 'presstv.com',
-     'pravdareport.com', 'notallowedto.com', 'blackgenocide.org', 'madworldnews.com', 'thefreepatriot.org', 'theblaze.com', 'breitbart.com', 'angrypatriotmovement.com', 'frontpagemag.com', 'dailybuzzlive.com', 'unz.com', 'thebostontribune.com', 'barenakedislam.com', 'theduran.com', 'pamelageller.com', 'russia-insider.com', 'conservativedailypost.com', 'nationalvanguard.org', 'awm.com', 'centerforsecuritypolicy.org', 'conservativebyte.com', 'hangthebankers.com', 'americasfreedomfighters.com'}
+    filePath = os.path.join(os.path.dirname(
+        os.path.realpath(__file__)), 'fake_news_list.csv')
 
-B = {'rightwingnews.com', 'theblacksphere.net', 'clashdaily.com', 'home.nra.org', 'pmnightlynews.com', 'other98.com', 'eaglerising.com', 'vidmax.com', 'bb4sp.com', 'libertytalk.fm', 'beforeitsnews.com', 'dailyheadlines.net', 'pjmedia.com', 'projectveritas.com', 'leftaction.com', 'cap-news.com', 'libertynews.com', 'now8news.com', 'personalliberty.com', 'front.moveon.org', 'ilovemyfreedom.org',
-     'canadafreepress.com', 'redstatewatcher.com', 'occupydemocrats.com', 'conservativepost.com', 'townhall.com', 'bipartisanreport.com', 'unclesamsmisguidedchildren.com', 'americanlookout.com', 'thedcgazette.com', 'blackgenocide.org', 'dailybuzzlive.com', 'nowthisnews.com', 'thefederalist.com', 'thebostontribune.com', 'truthinmedia.com', 'conservativedailypost.com', 'prntly.com'}
+    data = pd.read_csv(filePath)
+    # print(data.head())
+    data = data.replace({'conspiracy': 'Conspiracy Theories', 'fake': 'False Information',
+                         'junksci': 'junk science', 'unknown': 'Unknown'})
 
-print(A.intersection(B))
+    # Because after 917 row - site is repeated in fake_news_list.csv
+    site_list = data['site_name'].values.tolist()[:916]
+    type1 = data['type1'].values.tolist()[:916]
+    type2 = data['type2'].values.tolist()[:916]
+    type3 = data['type3'].values.tolist()[:916]
+
+    return site_list, type1, type2, type3
 
 
-# Conspiracy -> conspiracy
-# Imposter Site -> Imposter site
-# False -> False information
-# Fake News -> Fake news
-# Conspiracies -> conspiracy
+def get_data_json():
+    with open(get_data_path('fake_news_sites.json')) as json_file:
+        fake_news_db_news = json.load(json_file)
+
+    with open(get_data_path('categories.json')) as json_file:
+        categories = json.load(json_file)
+
+    with open(get_data_path('opensources/sources.json')) as json_file:
+        open_source_json = json.load(json_file)
+
+    fake_news_site_list = [fake_news_db_news[i]["siteUrl"]
+                           for i in range(len(fake_news_db_news))]
+    open_source_site_list = list(open_source_json.keys())
+
+    return fake_news_site_list, open_source_site_list, categories
+
+
+def get_matching_site(A, B):
+    return set(A).intersection(set(B))
+
+
+def data_dump_fake_news_db(site_list, t1, t2, t3, fake_news_site_list):
+
+    data_list = []
+
+    for site_url, type1, type2, type3 in zip(site_list, t1, t2, t3):
+        if site_url not in fake_news_site_list and type(site_url) is not float:
+
+            if str(type2) == 'nan':
+                site_category = type1
+            elif str(type3) == 'nan':
+                site_category = [type1, type2]
+            else:
+                site_category = [type1, type2, type3]
+
+            site_title, *top_level_domain = str(site_url).split('.')
+
+            if site_url not in fake_news_site_list:
+                data_list.append({
+                    "siteTitle": site_title,
+                    "siteCategory": site_category,
+                    "siteUrl": site_url,
+                    "siteNotes": ''
+                })
+
+    with open(get_data_path('fake_news_sites.json'), 'a') as outfile:
+        json.dump(data_list, outfile)
+
+
+def data_dump_open_source_db(site_list, t1, t2, t3, open_source_site_list):
+    data_dict = {}
+    for site_url, type1, type2, type3 in zip(site_list, t1, t2, t3):
+        if site_url not in open_source_site_list and type(site_url) is not float:
+            data_dict[site_url] = {
+                "type": type1,
+                "2nd type": "" if str(type2) == 'nan' else type2,
+                "3rd type": "" if str(type3) == 'nan' else type3,
+                "Source Notes (things to know?)": ""
+            }
+
+    with open(get_data_path('opensources/sources.json'), 'a') as outfile:
+        json.dump(data_dict, outfile)
+
+# fake_news_site_list, open_source_site_list, categories = get_data_json()
+# site_list, t1, t2, t3 = get_data_csv()
+# data_dump_open_source_db(site_list, t1, t2, t3, open_source_site_list)

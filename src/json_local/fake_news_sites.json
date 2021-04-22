@@ -2442,7 +2442,7 @@
   {
     "siteTitle": "NewsWatch33 (formerly Newswatch28)",
     "siteCategory": "clickbait",
-    "siteUrl": "facebook.comnewswatch33",
+    "siteUrl": "facebook.com/newswatch33",
     "siteGoogleHits": 149000,
     "siteFacebookLikes": 460660,
     "siteTwitterFollowers": null,
@@ -3182,7 +3182,7 @@
   {
     "siteTitle": "Tell Me Now",
     "siteCategory": "clickbait",
-    "siteUrl": "tmn.today/?source=tellmenow.com",
+    "siteUrl": "tmn.today",
     "siteGoogleHits": 1250000,
     "siteFacebookLikes": 2252870,
     "siteTwitterFollowers": 1900,
@@ -3382,7 +3382,7 @@
   {
     "siteTitle": "The Event Chronicle",
     "siteCategory": "conspiracy",
-    "siteUrl": "theeventchronicle.com#",
+    "siteUrl": "theeventchronicle.com",
     "siteGoogleHits": 117000,
     "siteFacebookLikes": 60352,
     "siteTwitterFollowers": 2983,
@@ -4242,7 +4242,7 @@
   {
     "siteTitle": "Z Magazine",
     "siteCategory": "clickbait",
-    "siteUrl": "zcomm.orgzmag/",
+    "siteUrl": "zcomm.org",
     "siteGoogleHits": 199000,
     "siteFacebookLikes": 855,
     "siteTwitterFollowers": 326,
@@ -6609,19 +6609,427 @@
     "siteTitle": "Politifact",
     "siteCategory": "reliable",
     "siteUrl": "politifact.com",
-    "siteNotes": ""
+    "siteNotes": "Politifact is reliable and fact checking site. Fact-checking is a modern, identifiable category of journalism. Its goal is to provide accurate, unbiased analysis of statements made in public in order to correct public misperceptions and increase knowledge of important issues."
   },
   {
-    "siteTitle": "Snoopes",
+    "siteTitle": "Snopes",
     "siteCategory": "reliable",
-    "siteUrl": "snoopes.com",
-    "siteNotes": ""
+    "siteUrl": "snopes.com",
+    "siteNotes": "Snopes is reliable and fact checking site. Fact-checking is a modern, identifiable category of journalism. Its goal is to provide accurate, unbiased analysis of statements made in public in order to correct public misperceptions and increase knowledge of important issues."
+  },
+  {
+    "siteTitle": "American press institute",
+    "siteCategory": "reliable",
+    "siteUrl": "americanpressinstitute.org",
+    "siteNotes": "American press institute is reliable and fact checking site. Fact-checking is a modern, identifiable category of journalism. Its goal is to provide accurate, unbiased analysis of statements made in public in order to correct public misperceptions and increase knowledge of important issues."
+  },
+  {
+    "siteTitle": "Duke Reporters'Lab",
+    "siteCategory": "reliable",
+    "siteUrl": "reporterslab.org",
+    "siteNotes": "Duke Reporters'Lab is reliable and fact checking site. Fact-checking is a modern, identifiable category of journalism. Its goal is to provide accurate, unbiased analysis of statements made in public in order to correct public misperceptions and increase knowledge of important issues."
+  },
+  {
+    "siteTitle": "Fact check",
+    "siteCategory": "reliable",
+    "siteUrl": "factcheck.org",
+    "siteNotes": "Fact check is reliable and fact checking site. Fact-checking is a modern, identifiable category of journalism. Its goal is to provide accurate, unbiased analysis of statements made in public in order to correct public misperceptions and increase knowledge of important issues."
+  },
+  {
+    "siteTitle": "AFP Fact Check",
+    "siteCategory": "reliable",
+    "siteUrl": "factcheck.afp.com",
+    "siteNotes": "AFP Fact Check is reliable and fact checking site. Fact-checking is a modern, identifiable category of journalism. Its goal is to provide accurate, unbiased analysis of statements made in public in order to correct public misperceptions and increase knowledge of important issues."
+  },
+  {
+    "siteTitle": "Alt News",
+    "siteCategory": "reliable",
+    "siteUrl": "altnews.in",
+    "siteNotes": "Alt News is reliable and fact checking site. Fact-checking is a modern, identifiable category of journalism. Its goal is to provide accurate, unbiased analysis of statements made in public in order to correct public misperceptions and increase knowledge of important issues."
+  },
+  {
+    "siteTitle": "Boom live",
+    "siteCategory": "reliable",
+    "siteUrl": "boomlive.in",
+    "siteNotes": "Boom live is reliable and fact checking site. BOOM is an IFCN certified independent digital journalism initiative. Fact-checking is a modern, identifiable category of journalism. Its goal is to provide accurate, unbiased analysis of statements made in public in order to correct public misperceptions and increase knowledge of important issues."
+  },
+  {
+    "siteTitle": "Boom live hindi",
+    "siteCategory": "reliable",
+    "siteUrl": "hindi.boomlive.in",
+    "siteNotes": "Boom live hindi is reliable and fact checking site. BOOM is an IFCN certified independent digital journalism initiative. Fact-checking is a modern, identifiable category of journalism. Its goal is to provide accurate, unbiased analysis of statements made in public in order to correct public misperceptions and increase knowledge of important issues."
+  },
+  {
+    "siteTitle": "WebQoof - Quint Fact Check",
+    "siteCategory": "reliable",
+    "siteUrl": "thequint.com",
+    "siteNotes": "WebQoof is reliable and fact checking site. WebQoof is The Quint's IFCN-certified fact-checking initiative. Fact-checking is a modern, identifiable category of journalism. Its goal is to provide accurate, unbiased analysis of statements made in public in order to correct public misperceptions and increase knowledge of important issues."
+  },
+  {
+    "siteTitle": "Vishvas news",
+    "siteCategory": "reliable",
+    "siteUrl": "vishvasnews.com",
+    "siteNotes": "Vishvas news is reliable and fact checking site. Vishvas News is a multilingual fact checking website which is certified by International Fact Checking Network (IFCN). A website funded as a project of the private company MMI Online Limited. Fact-checks predominantly focus on misinformation that spread via social media platforms, Facebook, Whatsapp and Twitter."
+  },
+  {
+    "siteTitle": "Fact Crescendo",
+    "siteCategory": "reliable",
+    "siteUrl": "factcrescendo.com",
+    "siteNotes": "Fact Crescendo is reliable and fact checking site. Fact Crescendo is an IFCN Certified multilingual fact checking website, they also have a presence in Sri Lanka & Myanmar. Fact-checking is a modern, identifiable category of journalism. Its goal is to provide accurate, unbiased analysis of statements made in public in order to correct public misperceptions and increase knowledge of important issues."
+  },
+  {
+    "siteTitle": "You Turn",
+    "siteCategory": "reliable",
+    "siteUrl": "youturn.in",
+    "siteNotes": "You Turn is reliable and fact checking site. You Turn is an IFCN-certified fact-checking website run primarily in Tamil language.Fact-checking is a modern, identifiable category of journalism. Its goal is to provide accurate, unbiased analysis of statements made in public in order to correct public misperceptions and increase knowledge of important issues."
+  },
+  {
+    "siteTitle": "Factly",
+    "siteCategory": "reliable",
+    "siteUrl": "factly.in",
+    "siteNotes": "Factly is reliable and fact checking site. Factly is an Indian data journalism/public information portal. Fact-checking is a modern, identifiable category of journalism. Its goal is to provide accurate, unbiased analysis of statements made in public in order to correct public misperceptions and increase knowledge of important issues."
+  },
+  {
+    "siteTitle": "News Mobile",
+    "siteCategory": "reliable",
+    "siteUrl": "youturn.in",
+    "siteNotes": "News Mobile is reliable and fact checking site. NewsMobile is a global fact-checker based in India. Fact-checking is a modern, identifiable category of journalism. Its goal is to provide accurate, unbiased analysis of statements made in public in order to correct public misperceptions and increase knowledge of important issues."
+  },
+  {
+    "siteTitle": "News Checker",
+    "siteCategory": "reliable",
+    "siteUrl": "newschecker.in",
+    "siteNotes": "Fact-checks politicians, public figures and viral misinformation. Newschecker is an independent journalistic division of a for-profit company, NC Media Networks Pvt Ltd. It generates revenue by providing fact-checking services to an Indian social media network. Its reporting is published in several languages, including Hindi, Marathi, Bengali, Tamil and English."
+  },
+  {
+    "siteTitle": "THIP Media",
+    "siteCategory": "reliable",
+    "siteUrl": "thip.media",
+    "siteNotes": "THIP Media is reliable and fact checking site. THIP Media, the media arm of The Healthy Indian Project , is a fact check website that is dedicated to health information fact check. Fact-checking is a modern, identifiable category of journalism. Its goal is to provide accurate, unbiased analysis of statements made in public in order to correct public misperceptions and increase knowledge of important issues."
+  },
+  {
+    "siteTitle": "Full Fact",
+    "siteCategory": "reliable",
+    "siteUrl": "fullfact.org",
+    "siteNotes": "Full Fact is reliable and fact checking site. Full Fact An independent fact-checking organisation based in the UK which aims to promote accuracy in public debate, launched in 2009. Fact-checking is a modern, identifiable category of journalism. Its goal is to provide accurate, unbiased analysis of statements made in public in order to correct public misperceptions and increase knowledge of important issues."
+  },
+  {
+    "siteTitle": "SM Hoax Slayer",
+    "siteCategory": "reliable",
+    "siteUrl": "smhoaxslayer.com",
+    "siteNotes": "SM Hoax Slayer is reliable and fact checking site. SMHoaxSlayer is a broad spectrum fact-checking website with verifying social media hoaxes and scams circulating in India. Fact-checking is a modern, identifiable category of journalism. Its goal is to provide accurate, unbiased analysis of statements made in public in order to correct public misperceptions and increase knowledge of important issues."
+  },
+  {
+    "siteTitle": "FactCheckNI",
+    "siteCategory": "reliable",
+    "siteUrl": "factcheckni.org",
+    "siteNotes": "FactCheckNI: The first independent dedicated fact-checking service for Northern Ireland, launched in 2016, checking claims as well as offering training in critical thinking, tools and techniques any member of the public can use."
+  },
+  {
+    "siteTitle": "FactCheck blog",
+    "siteCategory": "reliable",
+    "siteUrl": "channel4.com",
+    "siteNotes": "FactCheck blog is reliable and fact checking site. A fact-checking blog run by the Channel 4 News organization in the UK. Fact-checking is a modern, identifiable category of journalism. Its goal is to provide accurate, unbiased analysis of statements made in public in order to correct public misperceptions and increase knowledge of important issues."
+  },
+  {
+    "siteTitle": "Ferret Fact Service",
+    "siteCategory": "reliable",
+    "siteUrl": "theferret.scot",
+    "siteNotes": "Ferret Fact Service is reliable and fact checking site. Ferret Fact Service: Scotland's first fact-checker launched in April 2017 after a grant from the Google Digital News Initiative. Fact-checking is a modern, identifiable category of journalism. Its goal is to provide accurate, unbiased analysis of statements made in public in order to correct public misperceptions and increase knowledge of important issues."
+  },
+  {
+    "siteTitle": "Africe check",
+    "siteCategory": "reliable",
+    "siteUrl": "africacheck.org",
+    "siteNotes": "Africa's first independent fact-checking organisation with offices in Kenya, Nigeria, South Africa, Senegal and the UK checking claims made by public figures and the media in Africa."
+  },
+  {
+    "siteTitle": "RMIT ABC Fact Check",
+    "siteCategory": "reliable",
+    "siteUrl": "abc.net.au",
+    "siteNotes": "RMIT ABC Fact Check is reliable and fact checking site. An IFCN-accredited fact checking organisation, launched in 2017, jointly funded by RMIT University and the Australian Broadcasting Corporation (ABC). Fact-checking is a modern, identifiable category of journalism. Its goal is to provide accurate, unbiased analysis of statements made in public in order to correct public misperceptions and increase knowledge of important issues."
+  },
+  {
+    "siteTitle": "Climate feedback",
+    "siteCategory": "reliable",
+    "siteUrl": "climatefeedback.org",
+    "siteNotes": "Climate feedback is reliable and fact checking site. Fact-checking is a modern, identifiable category of journalism. Its goal is to provide accurate, unbiased analysis of statements made in public in order to correct public misperceptions and increase knowledge of important issues."
+  },
+  {
+    "siteTitle": "Fact Check",
+    "siteCategory": "reliable",
+    "siteUrl": "factchecked.org",
+    "siteNotes": "FactCheckEd.org: self-described advocates for voters that aims to reduce the level of deception and confusion in U.S. politics, and serving as an educational resource for high school teachers and students, respectively (the latter founded 2005). They are projects of the Annenberg Public Policy Center of the Annenberg School for Communication at the University of Pennsylvania, and are funded primarily by the Annenberg Foundation."
+  },
+  {
+    "siteTitle": "Our news",
+    "siteCategory": "reliable",
+    "siteUrl": "our.news",
+    "siteNotes": "Our.News: Created in December 2016, the platform consolidates fact checking information about news articles and other content into Nutrition Labels for News.[108] It also crowdsources some fact-checking content by allowing its users to contribute sources, reviews, and ratings[109] of news and content."
+  },
+  {
+    "siteTitle": "Real Clear Politics",
+    "siteCategory": "reliable",
+    "siteUrl": "realclearpolitics.com",
+    "siteNotes": "Real Clear Politics is reliable and fact checking site. Fact-checking is a modern, identifiable category of journalism. Its goal is to provide accurate, unbiased analysis of statements made in public in order to correct public misperceptions and increase knowledge of important issues."
+  },
+  {
+    "siteTitle": "The Logical Indian",
+    "siteCategory": "reliable",
+    "siteUrl": "thelogicalindian.com",
+    "siteNotes": "A fact-checking project of the commercial news site The Logical Indian. The site monitors mainstream news and social media for political claims, viral photos and videos, and information that was widely shared online. The newspaper is owned by Creatiwox Internet LLP and is funded with advertising, subscriptions and membership."
   },
   {
     "siteTitle": "Media bias fact check",
     "siteCategory": "reliable",
     "siteUrl": "mediabiasfactcheck.com",
-    "siteNotes": ""
+    "siteNotes": "Media bias fact check is reliable and fact checking site. Fact-checking is a modern, identifiable category of journalism. Its goal is to provide accurate, unbiased analysis of statements made in public in order to correct public misperceptions and increase knowledge of important issues."
+  },
+  {
+    "siteTitle": "Digital Eye India",
+    "siteCategory": "reliable",
+    "siteUrl": "digiteye.in",
+    "siteNotes": "Fact-checkers concentrate on claims made on public platforms and social media for this independent, self-funded digital journalism initiative. The site is owned by Soft Media Hub LLP, a news media consultancy based in Bangalore. It also publishes online editions in Telugu and Malayalam."
+  },
+  {
+    "siteTitle": "Logically India",
+    "siteCategory": "reliable",
+    "siteUrl": "logically.in",
+    "siteNotes": "For the India-based version of Logically, the public uses the company's app to submit claims, which are automatically matched with previous fact-checks. Claims that have not been previously reviewed are checked by a team of human fact-checkers and sent back to users within several days. Highlights appear on the Logically website and app. The company is personally funded with its founder's personal savings and family businesses and with venture capital investments. Logically India is part of a larger company headquartered in the U.K. that has a multinational focus. (See related entry for Logically's international site and app)."
+  },
+  {
+    "siteTitle": "You Turn",
+    "siteCategory": "reliable",
+    "siteUrl": "youturn.in",
+    "siteNotes": "A privately owned and operated fact-checking service that focuses on statements about political and health claims, as well as claims that appear on media outlets and in social media. The project is funded by investments from its owner, membership revenue and advertising."
+  },
+  {
+    "siteTitle": "News meter fack check",
+    "siteCategory": "reliable",
+    "siteUrl": "newsmeter.in",
+    "siteNotes": "NewsMeter is a digital media brand of Fifth Estate Digital Pvt. Ltd. NewsMeter is funded by investments and ad revune, and its fact-check section is a separate, independent unit."
+  },
+  {
+    "siteTitle": "First Check",
+    "siteCategory": "reliable",
+    "siteUrl": "firstcheck.in",
+    "siteNotes": "First Check is an initiative of Health Analytics Asia, a platform for health news and information based in India. Its owner is OW DataLeads Pvt Ltd, a privately held, for-profit media company. The company's funding sources include Google, Internews, the World Health Organization, Konrad Adenauer Stiftung, New York University and Asia News Network. Health Analytics Asia also has a membership program."
+  },
+  {
+    "siteTitle": "Aaj Tak",
+    "siteCategory": "reliable",
+    "siteUrl": "aajtak.intoday.in",
+    "siteNotes": "The Hindi-language news channel Aaj Tak is part of the India Today Group that features fact-checks from its corporate partner, the TV Today Network. Fact-checks are shared across the various India Today platforms, with claims that are originally made and reported on in Hindi are sometimes translated for use by the company's other outlets, and claims made in other languages are sometimes translated for Aaj Tak's audience. (See related entry for India Today."
+  },
+  {
+    "siteTitle": "DailyO Fact Check",
+    "siteCategory": "reliable",
+    "siteUrl": "dailyo.in",
+    "siteNotes": "The Bangla-language news and opinion portal DailyO is part of the India Today Group that features fact-checks from its corporate partner, the TV Today Network. Fact-checks are often shared across the various India Today platforms. Claims that are originally made and reported on in Bangla are sometimes translated for use by the company's other outlets, and claims made in other languages are sometimes translated for DailyO's audience. (See related entry for India Today."
+  },
+  {
+    "siteTitle": "AFP Fact Check Asia (India)",
+    "siteCategory": "reliable",
+    "siteUrl": "factcheck.afp.com",
+    "siteNotes": "Fact-checking by the New Delhi bureau of the Agence France-Presse news service. Focuses on dubious pictures, videos, official statements and other misinformation that appears online. The work is overseen by the AFP Fact Check Asia editors in Hong Kong. (See separate entry for more details on AFP."
+  },
+  {
+    "siteTitle": "South Asia Checks",
+    "siteCategory": "reliable",
+    "siteUrl": "southasiacheck.org",
+    "siteNotes": "South asia checks is reliable and fact checking site. Fact-checking is a modern, identifiable category of journalism. Its goal is to provide accurate, unbiased analysis of statements made in public in order to correct public misperceptions and increase knowledge of important issues."
+  },
+  {
+    "siteTitle": "Fact Watch",
+    "siteCategory": "reliable",
+    "siteUrl": "fact-watch.org",
+    "siteNotes": "A project of the Department of Media Studies and Journalism at the University of Liberal Arts Bangladesh (ULAB). Focuses on politicians, media and social media. Launched with support from the American Center at the U.S. Embassy in Dhaka. After a hiatus, the project resumed work in April 2020 with a focus on misinformation about the coronavirus that causes COVID-19."
+  },
+  {
+    "siteTitle": "Fact Crescendo Sri Lanka",
+    "siteCategory": "reliable",
+    "siteUrl": "srilanka.factcrescendo.com",
+    "siteNotes": "The Sri Lanka operation of Fact Crescendo, an independent Indian fact-checking organization owned by Crescendo Transcription Private Limited in Aurangabad."
+  },
+  {
+    "siteTitle": "Pesa Check",
+    "siteCategory": "reliable",
+    "siteUrl": "pesacheck.org",
+    "siteNotes": "Pesa Check is reliable and fact checking site. Fact-checking is a modern, identifiable category of journalism. Its goal is to provide accurate, unbiased analysis of statements made in public in order to correct public misperceptions and increase knowledge of important issues."
+  },
+  {
+    "siteTitle": "Rappler",
+    "siteCategory": "reliable",
+    "siteUrl": "rappler.com",
+    "siteNotes": "Rappler is reliable and fact checking site. Fact-checking is a modern, identifiable category of journalism. Its goal is to provide accurate, unbiased analysis of statements made in public in order to correct public misperceptions and increase knowledge of important issues."
+  },
+  {
+    "siteTitle": "RMIT ABC Fact Check",
+    "siteCategory": "reliable",
+    "siteUrl": "rmit.edu.au",
+    "siteNotes": "RMIT ABC Fact Check is reliable and fact checking site. Fact-checking is a modern, identifiable category of journalism. Its goal is to provide accurate, unbiased analysis of statements made in public in order to correct public misperceptions and increase knowledge of important issues."
+  },
+  {
+    "siteTitle": "The Conversation",
+    "siteCategory": "reliable",
+    "siteUrl": "theconversation.com",
+    "siteNotes": "The Conversation is reliable and fact checking site. Fact-checking is a modern, identifiable category of journalism. Its goal is to provide accurate, unbiased analysis of statements made in public in order to correct public misperceptions and increase knowledge of important issues."
+  },
+  {
+    "siteTitle": "The Journal",
+    "siteCategory": "reliable",
+    "siteUrl": "thejournal.ie",
+    "siteNotes": "The Journal is reliable and fact checking site. Fact-checking is a modern, identifiable category of journalism. Its goal is to provide accurate, unbiased analysis of statements made in public in order to correct public misperceptions and increase knowledge of important issues."
+  },
+  {
+    "siteTitle": "Vox Ukraine",
+    "siteCategory": "reliable",
+    "siteUrl": "voxukraine.org",
+    "siteNotes": "Vox Ukraine is reliable and fact checking site. Fact-checking is a modern, identifiable category of journalism. Its goal is to provide accurate, unbiased analysis of statements made in public in order to correct public misperceptions and increase knowledge of important issues."
+  },
+  {
+    "siteTitle": "Lead stories",
+    "siteCategory": "reliable",
+    "siteUrl": "leadstories.com",
+    "siteNotes": "Lead stories is reliable and fact checking site. Fact-checking is a modern, identifiable category of journalism. Its goal is to provide accurate, unbiased analysis of statements made in public in order to correct public misperceptions and increase knowledge of important issues."
+  },
+  {
+    "siteTitle": "BS Detector",
+    "siteCategory": "reliable",
+    "siteUrl": "bsdetector.tech",
+    "siteNotes": "BS Detector is reliable and fact checking site. Fact-checking is a modern, identifiable category of journalism. Its goal is to provide accurate, unbiased analysis of statements made in public in order to correct public misperceptions and increase knowledge of important issues."
+  },
+  {
+    "siteTitle": "NewsTracker",
+    "siteCategory": "reliable",
+    "siteUrl": "pbs.org",
+    "siteNotes": "NewsTracker is reliable and fact checking site. Fact-checking is a modern, identifiable category of journalism. Its goal is to provide accurate, unbiased analysis of statements made in public in order to correct public misperceptions and increase knowledge of important issues."
+  },
+  {
+    "siteTitle": "Truth or fiction",
+    "siteCategory": "reliable",
+    "siteUrl": "truthorfiction.com",
+    "siteNotes": "Truth or fiction is reliable and fact checking site. Fact-checking is a modern, identifiable category of journalism. Its goal is to provide accurate, unbiased analysis of statements made in public in order to correct public misperceptions and increase knowledge of important issues."
+  },
+  {
+    "siteTitle": "Stop fake",
+    "siteCategory": "reliable",
+    "siteUrl": "stopfake.org",
+    "siteNotes": "Stop fake is reliable and fact checking site. Fact-checking is a modern, identifiable category of journalism. Its goal is to provide accurate, unbiased analysis of statements made in public in order to correct public misperceptions and increase knowledge of important issues."
+  },
+  {
+    "siteTitle": "The Factual",
+    "siteCategory": "reliable",
+    "siteUrl": "thefactual.com",
+    "siteNotes": "The Factual (previously Owl Factor and CivikOwl) automatically analyzes how credible a story is based on diversity of sources, factual tone of writing, author’s expertise, and more."
+  },
+  {
+    "siteTitle": "NewsQ",
+    "siteCategory": "reliable",
+    "siteUrl": "newsq.net",
+    "siteNotes": "NewsQ is an initiative of the Tow-Knight Center for Entrepreneurial Journalism at the Craig Newmark Graduate School of Journalism and supported by Hacks/Hackers. NewsQ seeks to elevate quality journalism when algorithms rank and recommend news articles online. We approach this problem by engaging in design thinking activities in collaboration with technology, journalism, academia and other communities."
+  },
+  {
+    "siteTitle": "O Truco",
+    "siteCategory": "reliable",
+    "siteUrl": "apublica.org",
+    "siteNotes": "O Truco verifies information circulating on the internet or on social media to check if they are true or false. The objective is to hold public personalities accountabile for their statements and to analyse different sources and points of view without partisan or ideological bias"
+  },
+  {
+    "siteTitle": "NewsGuard",
+    "siteCategory": "reliable",
+    "siteUrl": "newsguardtech.com",
+    "siteNotes": "We tell you if a news site is reliable—right in your browser. NewsGuard uses journalism to fight false news, misinformation and disinformation. Our trained analysts, who are experienced journalists, research online news brands to help readers and viewers know which ones are trying to do legitimate journalism–and which are not."
+  },
+  {
+    "siteTitle": "International Fact-Checking Network",
+    "siteCategory": "reliable",
+    "siteUrl": "ifcncodeofprinciples.poynter.org",
+    "siteNotes": "The International Fact-Checking Network is a unit of the Poynter Institute dedicated to bringing together fact-checkers worldwide."
+  },
+  {
+    "siteTitle": "FakerFact",
+    "siteCategory": "reliable",
+    "siteUrl": "fakerfact.org",
+    "siteNotes": "FakerFact is an Artificial Intelligence tool built to help us understand more about what we read."
+  },
+  {
+    "siteTitle": "Deepnews.ai",
+    "siteCategory": "reliable",
+    "siteUrl": "deepnews.ai",
+    "siteNotes": "Using machine learning to spotlight quality journalism on the web. We define quality narrowly; in its simplest terms, we look for value-added journalism. This means coverage built on a genuine journalistic approach: depth of reporting, expertise, investigation, angle, ethical processes, and resources deployed by the newsroom."
+  },
+  {
+    "siteTitle": "Credibility Coalition",
+    "siteCategory": "reliable",
+    "siteUrl": "credibilitycoalition.org",
+    "siteNotes": "We are an interdisciplinary community committed to improving our information ecosystems and media literacy through transparent and collaborative exploration"
+  },
+  {
+    "siteTitle": "Gossip Cop",
+    "siteCategory": "reliable",
+    "siteUrl": "gossipcop.com",
+    "siteNotes": "Gossip Cop is a website that fact-checks celebrity reporting. Based in New York City, Gossip Cop investigates entertainment stories that are published in magazines and newspapers, as well as on the web, to ascertain whether they are true or false."
+  },
+  {
+    "siteTitle": "World is one news (WION)",
+    "siteCategory": "reliable",
+    "siteUrl": "wionews.com",
+    "siteNotes": "WION is reliable and fact checking site. Fact-checking is a modern, identifiable category of journalism. Its goal is to provide accurate, unbiased analysis of statements made in public in order to correct public misperceptions and increase knowledge of important issues."
+  },
+  {
+    "siteTitle": "Microsoft news",
+    "siteCategory": "reliable",
+    "siteUrl": "microsoftnews.msn.com",
+    "siteNotes": "Microsoft News is a news aggregator and service that features news headlines and articles chosen by editors. The app includes sections for top stories, U.S., world, politics, money, technology, entertainment, opinion, sports, and crime, along with other miscellaneous stories"
+  },
+  {
+    "siteTitle": "Microsoft news",
+    "siteCategory": "reliable",
+    "siteUrl": "msn.com",
+    "siteNotes": "Microsoft News is a news aggregator and service that features news headlines and articles chosen by editors. The app includes sections for top stories, U.S., world, politics, money, technology, entertainment, opinion, sports, and crime, along with other miscellaneous stories"
+  },
+  {
+    "siteTitle": "Microsoft news",
+    "siteCategory": "reliable",
+    "siteUrl": "news.microsoft.com",
+    "siteNotes": "Microsoft News is a news aggregator and service that features news headlines and articles chosen by editors. The app includes sections for top stories, U.S., world, politics, money, technology, entertainment, opinion, sports, and crime, along with other miscellaneous stories"
+  },
+  {
+    "siteTitle": "Bloomberg",
+    "siteCategory": "reliable",
+    "siteUrl": "bloomberg.com",
+    "siteNotes": "Bloomberg delivers business and markets news, data, analysis, and video to the world, featuring stories from Businessweek and Bloomberg News."
+  },
+  {
+    "siteTitle": "The times UK",
+    "siteCategory": "reliable",
+    "siteUrl": "thetimes.co.uk",
+    "siteNotes": "The Times is a British daily national newspaper based in London. It began in 1785 under the title The Daily Universal Register, adopting its current name on 1 January 1788."
+  },
+  {
+    "siteTitle": "Boy Genius Report",
+    "siteCategory": "reliable",
+    "siteUrl": "bgr.in",
+    "siteNotes": "Boy Genius Report (also referred to as BGR) is a technology-influenced website and covers topics ranging from consumer gadgets, to entertainment, gaming, and science"
+  },
+  {
+    "siteTitle": "Dainik Jagran",
+    "siteCategory": "reliable",
+    "siteUrl": "english.jagran.com",
+    "siteNotes": "Jagran - latest breaking news from India and world about politics, entertainment, movie review, Sports, business and more at Jagran"
+  },
+  {
+    "siteTitle": "Business today",
+    "siteCategory": "reliable",
+    "siteUrl": "businesstoday.in",
+    "siteNotes": "Business News India: Get latest business news headlines, financial news, breaking news updates, live share market today, stock, economy news from India."
+  },
+  {
+    "siteTitle": "First post",
+    "siteCategory": "reliable",
+    "siteUrl": "firstpost.com",
+    "siteNotes": "Firstpost is an Indian news and media website. The site is a part of the Network 18 media conglomerate owned by Reliance Industries."
   },
   {
     "siteTitle": "All Sides",
@@ -6699,7 +7107,7 @@
     "siteTitle": "Times of India",
     "siteCategory": "reliable",
     "siteUrl": "timesofindia.indiatimes.com",
-    "siteNotes": ""
+    "siteNotes": "A central fact-checking team for Times Internet Limited, a Times of India Group Company. The company distributes its fact-checks in multiple languages across its other media websites, with articles appearing in Hindi on Navbharat Times; in Kannada on Vijay Karnataka; in Telugu, Tamil and Malayalam on Samayam news websites; in Bengali on EI Samay; in Marathi on Maharashtra Times; and in Gujarati on I Am Gujarat."
   },
   {
     "siteTitle": "NDTV Newst",
@@ -6711,7 +7119,7 @@
     "siteTitle": "India Today",
     "siteCategory": "reliable",
     "siteUrl": "indiatoday.in",
-    "siteNotes": ""
+    "siteNotes": "India Today Fact Check is a separately funded part of the TV Today Network and its corporate parent, India Today Group. While the fact-checkers' work appears online as a section of indiatoday.in, the TV Today Network manages this reporting project separately from the rest of the site's editorial operations. Fact-checks are also reported, translated and shared by the parent company's Hindi and Bangala outlets, Aaj Tak and DailyO (see separate entries)."
   },
   {
     "siteTitle": "The Indian Express",
@@ -6741,7 +7149,7 @@
     "siteTitle": "DNA",
     "siteCategory": "reliable",
     "siteUrl": "dnaindia.com",
-    "siteNotes": ""
+    "siteNotes": "Latest News Headlines and Live Updates - DNA India Covers all latest and breaking news on Politics, Business, Sports, Bollywood, technology & health."
   },
   {
     "siteTitle": "Deccan Chronicle",
@@ -11338,5 +11746,3435 @@
     "siteCategory": ["satire", "unreliable"],
     "siteUrl": "wonkie.com",
     "siteNotes": "Wonkie uses satire and fictionalizes accounts of current events in a mock-journalistic style."
+  },
+  {
+    "siteTitle": "100percentfedup",
+    "siteCategory": "bias",
+    "siteUrl": "100percentfedup.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "24newsflash",
+    "siteCategory": "False Information",
+    "siteUrl": "24newsflash.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "365usanews",
+    "siteCategory": ["bias", "Conspiracy Theories"],
+    "siteUrl": "365usanews.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "4threvolutionarywar",
+    "siteCategory": ["bias", "Conspiracy Theories"],
+    "siteUrl": "4threvolutionarywar.wordpress.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "aanirfan",
+    "siteCategory": "unreliable",
+    "siteUrl": "aanirfan.blogspot.co.uk",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "abcnewsgo",
+    "siteCategory": "False Information",
+    "siteUrl": "abcnewsgo.co",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "abeldanger",
+    "siteCategory": "Conspiracy Theories",
+    "siteUrl": "abeldanger.net",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Above top secret",
+    "siteCategory": ["Conspiracy Theories", "rumor"],
+    "siteUrl": "abovetopsecret.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "abriluno",
+    "siteCategory": ["satire", "False Information"],
+    "siteUrl": "abriluno.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Ace flashman",
+    "siteCategory": "satire",
+    "siteUrl": "aceflashman.wordpress.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Acting-Man",
+    "siteCategory": ["unreliable", "Conspiracy Theories"],
+    "siteUrl": "Acting-Man.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Adobo chronicles",
+    "siteCategory": "satire",
+    "siteUrl": "adobochronicles.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Ahead of the herd",
+    "siteCategory": "bias",
+    "siteUrl": "aheadoftheherd.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "ahtribune",
+    "siteCategory": ["unreliable", "bias"],
+    "siteUrl": "ahtribune.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Alt-Market",
+    "siteCategory": ["Conspiracy Theories", "bias"],
+    "siteUrl": "Alt-Market.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Alternative media syndicate",
+    "siteCategory": "False Information",
+    "siteUrl": "alternativemediasyndicate.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "American blog",
+    "siteCategory": "Unknown",
+    "siteUrl": "americanblog.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "American Kabuki",
+    "siteCategory": "junk science",
+    "siteUrl": "AmericanKabuki.blogspot.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "American overlook",
+    "siteCategory": "False Information",
+    "siteUrl": "americanoverlook.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "American reviewer",
+    "siteCategory": "Conspiracy Theories",
+    "siteUrl": "americanreviewer.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "American today",
+    "siteCategory": ["rumor", "bias"],
+    "siteUrl": "americantoday.news",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "AmmoLand",
+    "siteCategory": "bias",
+    "siteUrl": "AmmoLand.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Amtvmedia",
+    "siteCategory": ["rumor", "unreliable"],
+    "siteUrl": "amtvmedia.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Amusmentic",
+    "siteCategory": ["clickbait", "rumor"],
+    "siteUrl": "amusmentic.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "ancient-code",
+    "siteCategory": ["junk science", "unreliable"],
+    "siteUrl": "ancient-code.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "anonhq",
+    "siteCategory": "unreliable",
+    "siteUrl": "anonhq.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "anonnews",
+    "siteCategory": "unreliable",
+    "siteUrl": "anonnews.co",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "antoniusaquinas",
+    "siteCategory": ["bias", "Conspiracy Theories"],
+    "siteUrl": "antoniusaquinas.wp.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "asia-pacificresearch",
+    "siteCategory": ["unreliable", "satire"],
+    "siteUrl": "asia-pacificresearch.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "assassinationscience",
+    "siteCategory": ["Conspiracy Theories", "junk science"],
+    "siteUrl": "assassinationscience.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "associatedmediacoverage",
+    "siteCategory": "satire",
+    "siteUrl": "associatedmediacoverage.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "attn",
+    "siteCategory": ["political", "clickbait"],
+    "siteUrl": "attn.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "AutomaticEarth",
+    "siteCategory": "unreliable",
+    "siteUrl": "AutomaticEarth.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "automotostar",
+    "siteCategory": "clickbait",
+    "siteUrl": "automotostar.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "BadSquad",
+    "siteCategory": "Unknown",
+    "siteUrl": "BadSquad.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Beehivebugle",
+    "siteCategory": "satire",
+    "siteUrl": "beehivebugle.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "betootaadvocate",
+    "siteCategory": "satire",
+    "siteUrl": "betootaadvocate.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Big american news",
+    "siteCategory": ["satire", "False Information"],
+    "siteUrl": "bigamericannews.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Big blue dimension",
+    "siteCategory": ["rumor", "bias"],
+    "siteUrl": "bigbluedimension.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Big Blue Vision",
+    "siteCategory": ["clickbait", "bias"],
+    "siteUrl": "bigbluevision.org",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Big hairy news",
+    "siteCategory": ["False Information", "Conspiracy Theories"],
+    "siteUrl": "bighairynews.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Big nugget news",
+    "siteCategory": ["bias", "rumor"],
+    "siteUrl": "bignuggetnews.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Bigp zone",
+    "siteCategory": "Fake news",
+    "siteUrl": "bigpzone.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "black agenda report",
+    "siteCategory": "unreliable",
+    "siteUrl": "blackagendareport.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "black listed news",
+    "siteCategory": ["clickbait", "unreliable"],
+    "siteUrl": "blacklistednews.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Boiling frogs post",
+    "siteCategory": "unreliable",
+    "siteUrl": "Boilingfrogspost.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Boston leader",
+    "siteCategory": "False Information",
+    "siteUrl": "bostonleader.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Break point",
+    "siteCategory": "unreliable",
+    "siteUrl": "breakpoint.org",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Brother JohnF",
+    "siteCategory": ["bias", "Conspiracy Theories"],
+    "siteUrl": "BrotherJohnF.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Bullion Bulls Canada",
+    "siteCategory": "Conspiracy Theories",
+    "siteUrl": "BullionBullsCanada.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Burrard street journal",
+    "siteCategory": "satire",
+    "siteUrl": "burrardstreetjournal.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Buzz feedusa",
+    "siteCategory": ["False Information", "rumor"],
+    "siteUrl": "buzzfeedusa.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "BVA news",
+    "siteCategory": ["unreliable", "bias", "False Information"],
+    "siteUrl": "bvanews.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "cato",
+    "siteCategory": ["political", "reliable"],
+    "siteUrl": "cato.org",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "CBS News",
+    "siteCategory": "False Information",
+    "siteUrl": "cbsnews.com.co",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Celebtricity",
+    "siteCategory": "satire",
+    "siteUrl": "celebtricity.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "channel-7-news",
+    "siteCategory": "False Information",
+    "siteUrl": "channel-7-news.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "chaser",
+    "siteCategory": "satire",
+    "siteUrl": "chaser.com.au",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "checkoutthehealthyworld",
+    "siteCategory": ["junk science", "clickbait"],
+    "siteUrl": "checkoutthehealthyworld.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "christianfightback",
+    "siteCategory": ["hate", "bias"],
+    "siteUrl": "christianfightback.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "chronicle",
+    "siteCategory": "satire",
+    "siteUrl": "chronicle.su",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "cityworldnews",
+    "siteCategory": "False Information",
+    "siteUrl": "cityworldnews.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "civictribune",
+    "siteCategory": "False Information",
+    "siteUrl": "civictribune.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "cnnnext",
+    "siteCategory": "unreliable",
+    "siteUrl": "cnnnext.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "CNSNews",
+    "siteCategory": ["unreliable", "bias"],
+    "siteUrl": "CNSNews.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "ComingDepression",
+    "siteCategory": "Unknown",
+    "siteUrl": "ComingDepression.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "concisepolitics",
+    "siteCategory": ["Conspiracy Theories", "hate"],
+    "siteUrl": "concisepolitics.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "conservativefrontline",
+    "siteCategory": "Unknown",
+    "siteUrl": "conservativefrontline.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "conservativeheadlines",
+    "siteCategory": "Unknown",
+    "siteUrl": "conservativeheadlines.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "conservativeinfidel",
+    "siteCategory": ["False Information", "Conspiracy Theories"],
+    "siteUrl": "conservativeinfidel.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "conservativerefocus",
+    "siteCategory": "Conspiracy Theories",
+    "siteUrl": "conservativerefocus.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "conservativestate",
+    "siteCategory": "bias",
+    "siteUrl": "conservativestate.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Consortium news",
+    "siteCategory": "reliable",
+    "siteUrl": "consortiumnews.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Conspiracy wire",
+    "siteCategory": "Conspiracy Theories",
+    "siteUrl": "conspiracywire.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Corbett report",
+    "siteCategory": ["Conspiracy Theories", "bias"],
+    "siteUrl": "corbettreport.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Counter currents",
+    "siteCategory": ["political", "unreliable"],
+    "siteUrl": "countercurrents.org",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Counter Information",
+    "siteCategory": "political",
+    "siteUrl": "counterinformation.wordpress.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Counter jihad",
+    "siteCategory": "bias",
+    "siteUrl": "counterjihad.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Counter punch",
+    "siteCategory": "political",
+    "siteUrl": "counterpunch.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "cowgernation",
+    "siteCategory": ["bias", "Conspiracy Theories"],
+    "siteUrl": "cowgernation.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "cryptogon",
+    "siteCategory": ["Conspiracy Theories", "unreliable"],
+    "siteUrl": "cryptogon.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "crystalair",
+    "siteCategory": "satire",
+    "siteUrl": "crystalair.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Daily headlines",
+    "siteCategory": "False Information",
+    "siteUrl": "dailyheadlines.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Dailyken",
+    "siteCategory": "hate",
+    "siteUrl": "dailyken.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Daily leak",
+    "siteCategory": ["parody", "False Information"],
+    "siteUrl": "dailyleak.org",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Daily News Politic",
+    "siteCategory": "Unknown",
+    "siteUrl": "dailynewspolitic.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Daily politics",
+    "siteCategory": "Unknown",
+    "siteUrl": "dailypolitics.info",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Daily Politicsusa",
+    "siteCategory": "bias",
+    "siteUrl": "dailypoliticsusa.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Daily stormer",
+    "siteCategory": ["hate", "Conspiracy Theories", "bias"],
+    "siteUrl": "dailystormer.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Daily telegraph",
+    "siteCategory": ["bias", "rumor"],
+    "siteUrl": "dailytelegraph.com.au",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Dark Moon",
+    "siteCategory": ["hate", "bias"],
+    "siteUrl": "darkmoon.me",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Dark politricks",
+    "siteCategory": ["bias", "Conspiracy Theories"],
+    "siteUrl": "darkpolitricks.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Dave Janda",
+    "siteCategory": "unreliable",
+    "siteUrl": "DaveJanda.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "David Duke",
+    "siteCategory": "hate",
+    "siteUrl": "davidduke.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "David stock manscontracorner",
+    "siteCategory": "political",
+    "siteUrl": "davidstockmanscontracorner.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "dcgazette",
+    "siteCategory": "False Information",
+    "siteUrl": "dcgazette.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "dcleaks",
+    "siteCategory": "unreliable",
+    "siteUrl": "dcleaks.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Dead Line Live",
+    "siteCategory": ["political", "Conspiracy Theories"],
+    "siteUrl": "DeadLineLive.info",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Deadly Clear",
+    "siteCategory": "Unknown",
+    "siteUrl": "DeadlyClear.wordpress.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Defend democracy",
+    "siteCategory": ["bias", "political"],
+    "siteUrl": "defenddemocracy.press",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Delectable diet of pics",
+    "siteCategory": "Unknown",
+    "siteUrl": "delectabledietofpics.net",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Dennismichaellynch",
+    "siteCategory": "political",
+    "siteUrl": "dennismichaellynch.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Denver guardian",
+    "siteCategory": "False Information",
+    "siteUrl": "denverguardian.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "departed",
+    "siteCategory": "False Information",
+    "siteUrl": "departed.co",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "der-postillon",
+    "siteCategory": "satire",
+    "siteUrl": "der-postillon.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "dineal",
+    "siteCategory": "junk science",
+    "siteUrl": "dineal.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Disclosure media",
+    "siteCategory": "Conspiracy Theories",
+    "siteUrl": "disclosuremedia.net",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Diversity chronicle",
+    "siteCategory": "satire",
+    "siteUrl": "diversitychronicle.wordpress.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Dollar Vigilante",
+    "siteCategory": "bias",
+    "siteUrl": "DollarVigilante.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Donald trump news",
+    "siteCategory": "False Information",
+    "siteUrl": "donaldtrumpnews.co",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Dont-Tread-On",
+    "siteCategory": "Conspiracy Theories",
+    "siteUrl": "Dont-Tread-On.Me",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "DProgram",
+    "siteCategory": "Unknown",
+    "siteUrl": "DProgram.net",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Drudge report",
+    "siteCategory": "False Information",
+    "siteUrl": "drudgereport.com.co",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Duffle blog",
+    "siteCategory": "satire",
+    "siteUrl": "duffleblog.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Duh progressive",
+    "siteCategory": "satire",
+    "siteUrl": "duhprogressive.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Dutch sinse",
+    "siteCategory": "Conspiracy Theories",
+    "siteUrl": "Dutchsinse.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Eagle Rising",
+    "siteCategory": ["bias", "clickbait"],
+    "siteUrl": "EagleRising.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Ebola Hoax",
+    "siteCategory": "Conspiracy Theories",
+    "siteUrl": "EbolaHoax.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Economic noise",
+    "siteCategory": ["political", "unreliable"],
+    "siteUrl": "economicnoise.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Educate inspire change",
+    "siteCategory": ["clickbait", "junk science"],
+    "siteUrl": "educateinspirechange.org",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Election night gate keepers",
+    "siteCategory": ["Conspiracy Theories", "unreliable"],
+    "siteUrl": "electionnightgatekeepers.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Elelephantintheroom",
+    "siteCategory": "bias",
+    "siteUrl": "elelephantintheroom.blogspot.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Elitereaders",
+    "siteCategory": "clickbait",
+    "siteUrl": "elitereaders.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Elkoshary",
+    "siteCategory": "satire",
+    "siteUrl": "elkoshary.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Elmundo today",
+    "siteCategory": "satire",
+    "siteUrl": "elmundotoday.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Emptywheel",
+    "siteCategory": "political",
+    "siteUrl": "Emptywheel.net",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "enabon",
+    "siteCategory": "False Information",
+    "siteUrl": "enabon.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "End of the american dream",
+    "siteCategory": "Unknown",
+    "siteUrl": "endoftheamericandream.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "End time",
+    "siteCategory": "Unknown",
+    "siteUrl": "endtime.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "English",
+    "siteCategory": "Unknown",
+    "siteUrl": "english.ruvr.ru",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "EU Times",
+    "siteCategory": ["hate", "Conspiracy Theories"],
+    "siteUrl": "EUTimes.net",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Eutopia",
+    "siteCategory": ["False Information", "satire", "Conspiracy Theories"],
+    "siteUrl": "eutopia.buzz",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Everyday world news",
+    "siteCategory": "Unknown",
+    "siteUrl": "everydayworldnews.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Everything newdaily",
+    "siteCategory": "Unknown",
+    "siteUrl": "everythingnewdaily.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "ewao",
+    "siteCategory": "junk science",
+    "siteUrl": "ewao.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Experimental Vaccines",
+    "siteCategory": ["junk science", "Conspiracy Theories"],
+    "siteUrl": "ExperimentalVaccines.org",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Expose1933",
+    "siteCategory": ["Conspiracy Theories", "hate"],
+    "siteUrl": "Expose1933.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Express",
+    "siteCategory": "rumor",
+    "siteUrl": "express.co.uk",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Extra club magazine",
+    "siteCategory": ["bias", "clickbait", "False Information"],
+    "siteUrl": "extraclubmagazine.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "eye opening",
+    "siteCategory": ["Conspiracy Theories", "junk science"],
+    "siteUrl": "eyeopening.info",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "fantastic word",
+    "siteCategory": "Unknown",
+    "siteUrl": "fantasticword.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Farm Wars",
+    "siteCategory": "Unknown",
+    "siteUrl": "FarmWars.info",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "federalist press",
+    "siteCategory": "bias",
+    "siteUrl": "federalistpress.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "fellowship of the minds",
+    "siteCategory": ["Conspiracy Theories", "junk science"],
+    "siteUrl": "fellowshipoftheminds.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "films foraction",
+    "siteCategory": "political",
+    "siteUrl": "filmsforaction.org",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Financial Survival Network",
+    "siteCategory": ["unreliable", "bias"],
+    "siteUrl": "FinancialSurvivalNetwork.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "firearmscoalition",
+    "siteCategory": "Unknown",
+    "siteUrl": "firearmscoalition.org",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "florida sunpost",
+    "siteCategory": ["False Information", "satirical"],
+    "siteUrl": "floridasunpost.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "flyheight",
+    "siteCategory": "Unknown",
+    "siteUrl": "flyheight.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "fognews",
+    "siteCategory": "satire",
+    "siteUrl": "fognews.ru",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "foreign policy journal",
+    "siteCategory": "political",
+    "siteUrl": "foreignpolicyjournal.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "fort-russ",
+    "siteCategory": "Unknown",
+    "siteUrl": "fort-russ.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "fourwinds10",
+    "siteCategory": ["Conspiracy Theories", "junk science"],
+    "siteUrl": "fourwinds10.net",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "fprnradio",
+    "siteCategory": ["Conspiracy Theories", "False Information"],
+    "siteUrl": "fprnradio.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "FreeBeacon",
+    "siteCategory": "bias",
+    "siteUrl": "FreeBeacon.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Freedom Force International",
+    "siteCategory": "Conspiracy Theories",
+    "siteUrl": "FreedomForceInternational.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Freedoms Phoenix",
+    "siteCategory": ["bias", "Conspiracy Theories"],
+    "siteUrl": "FreedomsPhoenix.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "freedom world news",
+    "siteCategory": ["bias", "unreliable"],
+    "siteUrl": "freedomworldnews.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "freepatriot",
+    "siteCategory": "satire",
+    "siteUrl": "freepatriot.org",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "fusion",
+    "siteCategory": ["political", "reliable"],
+    "siteUrl": "fusion.net",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "gaia",
+    "siteCategory": ["Conspiracy Theories", "junk science"],
+    "siteUrl": "gaia.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "galactic connection",
+    "siteCategory": "junk science",
+    "siteUrl": "galacticconnection.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "gangster government",
+    "siteCategory": ["Conspiracy Theories", "bias"],
+    "siteUrl": "gangstergovernment.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "gates of vienna",
+    "siteCategory": ["hate", "Conspiracy Theories"],
+    "siteUrl": "gatesofvienna.net",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "geopol monitor",
+    "siteCategory": "political",
+    "siteUrl": "geopolmonitor.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "glaring hypocrisy",
+    "siteCategory": ["hate", "Conspiracy Theories"],
+    "siteUrl": "glaringhypocrisy.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Global Economic Analysis",
+    "siteCategory": "Unknown",
+    "siteUrl": "GlobalEconomicAnalysis.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "god like productions",
+    "siteCategory": "Conspiracy Theories",
+    "siteUrl": "godlikeproductions.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "GonzaloLira",
+    "siteCategory": "Unknown",
+    "siteUrl": "GonzaloLira.Blogspot.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "gopthe daily dose",
+    "siteCategory": ["False Information", "Conspiracy Theories", "bias"],
+    "siteUrl": "gopthedailydose.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "grean ville post",
+    "siteCategory": "Conspiracy Theories",
+    "siteUrl": "greanvillepost.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Green Med nfo",
+    "siteCategory": "junk science",
+    "siteUrl": "GreenMedInfo.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "guccifer2",
+    "siteCategory": "unreliable",
+    "siteUrl": "guccifer2.wordpress.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "healthy-holistic-living",
+    "siteCategory": ["junk science", "clickbait"],
+    "siteUrl": "healthy-holistic-living.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "heatst",
+    "siteCategory": ["clickbait", "bias"],
+    "siteUrl": "heatst.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "He last line of defense",
+    "siteCategory": "Unknown",
+    "siteUrl": "helastlineofdefense.org",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Henderson LeftHook",
+    "siteCategory": "Unknown",
+    "siteUrl": "HendersonLeftHook.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "henrymakow",
+    "siteCategory": "Conspiracy Theories",
+    "siteUrl": "henrymakow.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "herebel",
+    "siteCategory": "Unknown",
+    "siteUrl": "herebel.media.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "heresyblog",
+    "siteCategory": ["bias", "Conspiracy Theories", "rumor"],
+    "siteUrl": "heresyblog.net",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "holy observer",
+    "siteCategory": "satire",
+    "siteUrl": "holyobserver.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "How To Vanish",
+    "siteCategory": "Unknown",
+    "siteUrl": "HowToVanish.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "ibank coin",
+    "siteCategory": "Unknown",
+    "siteUrl": "ibankcoin.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "immediate safety",
+    "siteCategory": "False Information",
+    "siteUrl": "immediatesafety.org",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "in5d",
+    "siteCategory": "junk science",
+    "siteUrl": "in5d.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "indiaa rising",
+    "siteCategory": ["clickbait", "unreliable"],
+    "siteUrl": "indiaarising.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "information clearing house",
+    "siteCategory": ["Conspiracy Theories", "unreliable"],
+    "siteUrl": "informationclearinghouse.info",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "informe today",
+    "siteCategory": ["bias", "unreliable"],
+    "siteUrl": "informetoday.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "info stormer",
+    "siteCategory": ["False Information", "hate", "Conspiracy Theories"],
+    "siteUrl": "infostormer.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "insta world news",
+    "siteCategory": "bias",
+    "siteUrl": "instaworldnews.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "International Man",
+    "siteCategory": "Unknown",
+    "siteUrl": "InternationalMan.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "intrendtoday",
+    "siteCategory": ["False Information", "clickbait"],
+    "siteUrl": "intrendtoday.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "intrepidreport",
+    "siteCategory": "bias",
+    "siteUrl": "intrepidreport.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "investmentresearchdynamics",
+    "siteCategory": "Conspiracy Theories",
+    "siteUrl": "investmentresearchdynamics.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "investmentwatchblog",
+    "siteCategory": ["bias", "False Information"],
+    "siteUrl": "investmentwatchblog.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "ITCCS",
+    "siteCategory": "Unknown",
+    "siteUrl": "ITCCS.org",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "ItMakesSenseBlog",
+    "siteCategory": "False Information",
+    "siteUrl": "ItMakesSenseBlog.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "iwanttoexplore",
+    "siteCategory": "False Information",
+    "siteUrl": "iwanttoexplore.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "jackpineradicals",
+    "siteCategory": "political",
+    "siteUrl": "jackpineradicals.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "jamesrgrangerjr",
+    "siteCategory": "bias",
+    "siteUrl": "jamesrgrangerjr.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "jessescrossroadscafe",
+    "siteCategory": "Unknown",
+    "siteUrl": "jessescrossroadscafe.blogspot.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "jesus-is-savior",
+    "siteCategory": "Conspiracy Theories",
+    "siteUrl": "jesus-is-savior.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "jewsnews",
+    "siteCategory": ["unreliable", "bias", "clickbait"],
+    "siteUrl": "jewsnews.co.il",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "JohnGaltfla",
+    "siteCategory": "Unknown",
+    "siteUrl": "JohnGaltfla.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "johngaltfla",
+    "siteCategory": "Unknown",
+    "siteUrl": "johngaltfla.com/wordpress",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "jookos",
+    "siteCategory": "Unknown",
+    "siteUrl": "jookos.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "journal-neo",
+    "siteCategory": "bias",
+    "siteUrl": "journal-neo.org",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "JSMineset",
+    "siteCategory": "Unknown",
+    "siteUrl": "JSMineset.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "katehon",
+    "siteCategory": "bias",
+    "siteUrl": "katehon.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "katehon",
+    "siteCategory": "Unknown",
+    "siteUrl": "katehon.org",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Kauilapele,com",
+    "siteCategory": "Unknown",
+    "siteUrl": "Kauilapele,com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "kereport",
+    "siteCategory": "Unknown",
+    "siteUrl": "kereport.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "kingworldnews",
+    "siteCategory": "Unknown",
+    "siteUrl": "kingworldnews.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "landoverbaptist",
+    "siteCategory": "satire",
+    "siteUrl": "landoverbaptist.org",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "LaRouchePac",
+    "siteCategory": "Unknown",
+    "siteUrl": "LaRouchePac.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "leap2020",
+    "siteCategory": "Unknown",
+    "siteUrl": "leap2020.eu",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "learnprogress",
+    "siteCategory": ["False Information", "bias"],
+    "siteUrl": "learnprogress.org",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "legorafi",
+    "siteCategory": "Unknown",
+    "siteUrl": "legorafi.fr",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "LFB",
+    "siteCategory": "Unknown",
+    "siteUrl": "LFB.org",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "lfb",
+    "siteCategory": "Unknown",
+    "siteUrl": "lfb.org",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "liberalbias",
+    "siteCategory": "satire",
+    "siteUrl": "liberalbias.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "liberaldarkness",
+    "siteCategory": ["satire", "False Information"],
+    "siteUrl": "liberaldarkness.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "libertyblitzkrieg",
+    "siteCategory": "False Information",
+    "siteUrl": "libertyblitzkrieg.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "libertyfederation",
+    "siteCategory": "hate",
+    "siteUrl": "libertyfederation.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "lifeandabout",
+    "siteCategory": "bias",
+    "siteUrl": "lifeandabout.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "lifeprevention",
+    "siteCategory": "junk science",
+    "siteUrl": "lifeprevention.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "lightlybraisedturnip",
+    "siteCategory": "Unknown",
+    "siteUrl": "lightlybraisedturnip.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "liveactionnews",
+    "siteCategory": "bias",
+    "siteUrl": "liveactionnews.org",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "livefreelivenatural",
+    "siteCategory": "Unknown",
+    "siteUrl": "livefreelivenatural.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "livevote",
+    "siteCategory": "clickbait",
+    "siteUrl": "livevote.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "lovethispic",
+    "siteCategory": ["clickbait", "junk science"],
+    "siteUrl": "lovethispic.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Mad-Yet",
+    "siteCategory": "Unknown",
+    "siteUrl": "Mad-Yet.blogspot.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "madpatriots",
+    "siteCategory": ["unreliable", "clickbait"],
+    "siteUrl": "madpatriots.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "magafeed",
+    "siteCategory": ["rumor", "bias"],
+    "siteUrl": "magafeed.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "makeamericagreattoday",
+    "siteCategory": ["bias", "False Information"],
+    "siteUrl": "makeamericagreattoday.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "MarketDailyNews",
+    "siteCategory": "Unknown",
+    "siteUrl": "MarketDailyNews.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "MarketOracle",
+    "siteCategory": "Unknown",
+    "siteUrl": "MarketOracle.co.uk",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "marshallreport",
+    "siteCategory": "Unknown",
+    "siteUrl": "marshallreport.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "MaxKeiser",
+    "siteCategory": "Unknown",
+    "siteUrl": "MaxKeiser.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "mediamass",
+    "siteCategory": "False Information",
+    "siteUrl": "mediamass.net",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "mediazone",
+    "siteCategory": ["rumor", "unreliable"],
+    "siteUrl": "mediazone.news",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "megafreshnews",
+    "siteCategory": "rumor",
+    "siteUrl": "megafreshnews.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "megynkelly",
+    "siteCategory": "False Information",
+    "siteUrl": "megynkelly.us",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "MemoryHoleBlog",
+    "siteCategory": "Unknown",
+    "siteUrl": "MemoryHoleBlog.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "MilesFranklin",
+    "siteCategory": "Unknown",
+    "siteUrl": "MilesFranklin.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "militianews",
+    "siteCategory": ["Conspiracy Theories", "bias", "hate"],
+    "siteUrl": "militianews.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "MineWeb",
+    "siteCategory": "Unknown",
+    "siteUrl": "MineWeb.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "mintpressnews",
+    "siteCategory": "political",
+    "siteUrl": "mintpressnews.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Mises",
+    "siteCategory": "Unknown",
+    "siteUrl": "Mises.ca",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "moonofalabama",
+    "siteCategory": "bias",
+    "siteUrl": "moonofalabama.org",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "mpidailymagazine",
+    "siteCategory": ["False Information", "bias"],
+    "siteUrl": "mpidailymagazine.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "mrconservative",
+    "siteCategory": ["False Information", "satire"],
+    "siteUrl": "mrconservative.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "msnbc",
+    "siteCategory": "False Information",
+    "siteUrl": "msnbc.website",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "MyBudget360",
+    "siteCategory": "Unknown",
+    "siteUrl": "MyBudget360.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "mydailyrelaxation",
+    "siteCategory": "Unknown",
+    "siteUrl": "mydailyrelaxation.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "myfreshnews",
+    "siteCategory": ["False Information", "bias"],
+    "siteUrl": "myfreshnews.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "nahadaily",
+    "siteCategory": "satire",
+    "siteUrl": "nahadaily.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "nakedcapitalism",
+    "siteCategory": "political",
+    "siteUrl": "nakedcapitalism.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "NarcoNews",
+    "siteCategory": "Unknown",
+    "siteUrl": "NarcoNews.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "nasamoonhoax",
+    "siteCategory": "Unknown",
+    "siteUrl": "nasamoonhoax.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "NationaLlibertyAlliance",
+    "siteCategory": "Unknown",
+    "siteUrl": "NationaLlibertyAlliance.org",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "NationalUFOCenter",
+    "siteCategory": "Unknown",
+    "siteUrl": "NationalUFOCenter.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "nationindistress",
+    "siteCategory": "Conspiracy Theories",
+    "siteUrl": "nationindistress.weebly.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "nationonenews",
+    "siteCategory": ["False Information", "Conspiracy Theories"],
+    "siteUrl": "nationonenews.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "naturalblaze",
+    "siteCategory": ["junk science", "Conspiracy Theories"],
+    "siteUrl": "naturalblaze.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "nbc",
+    "siteCategory": "False Information",
+    "siteUrl": "nbc.com.co",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "nbcpolitics",
+    "siteCategory": "Unknown",
+    "siteUrl": "nbcpolitics.org",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "nbcpoll",
+    "siteCategory": "Unknown",
+    "siteUrl": "nbcpoll.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "netdania",
+    "siteCategory": "Unknown",
+    "siteUrl": "netdania.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "nevo",
+    "siteCategory": ["unreliable", "bias"],
+    "siteUrl": "nevo.news",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "newcoldwar",
+    "siteCategory": "political",
+    "siteUrl": "newcoldwar.org",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "newsbbc",
+    "siteCategory": "False Information",
+    "siteUrl": "newsbbc.net",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "NewsBuster",
+    "siteCategory": "Unknown",
+    "siteUrl": "NewsBuster.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "newsbuzzdaily",
+    "siteCategory": "False Information",
+    "siteUrl": "newsbuzzdaily.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "newscenterusa",
+    "siteCategory": "Unknown",
+    "siteUrl": "newscenterusa.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "News from politics",
+    "siteCategory": "False Information",
+    "siteUrl": "newsfrompolitics.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "newslo",
+    "siteCategory": "False Information",
+    "siteUrl": "newslo.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Newsmax",
+    "siteCategory": ["unreliable", "bias"],
+    "siteUrl": "Newsmax.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "News ninja 2012",
+    "siteCategory": "bias",
+    "siteUrl": "newsninja2012.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "News opening",
+    "siteCategory": "Unknown",
+    "siteUrl": "newsopening.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "newstarget",
+    "siteCategory": "Conspiracy Theories",
+    "siteUrl": "newstarget.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "newstoad",
+    "siteCategory": "satire",
+    "siteUrl": "newstoad.net",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "newswatch28",
+    "siteCategory": "False Information",
+    "siteUrl": "newswatch28.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "newswatch33",
+    "siteCategory": "False Information",
+    "siteUrl": "newswatch33.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "newswire-24",
+    "siteCategory": ["rumor", "unreliable"],
+    "siteUrl": "newswire-24.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "newyorker",
+    "siteCategory": "satire",
+    "siteUrl": "newyorker.com/humor",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "NomadCapitalist",
+    "siteCategory": "Unknown",
+    "siteUrl": "NomadCapitalist.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "NomiPrins",
+    "siteCategory": "Unknown",
+    "siteUrl": "NomiPrins.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "NoMoreFakeNews",
+    "siteCategory": "Conspiracy Theories",
+    "siteUrl": "NoMoreFakeNews.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "nonaiswa",
+    "siteCategory": "Unknown",
+    "siteUrl": "nonaiswa.org/wordpress",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "northcrane",
+    "siteCategory": "unreliable",
+    "siteUrl": "northcrane.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "NoTime4Bull",
+    "siteCategory": "Unknown",
+    "siteUrl": "NoTime4Bull.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "NutritionalAnarchy",
+    "siteCategory": "Unknown",
+    "siteUrl": "NutritionalAnarchy.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "nutritionfacts",
+    "siteCategory": "reliable",
+    "siteUrl": "nutritionfacts.org",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "nymeta",
+    "siteCategory": ["clickbait", "satire"],
+    "siteUrl": "nymeta.co",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "nyuzer",
+    "siteCategory": "Unknown",
+    "siteUrl": "nyuzer.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "objectiveministries",
+    "siteCategory": "satire",
+    "siteUrl": "objectiveministries.org",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "observatorial",
+    "siteCategory": "Unknown",
+    "siteUrl": "observatorial.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "observer",
+    "siteCategory": "Unknown",
+    "siteUrl": "observer.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "OCCUPY",
+    "siteCategory": "Unknown",
+    "siteUrl": "OCCUPY.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "occupyliberals",
+    "siteCategory": ["bias", "clickbait"],
+    "siteUrl": "occupyliberals.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "odgossip",
+    "siteCategory": "Unknown",
+    "siteUrl": "odgossip.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "off-guardian",
+    "siteCategory": ["bias", "Conspiracy Theories"],
+    "siteUrl": "off-guardian.org",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "OffGridSurvival",
+    "siteCategory": "Unknown",
+    "siteUrl": "OffGridSurvival.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "oftwominds",
+    "siteCategory": ["bias", "Conspiracy Theories"],
+    "siteUrl": "oftwominds.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "OfTwoMinds",
+    "siteCategory": "Unknown",
+    "siteUrl": "OfTwoMinds.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "oilgeopolitics",
+    "siteCategory": "Conspiracy Theories",
+    "siteUrl": "oilgeopolitics.net",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "opednews",
+    "siteCategory": "Unknown",
+    "siteUrl": "opednews.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "openmindmagazine",
+    "siteCategory": ["bias", "Conspiracy Theories"],
+    "siteUrl": "openmindmagazine.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "orientalreview",
+    "siteCategory": ["bias", "Conspiracy Theories"],
+    "siteUrl": "orientalreview.org",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "palmerreport",
+    "siteCategory": "bias",
+    "siteUrl": "palmerreport.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "PandaUnite",
+    "siteCategory": "Unknown",
+    "siteUrl": "PandaUnite.org",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "patdollar",
+    "siteCategory": ["bias", "clickbait"],
+    "siteUrl": "patdollar.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "patriotarchives",
+    "siteCategory": "Unknown",
+    "siteUrl": "patriotarchives.blogspot.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "patriotchronicle",
+    "siteCategory": ["bias", "clickbait"],
+    "siteUrl": "patriotchronicle.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "patriotnewsdaily",
+    "siteCategory": "satire",
+    "siteUrl": "patriotnewsdaily.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "patriotnewsdaily",
+    "siteCategory": "bias",
+    "siteUrl": "patriotnewsdaily.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "patriotrising",
+    "siteCategory": ["bias", "Conspiracy Theories"],
+    "siteUrl": "patriotrising.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "paulcraigroberts",
+    "siteCategory": ["bias", "Conspiracy Theories"],
+    "siteUrl": "paulcraigroberts.org",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "PeakProsperity",
+    "siteCategory": "Unknown",
+    "siteUrl": "PeakProsperity.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Perpetualassets",
+    "siteCategory": "Unknown",
+    "siteUrl": "Perpetualassets.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "plata",
+    "siteCategory": "Unknown",
+    "siteUrl": "plata.com.mx/mplata/articulos/articles.asp",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "platosguns",
+    "siteCategory": ["bias", "Conspiracy Theories", "bias"],
+    "siteUrl": "platosguns.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "policestateusa",
+    "siteCategory": "Unknown",
+    "siteUrl": "policestateusa.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "policyreview",
+    "siteCategory": "Unknown",
+    "siteUrl": "policyreview.info",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Politcalpiehole",
+    "siteCategory": "Unknown",
+    "siteUrl": "Politcalpiehole.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "politicalcult",
+    "siteCategory": ["bias", "clickbait", "Conspiracy Theories"],
+    "siteUrl": "politicalcult.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "politicalo",
+    "siteCategory": "False Information",
+    "siteUrl": "politicalo.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "PoliticalPieHole",
+    "siteCategory": "Unknown",
+    "siteUrl": "PoliticalPieHole.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "politicalsitenews",
+    "siteCategory": "False Information",
+    "siteUrl": "politicalsitenews.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "politicaltimes",
+    "siteCategory": "Unknown",
+    "siteUrl": "politicaltimes.org",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "PoliticalTracker",
+    "siteCategory": "Unknown",
+    "siteUrl": "PoliticalTracker.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "politicalupdator",
+    "siteCategory": ["False Information", "clickbait", "bias"],
+    "siteUrl": "politicalupdator.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "politicot",
+    "siteCategory": ["satire", "False Information"],
+    "siteUrl": "politicot.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "politicsbreaking",
+    "siteCategory": "Unknown",
+    "siteUrl": "politicsbreaking.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "politicsinformation",
+    "siteCategory": "Unknown",
+    "siteUrl": "politicsinformation.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "politicsinfotoday",
+    "siteCategory": "Unknown",
+    "siteUrl": "politicsinfotoday.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "politicsintheusa",
+    "siteCategory": ["unreliable", "bias"],
+    "siteUrl": "politicsintheusa.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "politicsinusa",
+    "siteCategory": "Unknown",
+    "siteUrl": "politicsinusa.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "powerpoliticians",
+    "siteCategory": "unreliable",
+    "siteUrl": "powerpoliticians.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "pravda",
+    "siteCategory": ["bias", "rumor", "Conspiracy Theories"],
+    "siteUrl": "pravda.ru",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "prepperwebsite",
+    "siteCategory": ["Conspiracy Theories", "False Information"],
+    "siteUrl": "prepperwebsite.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "presidentialvoting2016",
+    "siteCategory": ["political", "bias", "unreliable"],
+    "siteUrl": "presidentialvoting2016.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "press24",
+    "siteCategory": "Unknown",
+    "siteUrl": "press24.us",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "presstv",
+    "siteCategory": ["bias", "unreliable"],
+    "siteUrl": "presstv.ir",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "prisonplanet",
+    "siteCategory": "Conspiracy Theories",
+    "siteUrl": "prisonplanet.tv",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "PublicIntelligence",
+    "siteCategory": "Unknown",
+    "siteUrl": "PublicIntelligence.net",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "qpolitical",
+    "siteCategory": ["bias", "clickbait"],
+    "siteUrl": "qpolitical.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Radio",
+    "siteCategory": "Unknown",
+    "siteUrl": "Radio.GoldSeek.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "randpaulreview",
+    "siteCategory": "Unknown",
+    "siteUrl": "randpaulreview.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "rawforbeauty",
+    "siteCategory": "junk science",
+    "siteUrl": "rawforbeauty.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "rawws",
+    "siteCategory": "Unknown",
+    "siteUrl": "rawws.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "rbth",
+    "siteCategory": "Unknown",
+    "siteUrl": "rbth.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "readconservatives",
+    "siteCategory": ["bias", "False Information", "clickbait"],
+    "siteUrl": "readconservatives.news",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "readynutrition",
+    "siteCategory": ["Unknown", "Conspiracy Theories"],
+    "siteUrl": "readynutrition.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "realplanetnews",
+    "siteCategory": "junk science",
+    "siteUrl": "realplanetnews.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "realprogress",
+    "siteCategory": "Unknown",
+    "siteUrl": "realprogress.online",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "RedIceCreations",
+    "siteCategory": "Unknown",
+    "siteUrl": "RedIceCreations.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "remedydaily",
+    "siteCategory": "clickbait",
+    "siteUrl": "remedydaily.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "returnofkings",
+    "siteCategory": "hate",
+    "siteUrl": "returnofkings.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "revolutions2040",
+    "siteCategory": ["junk science", "clickbait"],
+    "siteUrl": "revolutions2040.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "rhotv",
+    "siteCategory": "False Information",
+    "siteUrl": "rhotv.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "RickAckerman",
+    "siteCategory": "Unknown",
+    "siteUrl": "RickAckerman.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "rightalert",
+    "siteCategory": ["bias", "unreliable"],
+    "siteUrl": "rightalert.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "righton",
+    "siteCategory": "Unknown",
+    "siteUrl": "righton.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "RightSideNews",
+    "siteCategory": "Unknown",
+    "siteUrl": "RightSideNews.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "rinf",
+    "siteCategory": "political",
+    "siteUrl": "rinf.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "ronpaulinstitute",
+    "siteCategory": "political",
+    "siteUrl": "ronpaulinstitute.org",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "rumormillnews",
+    "siteCategory": ["Conspiracy Theories", "junk science", "rumor"],
+    "siteUrl": "rumormillnews.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "RunToGold",
+    "siteCategory": "Unknown",
+    "siteUrl": "RunToGold.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "russia-direct",
+    "siteCategory": ["Unknown", "political"],
+    "siteUrl": "russia-direct.org",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "SeanKerrigan",
+    "siteCategory": "Unknown",
+    "siteUrl": "SeanKerrigan.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "sentinelblog",
+    "siteCategory": ["Conspiracy Theories", "junk science"],
+    "siteUrl": "sentinelblog.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "sgtreport",
+    "siteCategory": "Unknown",
+    "siteUrl": "sgtreport.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "shadowproof",
+    "siteCategory": "Unknown",
+    "siteUrl": "shadowproof.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "ShadowStats",
+    "siteCategory": "Unknown",
+    "siteUrl": "ShadowStats.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "shiftfrequency",
+    "siteCategory": "Unknown",
+    "siteUrl": "shiftfrequency.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "silentmajoritypatriots",
+    "siteCategory": "Unknown",
+    "siteUrl": "silentmajoritypatriots.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Silver-Coin-Investor",
+    "siteCategory": ["Conspiracy Theories", "bias", "unreliable"],
+    "siteUrl": "Silver-Coin-Investor.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "SilverBearCafe",
+    "siteCategory": "Conspiracy Theories",
+    "siteUrl": "SilverBearCafe.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "SilverDoctors",
+    "siteCategory": ["Conspiracy Theories", "bias"],
+    "siteUrl": "SilverDoctors.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "SilverStealers",
+    "siteCategory": "Conspiracy Theories",
+    "siteUrl": "SilverStealers.net",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "SJLendman",
+    "siteCategory": "bias",
+    "siteUrl": "SJLendman.Blogspot.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "smartknowledgeu",
+    "siteCategory": "Unknown",
+    "siteUrl": "smartknowledgeu.com/blog",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "solari",
+    "siteCategory": "Unknown",
+    "siteUrl": "solari.com/blog",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "sonsoflibertyradio",
+    "siteCategory": ["Conspiracy Theories", "bias", "unreliable"],
+    "siteUrl": "sonsoflibertyradio.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "sott",
+    "siteCategory": "Unknown",
+    "siteUrl": "sott.net",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "sourceplanet",
+    "siteCategory": "Unknown",
+    "siteUrl": "sourceplanet.net",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "southweb",
+    "siteCategory": "Unknown",
+    "siteUrl": "southweb.org",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "SovereignMan",
+    "siteCategory": "unreliable",
+    "siteUrl": "SovereignMan.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "speciallifeentertainment",
+    "siteCategory": "Unknown",
+    "siteUrl": "speciallifeentertainment.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "speld",
+    "siteCategory": "satire",
+    "siteUrl": "speld.nl",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "spinzon",
+    "siteCategory": "Unknown",
+    "siteUrl": "spinzon.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "sportspickle",
+    "siteCategory": "satire",
+    "siteUrl": "sportspickle.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "SRSroccoReport",
+    "siteCategory": "Unknown",
+    "siteUrl": "SRSroccoReport.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "statenation",
+    "siteCategory": "Unknown",
+    "siteUrl": "statenation.co",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "STAWealth",
+    "siteCategory": "Unknown",
+    "siteUrl": "STAWealth.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "SteveQuayle",
+    "siteCategory": "Unknown",
+    "siteUrl": "SteveQuayle.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "subjectpolitics",
+    "siteCategory": ["False Information", "bias"],
+    "siteUrl": "subjectpolitics.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "success-street",
+    "siteCategory": ["False Information", "clickbait"],
+    "siteUrl": "success-street.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "suggesthealthytips",
+    "siteCategory": "Unknown",
+    "siteUrl": "suggesthealthytips.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "superstation95",
+    "siteCategory": "Unknown",
+    "siteUrl": "superstation95.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "SurvivalBlog",
+    "siteCategory": "Unknown",
+    "siteUrl": "SurvivalBlog.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "SurvivalKnowHow",
+    "siteCategory": "Unknown",
+    "siteUrl": "SurvivalKnowHow.net",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "survivopedia",
+    "siteCategory": "Unknown",
+    "siteUrl": "survivopedia.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "szandorblestman",
+    "siteCategory": "Unknown",
+    "siteUrl": "szandorblestman.com/index.php",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "tap-news",
+    "siteCategory": "Unknown",
+    "siteUrl": "tap-news.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "teapartyeconomist",
+    "siteCategory": "Unknown",
+    "siteUrl": "teapartyeconomist.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "tellmenow",
+    "siteCategory": "Unknown",
+    "siteUrl": "tellmenow.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "TenthAmendmentCenter",
+    "siteCategory": "Unknown",
+    "siteUrl": "TenthAmendmentCenter.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "the-newspapers",
+    "siteCategory": "Unknown",
+    "siteUrl": "the-newspapers.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "theamericanindependent",
+    "siteCategory": ["False Information", "bias"],
+    "siteUrl": "theamericanindependent.wordpress.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "TheAuReport",
+    "siteCategory": "Unknown",
+    "siteUrl": "TheAuReport.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "theautogear",
+    "siteCategory": "Unknown",
+    "siteUrl": "theautogear.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "TheBRICSPost",
+    "siteCategory": "Unknown",
+    "siteUrl": "TheBRICSPost.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "TheBrowser",
+    "siteCategory": "Unknown",
+    "siteUrl": "TheBrowser.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "TheBurningPlatform",
+    "siteCategory": "Unknown",
+    "siteUrl": "TheBurningPlatform.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "thecarsmagazine",
+    "siteCategory": "Unknown",
+    "siteUrl": "thecarsmagazine.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "thecivilian",
+    "siteCategory": "Unknown",
+    "siteUrl": "thecivilian.co.nz",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "TheCroweHouse",
+    "siteCategory": "Unknown",
+    "siteUrl": "TheCroweHouse.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "TheDailyCoin",
+    "siteCategory": "Unknown",
+    "siteUrl": "TheDailyCoin.org",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "TheDailyCrux",
+    "siteCategory": "Unknown",
+    "siteUrl": "TheDailyCrux.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "thedemocratic",
+    "siteCategory": "Unknown",
+    "siteUrl": "thedemocratic.site",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "theearthchild",
+    "siteCategory": "Unknown",
+    "siteUrl": "theearthchild.co.za",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "theeconomiccollapseblog",
+    "siteCategory": ["Conspiracy Theories", "bias"],
+    "siteUrl": "theeconomiccollapseblog.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "TheExtinctionProtocol",
+    "siteCategory": "Conspiracy Theories",
+    "siteUrl": "TheExtinctionProtocol.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "thefifthcolumnnews",
+    "siteCategory": "political",
+    "siteUrl": "thefifthcolumnnews.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "thegoldandoilguy",
+    "siteCategory": "unreliable",
+    "siteUrl": "thegoldandoilguy.com/articles",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "thegoldwater",
+    "siteCategory": "Unknown",
+    "siteUrl": "thegoldwater.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "thehardtimes",
+    "siteCategory": "satire",
+    "siteUrl": "thehardtimes.net",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "theinformedamerican",
+    "siteCategory": "unreliable",
+    "siteUrl": "theinformedamerican.net",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "theintercept",
+    "siteCategory": "Unknown",
+    "siteUrl": "theintercept.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "TheInternationalForecaster",
+    "siteCategory": "Unknown",
+    "siteUrl": "TheInternationalForecaster.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "TheJanssenReport",
+    "siteCategory": "Unknown",
+    "siteUrl": "TheJanssenReport.net",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "thelastlineofdefense",
+    "siteCategory": "Unknown",
+    "siteUrl": "thelastlineofdefense.org",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "thelibertymill",
+    "siteCategory": ["unreliable", "bias", "Conspiracy Theories"],
+    "siteUrl": "thelibertymill.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "themideastbeast",
+    "siteCategory": "Unknown",
+    "siteUrl": "themideastbeast.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "themindunleashed",
+    "siteCategory": ["Conspiracy Theories", "junk science", "clickbait"],
+    "siteUrl": "themindunleashed.org",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "TheMogamboGuru",
+    "siteCategory": "Unknown",
+    "siteUrl": "TheMogamboGuru.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "themuslimissue",
+    "siteCategory": ["hate", "Conspiracy Theories"],
+    "siteUrl": "themuslimissue.wordpress.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "themznews",
+    "siteCategory": "Unknown",
+    "siteUrl": "themznews.info",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "thenewamerican",
+    "siteCategory": "Unknown",
+    "siteUrl": "thenewamerican.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "thenewinquiry",
+    "siteCategory": "Unknown",
+    "siteUrl": "thenewinquiry.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "thenewsdoctors",
+    "siteCategory": "Unknown",
+    "siteUrl": "thenewsdoctors.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "TheNewsFile",
+    "siteCategory": "Unknown",
+    "siteUrl": "TheNewsFile.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "theopenscroll",
+    "siteCategory": "Unknown",
+    "siteUrl": "theopenscroll.blogspot.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "theorganicprepper",
+    "siteCategory": "Unknown",
+    "siteUrl": "theorganicprepper.ca",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "TheOutsiderClub",
+    "siteCategory": "Unknown",
+    "siteUrl": "TheOutsiderClub.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "theoxymoron",
+    "siteCategory": "Unknown",
+    "siteUrl": "theoxymoron.co.uk",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "thepeoplescube",
+    "siteCategory": "Unknown",
+    "siteUrl": "thepeoplescube.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "ThePeoplesVoice",
+    "siteCategory": "Unknown",
+    "siteUrl": "ThePeoplesVoice.net",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "thephaser",
+    "siteCategory": "Conspiracy Theories",
+    "siteUrl": "thephaser.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "thepoliticalcesspool",
+    "siteCategory": ["Unknown", "hate"],
+    "siteUrl": "thepoliticalcesspool.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "thereporterz",
+    "siteCategory": "False Information",
+    "siteUrl": "thereporterz.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "therightists",
+    "siteCategory": ["False Information", "bias"],
+    "siteUrl": "therightists.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "therightplanet",
+    "siteCategory": "Unknown",
+    "siteUrl": "therightplanet.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "therussophile",
+    "siteCategory": "Unknown",
+    "siteUrl": "therussophile.org",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "thesaker",
+    "siteCategory": "Unknown",
+    "siteUrl": "thesaker.is",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "thesleuthjournal",
+    "siteCategory": "Unknown",
+    "siteUrl": "thesleuthjournal.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "thestatelyharold",
+    "siteCategory": "satire",
+    "siteUrl": "thestatelyharold.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "thetruthdivision",
+    "siteCategory": ["False Information", "bias"],
+    "siteUrl": "thetruthdivision.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "TheTruthWins",
+    "siteCategory": "Unknown",
+    "siteUrl": "TheTruthWins.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "TheVictoryReport",
+    "siteCategory": "Unknown",
+    "siteUrl": "TheVictoryReport.org",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "thewatchtowers",
+    "siteCategory": ["bias", "Conspiracy Theories", "clickbait"],
+    "siteUrl": "thewatchtowers.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "TheWealthWatchman",
+    "siteCategory": "Unknown",
+    "siteUrl": "TheWealthWatchman.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "theworldstyle",
+    "siteCategory": "Unknown",
+    "siteUrl": "theworldstyle.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "thirdworldtraveler",
+    "siteCategory": "Unknown",
+    "siteUrl": "thirdworldtraveler.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "thisismynewworld",
+    "siteCategory": "Unknown",
+    "siteUrl": "thisismynewworld.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "threepercenternation",
+    "siteCategory": ["False Information", "Conspiracy Theories", "bias"],
+    "siteUrl": "threepercenternation.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "TomWoods",
+    "siteCategory": "Unknown",
+    "siteUrl": "TomWoods.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "topnewspolitics",
+    "siteCategory": "Unknown",
+    "siteUrl": "topnewspolitics.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "topratedviral",
+    "siteCategory": "Unknown",
+    "siteUrl": "topratedviral.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "toprightnews",
+    "siteCategory": "Unknown",
+    "siteUrl": "toprightnews.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "totalworldnews",
+    "siteCategory": "Unknown",
+    "siteUrl": "totalworldnews.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "traderdan",
+    "siteCategory": "Unknown",
+    "siteUrl": "traderdan.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "tradewithdave",
+    "siteCategory": "Unknown",
+    "siteUrl": "tradewithdave.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "TragedyandHope",
+    "siteCategory": "Unknown",
+    "siteUrl": "TragedyandHope.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "trendingnewsguide",
+    "siteCategory": "Unknown",
+    "siteUrl": "trendingnewsguide.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "trendingnewstoday",
+    "siteCategory": "Unknown",
+    "siteUrl": "trendingnewstoday.net",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "tribuneherald",
+    "siteCategory": "Unknown",
+    "siteUrl": "tribuneherald.net",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "tribunist",
+    "siteCategory": "Unknown",
+    "siteUrl": "tribunist.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "TrueActivist",
+    "siteCategory": ["clickbait", "unreliable"],
+    "siteUrl": "TrueActivist.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "trueeconomics",
+    "siteCategory": "Unknown",
+    "siteUrl": "trueeconomics.blogspot.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "trumpvision365",
+    "siteCategory": "False Information",
+    "siteUrl": "trumpvision365.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "trunews",
+    "siteCategory": "Unknown",
+    "siteUrl": "trunews.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "truthingold",
+    "siteCategory": "Unknown",
+    "siteUrl": "truthingold.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "TruthInMedia",
+    "siteCategory": "Unknown",
+    "siteUrl": "TruthInMedia.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "truthkings",
+    "siteCategory": ["bias", "Conspiracy Theories", "junk science"],
+    "siteUrl": "truthkings.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "truthnetwork",
+    "siteCategory": "Unknown",
+    "siteUrl": "truthnetwork.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "TruthStreamMedia",
+    "siteCategory": "Unknown",
+    "siteUrl": "TruthStreamMedia.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "tunerspeed",
+    "siteCategory": "Unknown",
+    "siteUrl": "tunerspeed.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "turnerradionetwork",
+    "siteCategory": "Unknown",
+    "siteUrl": "turnerradionetwork.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "tyronetribulations",
+    "siteCategory": "Unknown",
+    "siteUrl": "tyronetribulations.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "ufoholic",
+    "siteCategory": "Conspiracy Theories",
+    "siteUrl": "ufoholic.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "undergroundworldnews",
+    "siteCategory": ["False Information", "Conspiracy Theories", "bias"],
+    "siteUrl": "undergroundworldnews.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "unitedmediapublishing",
+    "siteCategory": "False Information",
+    "siteUrl": "unitedmediapublishing.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "universepolitics",
+    "siteCategory": "Unknown",
+    "siteUrl": "universepolitics.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "usa2016elections",
+    "siteCategory": "False Information",
+    "siteUrl": "usa2016elections.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "usadailypolitics",
+    "siteCategory": "False Information",
+    "siteUrl": "usadailypolitics.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "usadailytime",
+    "siteCategory": "False Information",
+    "siteUrl": "usadailytime.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "usainfobox",
+    "siteCategory": "False Information",
+    "siteUrl": "usainfobox.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "usamagazinestudio",
+    "siteCategory": "False Information",
+    "siteUrl": "usamagazinestudio.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "usanewsinsider",
+    "siteCategory": ["False Information", "bias", "clickbait"],
+    "siteUrl": "usanewsinsider.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "usanewspolitics",
+    "siteCategory": "False Information",
+    "siteUrl": "usanewspolitics.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "usaonlinepolitics",
+    "siteCategory": ["False Information", "clickbait"],
+    "siteUrl": "usaonlinepolitics.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "usaphase",
+    "siteCategory": ["False Information", "bias"],
+    "siteUrl": "usaphase.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "usapoliticstoday",
+    "siteCategory": ["bias", "unreliable"],
+    "siteUrl": "usapoliticstoday.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "usatwentyfour",
+    "siteCategory": "False Information",
+    "siteUrl": "usatwentyfour.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "USAWatchdog",
+    "siteCategory": "Unknown",
+    "siteUrl": "USAWatchdog.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "usconservativetoday",
+    "siteCategory": "False Information",
+    "siteUrl": "usconservativetoday.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "usdcrisis",
+    "siteCategory": "Unknown",
+    "siteUrl": "usdcrisis.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "usdefensewatch",
+    "siteCategory": "unreliable",
+    "siteUrl": "usdefensewatch.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "usfanzone",
+    "siteCategory": "Unknown",
+    "siteUrl": "usfanzone.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "ushealthyadvisor",
+    "siteCategory": [
+      "False Information",
+      "Conspiracy Theories",
+      "junk science"
+    ],
+    "siteUrl": "ushealthyadvisor.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "uslifetoday",
+    "siteCategory": "Unknown",
+    "siteUrl": "uslifetoday.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "usmediacenter",
+    "siteCategory": "Unknown",
+    "siteUrl": "usmediacenter.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "uspolitics24",
+    "siteCategory": "Unknown",
+    "siteUrl": "uspolitics24.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "uspoliticslive",
+    "siteCategory": ["False Information", "bias", "Conspiracy Theories"],
+    "siteUrl": "uspoliticslive.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "usslibertyveterans",
+    "siteCategory": "Unknown",
+    "siteUrl": "usslibertyveterans.org",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "UsualSuspect",
+    "siteCategory": "Unknown",
+    "siteUrl": "UsualSuspect.net",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "usviewer",
+    "siteCategory": "Unknown",
+    "siteUrl": "usviewer.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "utopiathecollapse",
+    "siteCategory": "Unknown",
+    "siteUrl": "utopiathecollapse.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "veteransnewsnow",
+    "siteCategory": "Unknown",
+    "siteUrl": "veteransnewsnow.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "vigilantcitizen",
+    "siteCategory": ["False Information", "Conspiracy Theories"],
+    "siteUrl": "vigilantcitizen.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "viraltube",
+    "siteCategory": "Unknown",
+    "siteUrl": "viraltube.nl",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "voltairenet",
+    "siteCategory": "Unknown",
+    "siteUrl": "voltairenet.org",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "vonpress",
+    "siteCategory": "Unknown",
+    "siteUrl": "vonpress.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "votocrat",
+    "siteCategory": "Unknown",
+    "siteUrl": "votocrat.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "wakeupthesheep",
+    "siteCategory": "Unknown",
+    "siteUrl": "wakeupthesheep.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "wakingtimes",
+    "siteCategory": "Unknown",
+    "siteUrl": "wakingtimes.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "wakingupwisconsin",
+    "siteCategory": "Conspiracy Theories",
+    "siteUrl": "wakingupwisconsin.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "wallstreetexaminer",
+    "siteCategory": "Unknown",
+    "siteUrl": "wallstreetexaminer.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "WallStreetOnParade",
+    "siteCategory": "unreliable",
+    "siteUrl": "WallStreetOnParade.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "washingtonexaminer",
+    "siteCategory": ["unreliable", "bias", "Conspiracy Theories"],
+    "siteUrl": "washingtonexaminer.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "washingtonsblog",
+    "siteCategory": ["bias", "Conspiracy Theories", "satire"],
+    "siteUrl": "washingtonsblog.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "wealthcycles",
+    "siteCategory": "Unknown",
+    "siteUrl": "wealthcycles.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "wealthwire",
+    "siteCategory": "Unknown",
+    "siteUrl": "wealthwire.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "weshapelife",
+    "siteCategory": ["Conspiracy Theories", "junk science"],
+    "siteUrl": "weshapelife.org",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "whatreallyhappened",
+    "siteCategory": ["Conspiracy Theories", "rumor"],
+    "siteUrl": "whatreallyhappened.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "whitepower",
+    "siteCategory": ["hate", "Conspiracy Theories", "bias"],
+    "siteUrl": "whitepower.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "whowhatwhy",
+    "siteCategory": "unreliable",
+    "siteUrl": "whowhatwhy.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "whowhatwhy",
+    "siteCategory": "Conspiracy Theories",
+    "siteUrl": "whowhatwhy.org",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "WideAwakeNews",
+    "siteCategory": "Unknown",
+    "siteUrl": "WideAwakeNews.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "wikileaks",
+    "siteCategory": "Unknown",
+    "siteUrl": "wikileaks.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "wikileaks",
+    "siteCategory": "Unknown",
+    "siteUrl": "wikileaks.org",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "wikispooks",
+    "siteCategory": "Conspiracy Theories",
+    "siteUrl": "wikispooks.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "WilliamBanzai7",
+    "siteCategory": "satire",
+    "siteUrl": "WilliamBanzai7.blogspot.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Willyloman",
+    "siteCategory": "Conspiracy Theories",
+    "siteUrl": "Willyloman.wordpress.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "winkprogress",
+    "siteCategory": "satire",
+    "siteUrl": "winkprogress.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "WolfStreet",
+    "siteCategory": "unreliable",
+    "siteUrl": "WolfStreet.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "world24monitor",
+    "siteCategory": "Unknown",
+    "siteUrl": "world24monitor.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "worldcallyoutoday",
+    "siteCategory": "Unknown",
+    "siteUrl": "worldcallyoutoday.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "worlddaily",
+    "siteCategory": "Unknown",
+    "siteUrl": "worlddaily.info",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "worldnewspolitics",
+    "siteCategory": "bias",
+    "siteUrl": "worldnewspolitics.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "worldpoliticsus",
+    "siteCategory": "False Information",
+    "siteUrl": "worldpoliticsus.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "worldrumor",
+    "siteCategory": "False Information",
+    "siteUrl": "worldrumor.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "worldstoriestoday",
+    "siteCategory": "False Information",
+    "siteUrl": "worldstoriestoday.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "worldtruth",
+    "siteCategory": ["Conspiracy Theories", "junk science"],
+    "siteUrl": "worldtruth.tv",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "worldwidehealthy",
+    "siteCategory": ["junk science", "clickbait"],
+    "siteUrl": "worldwidehealthy.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "wtoe5news",
+    "siteCategory": ["False Information", "satire"],
+    "siteUrl": "wtoe5news.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "wundergroundmusic",
+    "siteCategory": "satire",
+    "siteUrl": "wundergroundmusic.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "www",
+    "siteCategory": "state",
+    "siteUrl": "www.rt.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "X22Report",
+    "siteCategory": "Conspiracy Theories",
+    "siteUrl": "X22Report.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "yellowhammernews",
+    "siteCategory": "political",
+    "siteUrl": "yellowhammernews.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Youngcons",
+    "siteCategory": ["bias", "unreliable"],
+    "siteUrl": "Youngcons.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "yourfunpage",
+    "siteCategory": "False Information",
+    "siteUrl": "yourfunpage.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "yournationnews",
+    "siteCategory": "Unknown",
+    "siteUrl": "yournationnews.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "YourNewsline",
+    "siteCategory": "Unknown",
+    "siteUrl": "YourNewsline.wordpress.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "zaytung",
+    "siteCategory": "Unknown",
+    "siteUrl": "zaytung.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "Zengardner",
+    "siteCategory": "Unknown",
+    "siteUrl": "Zengardner.com",
+    "siteNotes": ""
+  },
+  {
+    "siteTitle": "zootfeed",
+    "siteCategory": "Conspiracy Theories",
+    "siteUrl": "zootfeed.com",
+    "siteNotes": ""
   }
 ]
