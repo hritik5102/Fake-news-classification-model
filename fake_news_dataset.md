@@ -1,14 +1,18 @@
 ## **Fake news dataset**
 
 - [LIAR Dataset](#LIAR-Dataset)
-- [Zuly Chatbot](#Zuly-Chatbot?)
-- [Solution](#Solution)
-- [System Architecture](#System-Architecture)
-- [Tech stack](#Tech-stack)
-- [Requirements](#Requirements)
-- [Folder Structure](#Folder-Structure)
-- [You tube video](#You-tube-video)
-- [Contributors](#Contributors)
+- [Buzzfeed](#Buzzfeed)
+- [PHEME and CREDBANK](#PHEME-and-CREDBANK)
+- [BS Detector](#BS-Detector)
+- [Politifact](#Politifact)
+- [Fake News Challenge dataset](#Fake-News-Challenge-dataset)
+- [Fact Extraction and verification (FEVER) dataset](<#Fact-Extraction-and-verification-(FEVER)-dataset>)
+- [Fake news dataset](#Fake-news-dataset)
+- [FakeNewsNet dataset](#FakeNewsNet-dataset)
+- [ClaimBuster dataset](#ClaimBuster-dataset)
+- [SOME-LIKE-IT-HOAX](#SOME-LIKE-IT-HOAX)
+- [MultiFC Dataset](#MultiFC-Dataset)
+- [ISOT-Fake-News-Dataset](#ISOT-Fake-News-Dataset)
 
 ## **LIAR Dataset**
 
@@ -153,7 +157,7 @@ Real-World Multi-Domain Dataset for Evidence-Based Fact Checking of Claims.
 
 The MultiFC is the largest publicly available dataset of naturally occurring factual claims for the purpose of automatic claim verification. It is collected from 26 English fact-checking websites, paired with textual sources and rich metadata, and labeled for veracity by human expert journalists. In the figure below you can see one example of a claim instance. Entities are obtained via entity linking. Article and outlink texts, evidence search snippets and pages are not shown.
 
-<p align="center"><img src="https://i.ibb.co/Bf1chmd/example.jpg" width="80%"></p>
+<p align="center"><img src="https://i.ibb.co/Bf1chmd/example.jpg" width="50%"></p>
 
 **Reference :**
 
