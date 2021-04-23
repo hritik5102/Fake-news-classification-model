@@ -1,6 +1,6 @@
 # Model 
 BERT_Fake_News_Classification/.model
-BERT_Fake_News_Classification/pretrained_model
+BERT_Fake_News_Classification/pretrained_weights
 GPT2_Model/model 
 
 # Byte-compiled / optimized / DLL files

@@ -103,8 +103,9 @@ def create_model(max_seq_len, lr=1e-5):
 
 
 model = create_model(max_seq_len=150, lr=1e-5)
-
-model.load_weights("pretrained_model/bert_news.h5")
+weight_file_path = os.path.join(os.path.abspath(
+    os.path.dirname(__file__)), 'pretrained_weights', 'bert_news.h5')
+model.load_weights(weight_file_path)
 
 
 def predict_new(doc, model, max_seq_len=150):
