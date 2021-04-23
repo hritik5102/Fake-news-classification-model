@@ -128,10 +128,10 @@ class Bert_Classifier(object):
         return doc_label, avg_pred
 
 
-model_file_path = os.path.join(os.path.abspath(
-    os.path.dirname(__file__)), '.model', 'uncased_L-12_H-768_A-12')
-weight_file_path = os.path.join(os.path.abspath(
-    os.path.dirname(__file__)), 'pretrained_weights', 'bert_news.h5')
+model_file_path = os.path.join(os.path.abspath(os.path.dirname(os.path.dirname(
+    __file__))), 'BERT_Fake_News_Classification', '.model', 'uncased_L-12_H-768_A-12')
+weight_file_path = os.path.join(os.path.abspath(os.path.dirname(os.path.dirname(
+    __file__))), 'BERT_Fake_News_Classification', 'pretrained_weights', 'bert_news.h5')
 
 input_text = "Donald Trump was born in Pakistan as Dawood Ibrahim Khan New Delhi: A video has gone viral showing a Pakistani anchor claiming that US President-elect Donald Trump was born in Pakistan and not in the United States of America.  The report further alleged that Trump's original name is Dawood Ibrahim Khan. In the video, the Neo News anchor elaborated on Trump's journey from North Waziristan to England and then finally to Queens, New York.  Neo news had cited tweets and a picture on social media to back its claim. The video was broadcast last month but went viral after Trump’s election victory on November 8."
 
