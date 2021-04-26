@@ -2,6 +2,8 @@
 BERT_Fake_News_Classification/.model
 BERT_Fake_News_Classification/pretrained_weights
 GPT2_Model/model 
+Bidirectional_LSTM_Glove/model
+Bidirectional_LSTM_Glove/checkpoint
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
