@@ -20,8 +20,12 @@ from urllib.parse import urlparse, ParseResult
 from url_utils import get_domain, format_url, get_data_path
 from newspaper.article import ArticleException, ArticleDownloadState
 
-# Download
-nltk.download('punkt')
+# Download if does not exists
+try:
+    nltk.data.find('tokenizers/punkt')
+except LookupError:
+    nltk.download('punkt')
+    import nltk
 
 st.set_page_config(
     layout="wide", page_title='Fake news detection', page_icon="🤗")
@@ -122,8 +126,7 @@ def home_page():
         with st.spinner(text="Fetching measures - Analysis in progress"):
             try:
                 url = 'https://www.virustotal.com/vtapi/v2/url/report'
-                params = {'apikey': os.environ.get(
-                    'VIRUS_TOTAL_API_KEY'), 'resource': user_input}
+                params = {'apikey': os.environ.get('VIRUS_TOTAL_API_KEY'), 'resource': user_input}
                 response = requests.get(url, params=params)
                 json_object = response.json()
 
