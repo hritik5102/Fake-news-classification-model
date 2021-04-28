@@ -16,11 +16,28 @@ import pickle
 import warnings
 warnings.filterwarnings("ignore")
 
-# download the stopwords from NLTK
-# nltk.download('stopwords')
-# nltk.download('wordnet')                            # Wordnet
-# nltk.download('averaged_perceptron_tagger')         # POS Tagger
-# nltk.download('punkt')
+# Download if does not exists
+                       
+try:
+    nltk.data.find('corpora/stopwords')
+except LookupError:
+    nltk.download('stopwords')
+    import nltk
+try:
+    nltk.data.find('corpora/wordnet')
+except LookupError:
+    nltk.download('wordnet')
+    import nltk
+try:
+    nltk.data.find('taggers/averaged_perceptron_tagger')
+except LookupError:
+    nltk.download('averaged_perceptron_tagger')
+    import nltk        
+try:
+    nltk.data.find('tokenizers/punkt')
+except LookupError:
+    nltk.download('punkt')
+    import nltk
 
 class BiLSTM:
 
