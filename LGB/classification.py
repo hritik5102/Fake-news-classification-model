@@ -13,14 +13,11 @@ class LGB:
 
     def predict(self, text):
 
-        label = self.gpt.predict(sample)
-        print("GPT2: ", label)
-        label = self.bilstm.predict(sample)
-        print("BiLSTM: ", label)
-        label, loss = self.bert.predict(sample)
-        print("BERT: ", label)
-
-        # Hybridization code to be added soon
+        a = self.gpt.predict(text)
+        b = self.bilstm.predict(text)
+        c, loss = self.bert.predict(text)
+        sum = int(a) + int(b) + int(c)
+        return 1 if sum > 1 else 0
 
 # The following code runs only while testing.
 if __name__ == "__main__":
