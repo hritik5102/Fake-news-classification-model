@@ -51,7 +51,6 @@ class Bert_Classifier:
         """
         Creates a BERT classification model.
         The model architecutre is raw input -> BERT input -> drop out layer to prevent overfitting -> dense layer that outputs predicted probability.
-
         max_seq_len: the maximum sequence length
         lr: learning rate of optimizer
         """
@@ -91,7 +90,6 @@ class Bert_Classifier:
     def predict(self, text):
         """
         Predict new document using the trained model. 
-
         doc: input document in format of a string
         """
 
@@ -126,7 +124,6 @@ class Bert_Classifier:
             doc_label = 1
 
         return doc_label, avg_pred
-
 
 
 # The following code runs only while testing.

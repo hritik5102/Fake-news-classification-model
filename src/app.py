@@ -19,7 +19,7 @@ from newspaper import Article, news_pool
 from urllib.parse import urlparse, ParseResult
 from url_utils import get_domain, format_url, get_data_path
 from newspaper.article import ArticleException, ArticleDownloadState
-
+from Hybridization.Voting_Classifier import LGB
 # Download if does not exists
 try:
     nltk.data.find('tokenizers/punkt')
@@ -121,12 +121,13 @@ def home_page():
         print(ec)
 
     if st.button('Check authenticity'):
-        st.header("VirusTotal - Malicious URL Scanner")
+        st.header("VirusTotal - Malicious URL Scanner (virustotal.com)")
         st.markdown('''---''')
         with st.spinner(text="Fetching measures - Analysis in progress"):
             try:
                 url = 'https://www.virustotal.com/vtapi/v2/url/report'
-                params = {'apikey': os.environ.get('VIRUS_TOTAL_API_KEY'), 'resource': user_input}
+                params = {'apikey': os.environ.get(
+                    'VIRUS_TOTAL_API_KEY'), 'resource': user_input}
                 response = requests.get(url, params=params)
                 json_object = response.json()
 
@@ -316,6 +317,22 @@ def home_page():
             st.warning(
                 "Coudn\'t able to get the summary of the article or Invalid URL Provided")
 
+        sample = title + ' ' + article_text if title is not None else article_text
+        lgb = LGB()
+        output_label = lgb.predict(sample)
+        # left,right = st.beta_columns((1,2))
+        st.markdown('''**Analysis based on:** : Artificial intelligence''')
+        if output_label:
+            st.markdown(
+                f'Predicted label : {output_label}', unsafe_allow_html=True)
+            st.success("Real news")
+        else:
+            st.markdown(
+                f'Predicted label : {output_label}', unsafe_allow_html=True)
+            st.error("Fake news")
+
+            # right.markdown('''Artificial intelligence''')
+
 
 main_page()
 # http://www.ancient-code.com/did-ancient-mankind-know-the-secrets-of-levitation/
@@ -324,3 +341,4 @@ main_page()
 # https://www.secondamendmentdaily.com/2021/03/chuck-schumer-says-that-law-abiding-licensed-firearms-dealers-are-evil-and-so-are-ghost-guns/
 # https://www.hindustantimes.com/india-news/cbse-class-10-exams-cancelled-class-12-exams-postponed-says-govt-after-pm-modi-s-covid-review-meet-101618383590781.html
 # https://indianexpress.com/article/india/pm-narendra-modi-address-to-nation-live-update-7281920/
+# https://english.newsnationtv.com/world/news/donald-trump-born-in-pakistan-his-real-name-is-dawood-ibrahim-khan-claims-pak-media-150693.html

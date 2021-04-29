@@ -17,7 +17,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 # Download if does not exists
-                       
+
 try:
     nltk.data.find('corpora/stopwords')
 except LookupError:
@@ -32,21 +32,20 @@ try:
     nltk.data.find('taggers/averaged_perceptron_tagger')
 except LookupError:
     nltk.download('averaged_perceptron_tagger')
-    import nltk        
+    import nltk
 try:
     nltk.data.find('tokenizers/punkt')
 except LookupError:
     nltk.download('punkt')
     import nltk
 
+
 class BiLSTM:
 
     def __init__(self):
         pass
 
-    
     def process_text(self, content, stopwords_english):
-
         """
         Process text function.
             Input:
@@ -54,7 +53,6 @@ class BiLSTM:
             Output:
                 content_clean: a list of words containing the processed text
         """
-
 
         # Removing Accented Characters (Words such as résumé, café, prótest, divorcé, coördinate, exposé, latté etc.)
         content = unicodedata.normalize('NFKD', content).encode(
@@ -90,7 +88,7 @@ class BiLSTM:
 
         # Multiline comment
         content = re.sub(r'/\*[^*]*(?:\*(?!/)[^*]*)*\*/',
-                        '', content, flags=re.S)
+                         '', content, flags=re.S)
 
         # funnnnny --> funny
         content = re.sub(r'(.)\1+', r'\1\1', content)
@@ -104,7 +102,7 @@ class BiLSTM:
 
         # tokenize content
         tokenizer = TweetTokenizer(preserve_case=False, strip_handles=True,
-                                reduce_len=True)
+                                   reduce_len=True)
 
         content_tokens = tokenizer.tokenize(content)
 
@@ -121,7 +119,8 @@ class BiLSTM:
                     "V": 'v',
                     "R": 'r'}
 
-        words_and_tags = [(w, tag_dict.get(pos[0], 'n')) for w, pos in sent.tags]
+        words_and_tags = [(w, tag_dict.get(pos[0], 'n'))
+                          for w, pos in sent.tags]
         lemmatized_list = [wd.lemmatize(tag) for wd, tag in words_and_tags]
 
         return " ".join(lemmatized_list)
@@ -161,7 +160,8 @@ class BiLSTM:
             sequences=fact_check_sequence, maxlen=max_len, padding='pre')
 
         # Load model
-        lstm_model = load_model('Bidirectional_LSTM_Glove\\model\\Fake_News_Glove_Model.h5', compile=False)
+        lstm_model = load_model(
+            'Bidirectional_LSTM_Glove\\model\\Fake_News_Glove_Model.h5', compile=False)
 
         # Prediction
         result = lstm_model.predict_classes(fact_check_padding)

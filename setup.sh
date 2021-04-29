@@ -1,13 +1,13 @@
 #!/bin/bash
-mkdir -p ~/.streamlit/
+# mkdir -p ~/.streamlit/
 
-echo "\
-[server]\n\
-headless = true\n\
-port = $PORT\n\
-enableCORS = false\n\
-\n\
-" > ~/.streamlit/config.toml
+# echo "\
+# [server]\n\
+# headless = true\n\
+# port = $PORT\n\
+# enableCORS = false\n\
+# \n\
+# " > ~/.streamlit/config.toml
 
 echo -e "[INFO] Running BERT bash script  ...\n"
 BERT_Fake_News_Classification/Bert_setup.sh

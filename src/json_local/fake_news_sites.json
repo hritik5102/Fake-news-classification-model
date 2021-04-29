@@ -8786,7 +8786,7 @@
   },
   {
     "siteTitle": "InfoScum",
-    "siteCategory": ["Lack Of Transparency"],
+    "siteCategory": ["Lack of Transparency"],
     "siteUrl": "infoscum.com",
     "siteNotes": "Overall, we rate Inner Strength Zone Questionable based on a complete lack of transparency and the publication of pseudoscience and false claims. We also do not provide a bias rating as they do not publish political news."
   },
@@ -15182,5 +15182,17 @@
     "siteCategory": "reliable",
     "siteUrl": "scoopwhoop.com",
     "siteNotes": "ScoopWhoop Media is an Indian digital media company based in New Delhi. It operates various online content verticals and serves as a news organisation featuring web series, documentaries and current affairs reporting with a focus on video production and primarily catering to adolescents and young adults."
+  },
+  {
+    "siteTitle": "News Nation TV English",
+    "siteCategory": ["Lack of Transparency"],
+    "siteUrl": "english.newsnationtv.com",
+    "siteNotes": "News Nation is an Indian free to air Hindi news television channel. News Nation is owned by News Nation Network Pvt Ltd."
+  },
+  {
+    "siteTitle": "News Nation",
+    "siteCategory": "reliable",
+    "siteUrl": "newsnationtv.com",
+    "siteNotes": "News Nation is an Indian free to air Hindi news television channel. News Nation is owned by News Nation Network Pvt Ltd."
   }
 ]
