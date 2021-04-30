@@ -318,8 +318,11 @@ def home_page():
                 "Coudn\'t able to get the summary of the article or Invalid URL Provided")
 
         sample = title + ' ' + article_text if title is not None else article_text
-        lgb = LGB()
-        output_label = lgb.predict(sample)
+
+        # lgb = LGB()
+        # output_label = lgb.predict(sample)
+        import model_service
+        output_label = model_service.predict_from_server(sample)
         # left,right = st.beta_columns((1,2))
         st.markdown('''**Analysis based on:** : Artificial intelligence''')
         if output_label:
