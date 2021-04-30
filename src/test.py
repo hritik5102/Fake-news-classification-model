@@ -291,5 +291,8 @@
 #     print("News article is FAKE")
 
 import model_service
-
-print(model_service.predict_from_server("Donald Trump"))
+import asyncio
+import time
+a = time.time()
+output_label = asyncio.run(model_service.predict_from_server("sample"))
+print(output_label, time.time()-a)
