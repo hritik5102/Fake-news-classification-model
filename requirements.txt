@@ -16,3 +16,5 @@ beautifulsoup4>=4.9.3
 bert==2.2.0
 gdown>=3.12.1
 gsutil>=4.61
+asyncio
+keras

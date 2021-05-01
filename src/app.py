@@ -10,16 +10,16 @@ import os
 import json
 import nltk
 import requests
-import datetime
-import newspaper
 import numpy as np
 import streamlit as st
 from time import sleep
-from newspaper import Article, news_pool
+from newspaper import Article
 from urllib.parse import urlparse, ParseResult
 from url_utils import get_domain, format_url, get_data_path
 from newspaper.article import ArticleException, ArticleDownloadState
-from Hybridization.Voting_Classifier import LGB
+import model_service
+import asyncio
+
 # Download if does not exists
 try:
     nltk.data.find('tokenizers/punkt')
@@ -323,8 +323,6 @@ def home_page():
         # output_label = lgb.predict(sample)
         # output_label = model_service.predict_from_server(sample)
 
-        import model_service
-        import asyncio
         sample = "Donald Trump was born in Pakistan as Dawood Ibrahim Khan New Delhi: A video has gone viral showing a Pakistani anchor claiming that US President-elect Donald Trump was born in Pakistan and not in the United States of America.  The report further alleged that Trump's original name is Dawood Ibrahim Khan. In the video, the Neo News anchor elaborated on Trump's journey from North Waziristan to England and then finally to Queens, New York.  Neo news had cited tweets and a picture on social media to back its claim. The video was broadcast last month but went viral after Trump’s election victory on November 8."
         output_label = asyncio.run(model_service.predict_from_server(sample))
         

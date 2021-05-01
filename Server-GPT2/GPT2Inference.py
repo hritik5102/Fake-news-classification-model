@@ -1,3 +1,10 @@
+import os
+# For Removing this warning : "Could not load dynamic library 'cudart64_110.dll'; dlerror: cudart64_110.dll not found" 
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+
+import logging
+logging.getLogger('tensorflow').disabled = True
+
 import numpy as np
 import torch
 from transformers import (set_seed, TrainingArguments, Trainer, GPT2Config, GPT2Tokenizer,
@@ -9,10 +16,12 @@ class GPT2:
     def __init__(self):
 
         # Look for gpu to use. Will use `cpu` by default if no gpu found.
-        self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+        self.device = torch.device(
+            'cuda' if torch.cuda.is_available() else 'cpu')
         # device = torch.device('cpu')
         print("Device: ", self.device)
-        model_path = "Models\GPT2_Model\model"
+        _ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        model_path = os.path.join(_ROOT, "Models","GPT2_Model","model")
         self.tokenizer = GPT2Tokenizer.from_pretrained(
             pretrained_model_name_or_path=model_path)
         self.gpt_model = GPT2ForSequenceClassification.from_pretrained(
@@ -30,6 +39,7 @@ class GPT2:
         logits = outputs[0]
         predict_label = logits.argmax(axis=-1).flatten().tolist()
         return predict_label[0]
+
 
 # The following code runs only while testing.
 if __name__ == "__main__":
