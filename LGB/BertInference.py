@@ -1,26 +1,37 @@
-import re
 import os
+
+# For Removing this warning : "Could not load dynamic library 'cudart64_110.dll'; dlerror: cudart64_110.dll not found" 
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+
+import logging
+logging.getLogger('tensorflow').disabled = True
+
+# "0" means no logging. # For Removing XLA warnings
+import tensorflow as tf
+tf.autograph.set_verbosity(0)
+
+import re
 import bert
 import numpy as np
-import tensorflow as tf
 from tensorflow import keras
-from bert.model import BertModelLayer
-from bert.tokenization.bert_tokenization import FullTokenizer
 from bert.loader import StockBertConfig, map_stock_config_to_params, load_stock_weights
+from bert.tokenization.bert_tokenization import FullTokenizer
+from bert.model import BertModelLayer
 
 
 class Bert_Classifier:
 
     def __init__(self, max_seq_len, lr):
-
-        self.bert_ckpt_dir = "BERT_Fake_News_Classification/.model/uncased_L-12_H-768_A-12"
+        
+        _ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        self.bert_ckpt_dir = os.path.join(_ROOT, "Models","BERT_Fake_News_Classification",".model","uncased_L-12_H-768_A-12")
         self.bert_ckpt_file = os.path.join(
             self.bert_ckpt_dir, "bert_model.ckpt")
         self.bert_config_file = os.path.join(
             self.bert_ckpt_dir, "bert_config.json")
         self.max_seq_len = max_seq_len
         self.lr = lr
-        self.bert_weight = "BERT_Fake_News_Classification/pretrained_weights/bert_news.h5"
+        self.bert_weight = os.path.join(_ROOT,"Models","BERT_Fake_News_Classification","pretrained_weights","bert_news.h5")
 
     def clean_txt(self, text):
         text = re.sub("'", "", text)
@@ -132,3 +143,4 @@ if __name__ == "__main__":
     input_text = "Donald Trump was born in Pakistan as Dawood Ibrahim Khan New Delhi: A video has gone viral showing a Pakistani anchor claiming that US President-elect Donald Trump was born in Pakistan and not in the United States of America.  The report further alleged that Trump's original name is Dawood Ibrahim Khan. In the video, the Neo News anchor elaborated on Trump's journey from North Waziristan to England and then finally to Queens, New York.  Neo news had cited tweets and a picture on social media to back its claim. The video was broadcast last month but went viral after Trump’s election victory on November 8."
     obj = Bert_Classifier(max_seq_len=150, lr=1e-5)
     print(obj.predict(input_text))
+

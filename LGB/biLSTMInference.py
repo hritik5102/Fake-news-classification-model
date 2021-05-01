@@ -1,4 +1,16 @@
-from textblob import TextBlob, Word                 # textBlob library
+import os
+
+# For Removing this warning : "Could not load dynamic library 'cudart64_110.dll'; dlerror: cudart64_110.dll not found" 
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+
+import logging
+logging.getLogger('tensorflow').disabled = True
+
+# "0" means no logging. # For Removing XLA warnings
+import tensorflow as tf
+tf.autograph.set_verbosity(0)
+
+from textblob import TextBlob                 # textBlob library
 from nltk.tokenize import TweetTokenizer
 from nltk.stem import WordNetLemmatizer             # module for Lemmatizer
 from nltk.corpus import stopwords
@@ -10,35 +22,28 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.text import Tokenizer             # Tokenizer keras
 from tensorflow.keras.preprocessing.sequence import pad_sequences     # Pad Sequence
 import re
-import os
 import string                                       # for string operations
 import pickle
 import warnings
 warnings.filterwarnings("ignore")
 
 # Download if does not exists
-
 try:
     nltk.data.find('corpora/stopwords')
 except LookupError:
     nltk.download('stopwords')
-    import nltk
 try:
     nltk.data.find('corpora/wordnet')
 except LookupError:
     nltk.download('wordnet')
-    import nltk
 try:
     nltk.data.find('taggers/averaged_perceptron_tagger')
 except LookupError:
     nltk.download('averaged_perceptron_tagger')
-    import nltk
 try:
     nltk.data.find('tokenizers/punkt')
 except LookupError:
     nltk.download('punkt')
-    import nltk
-
 
 class BiLSTM:
 
@@ -140,9 +145,9 @@ class BiLSTM:
         # Remove this word from stopwords
         stopwords_english = set(stopwords_english) - operators
 
-        # _ROOT = os.path.abspath(os.path.dirname(__file__))
+        _ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-        token_path = "Bidirectional_LSTM_Glove\\checkpoint\\tokenizer.pickle"
+        token_path = os.path.join(_ROOT, "Models","Bidirectional_LSTM_Glove","checkpoint","tokenizer.pickle")
         with open(token_path, 'rb') as handle:
             tokenizer = pickle.load(handle, encoding="latin1")
 
@@ -160,11 +165,17 @@ class BiLSTM:
             sequences=fact_check_sequence, maxlen=max_len, padding='pre')
 
         # Load model
-        lstm_model = load_model(
-            'Bidirectional_LSTM_Glove\\model\\Fake_News_Glove_Model.h5', compile=False)
+        lstm_model = load_model(os.path.join(_ROOT, "Models","Bidirectional_LSTM_Glove","model","Fake_News_Glove_Model.h5"), compile=False)
 
         # Prediction
         result = lstm_model.predict_classes(fact_check_padding)
         # (model.predict(x) > 0.5).astype("int32")
 
         return result[0][0]
+
+# The following code runs only while testing.
+if __name__ == '__main__':
+
+    obj = BiLSTM()
+    sample = "Donald Trump was born in Pakistan as Dawood Ibrahim Khan New Delhi: A video has gone viral showing a Pakistani anchor claiming that US President-elect Donald Trump was born in Pakistan and not in the United States of America.  The report further alleged that Trump's original name is Dawood Ibrahim Khan. In the video, the Neo News anchor elaborated on Trump's journey from North Waziristan to England and then finally to Queens, New York.  Neo news had cited tweets and a picture on social media to back its claim. The video was broadcast last month but went viral after Trump’s election victory on November 8."
+    print(obj.predict(sample))

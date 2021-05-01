@@ -2,8 +2,6 @@ import requests as req
 
 import aiohttp
 import asyncio
-import json
-import os
 
 PORT_GPT2 = '5000'
 PORT_BERT = '5500'
@@ -20,9 +18,6 @@ ROUTE = '/predict'
 #     c = req.post(BASE_URL + PORT_LSTM + ROUTE, data)  
 #     sum = int(a.text) + int(b.text) + int(c.text)
 #     return 1 if sum > 1 else 0
-
-import aiohttp
-import asyncio
 
 async def predict_from_server(text):
 

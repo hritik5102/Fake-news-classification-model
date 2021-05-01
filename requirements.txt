@@ -1,11 +1,10 @@
 contractions==0.0.48
 transformers==4.5.1
 numpy==1.19.5
-torch==1.8.1+cpu
 bert_for_tf2==0.14.9
 textblob==0.15.3
 nltk==3.4.5
-tensorflow==2.2.0
+tensorflow
 beautifulsoup4==4.9.3
 bert==2.2.0
 validators==0.18.2
@@ -13,4 +12,9 @@ requests==2.21.0
 pandas==0.25.1
 streamlit==0.80.0
 newspaper3k==0.2.8
-
+aiohttp
+asyncio
+Flask
+keras
+gsutil 
+gdown>=3.12.1
