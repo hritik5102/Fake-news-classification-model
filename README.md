@@ -14,6 +14,20 @@ BE Project
 pip3 install torch==1.8.1+cpu torchvision==0.9.1+cpu torchaudio===0.8.1 -f https://download.pytorch.org/whl/torch_stable.html
 ```
 
+### How to run the app?
+
+Run the following commands:
+1. ```bash start-server.sh ``` on git bash or any linux terminal
+This will start the deep learning model servers.
+
+2. ```cd src```
+
+3. ```streamlit run app.py```
+
+### How to stop the Deep learning model servers?
+
+run ```bash stop-server.sh``` on git bash or any linux terminal
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
