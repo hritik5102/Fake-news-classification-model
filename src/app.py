@@ -9,6 +9,7 @@
 import os
 import json
 import nltk
+import asyncio
 import requests
 import datetime
 import newspaper
@@ -25,13 +26,12 @@ try:
     nltk.data.find('tokenizers/punkt')
 except LookupError:
     nltk.download('punkt')
-    import nltk
 
 st.set_page_config(
     layout="wide", page_title='Fake news detection', page_icon="🤗")
 
 
-def main_page():
+async def main_page():
     html_temp = """
     <div style="background-color:#02203c;padding:10px">
     <h2 style="color:white;text-align:center;font-weight:bold">Fake news site information</h2>
@@ -48,7 +48,8 @@ def main_page():
     choice = st.sidebar.selectbox("Menu", menu)
 
     if choice == menu[0]:
-        home_page()
+        task1 = asyncio.create_task(home_page())
+        await task1
 
 
 def get_fb_news_data(domain_name, formated_domain, fake_news_db_news):
@@ -79,7 +80,14 @@ def get_opensource_news(domain_name, formated_domain, open_source_json):
     return source_info
 
 
-def home_page():
+async def get_prediction_result(title, text):
+
+    sample = title + ' ' + text if title is not None else text
+    lgb = LGB()
+    return lgb.predict(sample)
+
+
+async def home_page():
     """
     Scrape and parse textual content from web resource. This method employs Article from Newspaper3k library to download and parse html from the web resource. It uses heuristics to scrape main body of visible text.
     :param url: Uniform Resource Locator.
@@ -158,7 +166,7 @@ def home_page():
                                     f'<span style="color:red">{link}</span>', unsafe_allow_html=True)
                 else:
                     st.warning(
-                        "Couldn't able to get detect the site or Invalid URL provided !!")
+                        "Couldn't able to detect the site or Invalid URL provided !!")
             except Exception as ec:
                 st.info(
                     "The URL analysis is in progress, you will not see live updates, the results will appear all at once in at most 60 seconds.")
@@ -317,9 +325,9 @@ def home_page():
             st.warning(
                 "Coudn\'t able to get the summary of the article or Invalid URL Provided")
 
-        sample = title + ' ' + article_text if title is not None else article_text
-        lgb = LGB()
-        output_label = lgb.predict(sample)
+        task = asyncio.create_task(
+            get_prediction_result(title=title, text=article_text))
+        output_label = await task
         # left,right = st.beta_columns((1,2))
         st.markdown('''**Analysis based on:** : Artificial intelligence''')
         if output_label:
@@ -333,8 +341,8 @@ def home_page():
 
             # right.markdown('''Artificial intelligence''')
 
-
-main_page()
+# main_page()
+asyncio.run(main_page())
 # http://www.ancient-code.com/did-ancient-mankind-know-the-secrets-of-levitation/
 # https://www.washingtonpost.com/politics/2021/04/01/matt-gaetzs-claim-that-travel-records-debunk-allegations-against-him/
 # https://21stcenturywire.com/2021/04/07/texas-governor-signs-order-banning-use-of-vaccine-passports/
