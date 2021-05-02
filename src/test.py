@@ -290,9 +290,94 @@
 # else:
 #     print("News article is FAKE")
 
-import model_service
-import asyncio
-import time
-a = time.time()
-output_label = asyncio.run(model_service.predict_from_server("sample"))
-print(output_label, time.time()-a)
+# import model_service
+# import asyncio
+# import time
+# a = time.time()
+# output_label = asyncio.run(model_service.predict_from_server("sample"))
+# print(output_label, time.time()-a)
+
+# https://www.secondamendmentdaily.com/2021/03/chuck-schumer-says-that-law-abiding-licensed-firearms-dealers-are-evil-and-so-are-ghost-guns/
+
+import os
+import requests, json, asyncio
+
+# def handleHTTPErros(code):
+#     if code == 404:
+#         print('Something went wrong. Please try again later, or contact us.' + '\n[Error 404].')
+#         return 0
+#     elif code == 403:
+#         print('You do not have permissions to make that call.\nThat should not have happened, please contact us.\n[Error 403].')
+#         return 0
+#     elif code == 204:
+#         print("The quota limit has exceeded, please wait and try again soon.\nIf this problem continues, please contact us.\n[Error 204].")
+#         return 0
+#     else:
+#         print('Something went wrong. Please try again later, or contact us.' + '\n[Error '+str(code)+']')
+#         return 0
+
+# async def url_scan():
+
+#     user_input = 'https://21stcenturywire.com/2021/04/07/texas-governor-signs-order-banning-use-of-vaccine-passports/'
+#     url = 'https://www.virustotal.com/vtapi/v2/url/report'
+#     params = {'apikey': '0df5d77154554b2d12a0a501ec0bc8394e34247aa05f6ec3620e98cd1a5b0c9d', 'resource': user_input}
+
+#     response = requests.get(url, params=params)
+#     return response.json()
+
+# async def main():
+
+#     task = asyncio.create_task(url_scan())
+#     result = await task
+#     print(result)
+#     print("Hello")
+
+# asyncio.run(main())
+
+# try: 
+#     response = requests.get(url, params=params)
+#     json_object = response.json()
+#     verbose_msg = json_object['verbose_msg']
+#     if json_object['response_code'] == 1:
+#         print(verbose_msg)
+#         print(json_object)
+#     else:
+#         print(verbose_msg)
+# except requests.HTTPError as e:
+#     handleHTTPErros(code)
+# except Exception as ec:
+#     print(ec)
+# except urllib2.HTTPError as e:
+#     handleHTTPErros(e.code)
+# except urllib2.URLError as e:
+#     print('URLError: ' + str(e.reason))
+# except Exception:
+#     import traceback
+#     print('generic exception: ' + traceback.format_exc())
+
+import vt
+import nest_asyncio
+nest_asyncio.apply()
+
+async def hello(user_input):
+    client = vt.Client(os.environ.get('VIRUS_TOTAL_API_KEY'))
+    analysis = client.scan_url(user_input, wait_for_completion=True)
+    result =  analysis.to_dict()
+    client.close()
+    return result['attributes']['results']
+
+async def main():
+    print("Started ...")
+    json_data = await asyncio.create_task(hello('https://www.indiatoday.in/coronavirus-outbreak/story/chinese-president-xi-jinping-offers-help-to-india-in-fight-against-covid-19-1796738-2021-04-30'))
+    category_key = list(json_data.keys())
+    category_value = [json_data[i]['result'] for i in category_key]
+    print(json_data)
+    print(category_key)
+    print(category_value)
+    print("Finished ...")
+
+asyncio.run(main())
+
+# https://www.secondamendmentdaily.com/2021/03/chuck-schumer-says-that-law-abiding-licensed-firearms-dealers-are-evil-and-so-are-ghost-guns/
+# https://www.wsj.com/articles/indias-covid-19-surge-worsens-as-nation-stumbles-in-vaccine-expansion-11619798259
+# print(client.get_data('https://21stcenturywire.com/2021/04/07/texas-governor-signs-order-banning-use-of-vaccine-passports/'))

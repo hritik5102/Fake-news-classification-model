@@ -7044,12 +7044,6 @@
     "siteNotes": ""
   },
   {
-    "siteTitle": "Nature",
-    "siteCategory": "reliable",
-    "siteUrl": "nature.com",
-    "siteNotes": ""
-  },
-  {
     "siteTitle": "Oregon live",
     "siteCategory": "reliable",
     "siteUrl": "oregonlive.com",
@@ -15194,5 +15188,42 @@
     "siteCategory": "reliable",
     "siteUrl": "newsnationtv.com",
     "siteNotes": "News Nation is an Indian free to air Hindi news television channel. News Nation is owned by News Nation Network Pvt Ltd."
+  },
+  {
+    "siteTitle": "The wall street journal",
+    "siteCategory": "reliable",
+    "siteUrl": "wsj.com",
+    "siteNotes": "The Wall Street Journal is an American business-focused, English-language international daily newspaper based in New York City, with international editions also available in Chinese and Japanese. The Journal, along with its Asian editions, is published six days a week by Dow Jones & Company, a division of News Corp"
+  },
+  {
+    "siteTitle": "Google News",
+    "siteCategory": "reliable",
+    "siteUrl": "news.google.com",
+    "siteNotes": "Google News is a personalised news aggregator that organises and highlights what’s happening in the world so that you can discover more about the stories that matter to you."
+  },
+  {
+    "siteTitle": "Nature",
+    "siteCategory": "reliable",
+    "siteUrl": "nature.com",
+    "siteNotes": "Nature is the world's leading multidisciplinary science journal. Nature Journal publishes research and news on a wide variety of sciences."
+  },
+  {
+    "siteTitle": "The BMJ",
+    "siteCategory": "reliable",
+    "siteUrl": "bmj.com",
+    "siteNotes": "The BMJ is a weekly peer-reviewed medical trade journal, published by the trade union the British Medical Association. The BMJ has editorial freedom from the BMA. It is one of the world's oldest general medical journals."
+  },
+  {
+    "siteTitle": "Quartz India",
+    "siteCategory": "reliable",
+    "siteUrl": "qz.com",
+    "siteNotes": "Quartz is a business-focused, privately-held English-language international news organization. It launched from New York City in 2012. It publishes in the United States and Japan, and publishes regional editions for the United Arab Emirates, Hong Kong, Africa, and India."
+  },
+  {
+    "siteTitle": "Frontline India National Magazine",
+    "siteCategory": "reliable",
+    "siteUrl": "frontline.thehindu.com",
+    "siteNotes": "Frontline's journalism is characterised by in-depth, insightful reporting and analysis of issues and events at the regional, national and international levels. It excels in long-form journalism."
   }
+
 ]
