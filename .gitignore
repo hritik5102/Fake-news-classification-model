@@ -5,6 +5,7 @@ Models/GPT2_Model/model/
 Models/Bidirectional_LSTM_Glove/model
 Models/Bidirectional_LSTM_Glove/checkpoint
 Models/Ensemble and LSTM model/model/
+Logs/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

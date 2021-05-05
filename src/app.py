@@ -11,11 +11,7 @@ from url_utils import get_domain, format_url, get_data_path
 from newspaper.article import ArticleException, ArticleDownloadState
 import model_service
 import asyncio
-loop = asyncio.new_event_loop()
-asyncio.set_event_loop(loop)
 import vt
-import nest_asyncio
-nest_asyncio.apply()
 
 # Download if does not exists
 try:
@@ -45,7 +41,7 @@ def main_page():
     choice = st.sidebar.selectbox("Menu", menu)
 
     if choice == menu[0]:
-        asyncio.run(home_page())
+        home_page()
 
 
 def get_fb_news_data(domain_name, formated_domain, fake_news_db_news):
@@ -75,20 +71,7 @@ def get_opensource_news(domain_name, formated_domain, open_source_json):
             source_info = None
     return source_info
 
-# def scan_url(user_input):
-
-#     url = 'https://www.virustotal.com/vtapi/v2/url/report'
-#     params = {'apikey': os.environ.get('VIRUS_TOTAL_API_KEY'), 'resource': user_input}
-#     # try:
-#     #     response = requests.get(url, params=params)
-#     #     data = response.json()
-#     # except Exception:
-#     #     data = None
-#     response = requests.get(url, params=params)
-#     data = response.json()
-#     return data
-
-async def scan_url(user_input):
+def scan_url(user_input):
     client = vt.Client(os.environ.get('VIRUS_TOTAL_API_KEY'))
     try:
         analysis = client.scan_url(user_input, wait_for_completion=True)
@@ -98,7 +81,7 @@ async def scan_url(user_input):
     except Exception as ec:
         print(ec)
         
-async def home_page():
+def home_page():
 
     # Scrape and parse textual content from web resource. This method employs Article from Newspaper3k library to download and parse html from the web resource. It uses heuristics to scrape main body of visible text.
     # :param url: Uniform Resource Locator.
@@ -145,7 +128,7 @@ async def home_page():
         with st.spinner(text="Fetching measures - Analysis in progress"):
             # task = asyncio.create_task(scan_url(user_input))
             # json_data = await task
-            json_data = await asyncio.create_task(scan_url(user_input=user_input))
+            json_data = scan_url(user_input=user_input)
             if json_data is not None:
                 category_key = list(json_data.keys())
                 category_value = [json_data[i]['result'] for i in category_key]
@@ -306,30 +289,37 @@ async def home_page():
             st.warning(
                 "Coudn\'t able to get the summary of the article or Invalid URL Provided")
 
-        # sample = title + ' ' + article_text if title is not None else article_text
+        # sample = article_text if title is not None else article_text
 
         # lgb = LGB()
         # output_label = lgb.predict(sample)
         # output_label = model_service.predict_from_server(sample)
 
-        sample = "Donald Trump was born in Pakistan as Dawood Ibrahim Khan New Delhi: A video has gone viral showing a Pakistani anchor claiming that US President-elect Donald Trump was born in Pakistan and not in the United States of America.  The report further alleged that Trump's original name is Dawood Ibrahim Khan. In the video, the Neo News anchor elaborated on Trump's journey from North Waziristan to England and then finally to Queens, New York.  Neo news had cited tweets and a picture on social media to back its claim. The video was broadcast last month but went viral after Trump’s election victory on November 8."
+        # sample = "Donald Trump was born in Pakistan as Dawood Ibrahim Khan New Delhi: A video has gone viral showing a Pakistani anchor claiming that US President-elect Donald Trump was born in Pakistan and not in the United States of America.  The report further alleged that Trump's original name is Dawood Ibrahim Khan. In the video, the Neo News anchor elaborated on Trump's journey from North Waziristan to England and then finally to Queens, New York.  Neo news had cited tweets and a picture on social media to back its claim. The video was broadcast last month but went viral after Trump’s election victory on November 8."
         # output_label = asyncio.create_task(model_service.predict_from_server(sample))
         # output_label = await output_label
 
-        output_label = asyncio.run(model_service.predict_from_server(sample))
-        # left,right = st.beta_columns((1,2))
         st.header("News article veracity")
         st.markdown('''---''')
-        st.markdown('''**Analysis based on:** : Artificial intelligence''')
-        st.markdown('''**Notes:** WARNING: This result may be inaccurate! This domain wasn't categorised on any human maintained list thus analysis was performed by machine learning model.''')
-        if output_label:
-            st.markdown(
-                f'Predicted label : {output_label}', unsafe_allow_html=True)
-            st.success("Real news")
+
+        if article_text is not None:
+            
+            with st.spinner(text="Inference is in Progress ⏳ ..."):
+                output_label = asyncio.run(model_service.predict_from_server(article_text))
+                # left,right = st.beta_columns((1,2))
+                st.markdown('''**Analysis based on:** : Artificial intelligence''')
+                st.markdown('''**Notes:** WARNING: This result may be inaccurate! This domain wasn't categorised on any human maintained list thus analysis was performed by machine learning model.''')
+                if output_label:
+                    st.markdown(
+                        f'Predicted label : {output_label}', unsafe_allow_html=True)
+                    st.success("Real news")
+                else:
+                    st.markdown(
+                        f'Predicted label : {output_label}', unsafe_allow_html=True)
+                    st.error("Fake news")
+            st.ballons()     
         else:
-            st.markdown(
-                f'Predicted label : {output_label}', unsafe_allow_html=True)
-            st.error("Fake news")
+            st.warning("Article text is not found, hence news article veracity analysis is incomplete !!")
 
             # right.markdown('''Artificial intelligence''')
 

@@ -381,3 +381,11 @@ asyncio.run(main())
 # https://www.secondamendmentdaily.com/2021/03/chuck-schumer-says-that-law-abiding-licensed-firearms-dealers-are-evil-and-so-are-ghost-guns/
 # https://www.wsj.com/articles/indias-covid-19-surge-worsens-as-nation-stumbles-in-vaccine-expansion-11619798259
 # print(client.get_data('https://21stcenturywire.com/2021/04/07/texas-governor-signs-order-banning-use-of-vaccine-passports/'))
+
+mkdir -p Logs
+nohup python Server-GPT2/gpt-server.py > Logs/gpt.log 2>&1 &
+echo $! >> save_pid.txt
+nohup python Server-LSTM/lstm-server.py > Logs/lstm.log 2>&1 &
+echo $! >> save_pid.txt
+nohup python Server-BERT/bert-server.py > Logs/bert.log 2>&1 &
+echo $! >> save_pid.txt
