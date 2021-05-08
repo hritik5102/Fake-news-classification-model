@@ -1,5 +1,5 @@
 ## Contributors
 
-- [Ridhima Garg](https://ridhimagarg.github.io/)
-- [Akshat Gupta](https://akshat4112.github.io/)
+- [Heet sakaria](https://github.com/heet9022)
+- [Vedang parasnis](https://github.com/vedangparasnis)
 - [Hritik Jaiswal](https://github.com/hritik5102)

@@ -6,7 +6,7 @@ Models/Bidirectional_LSTM_Glove/model
 Models/Bidirectional_LSTM_Glove/checkpoint
 Models/Ensemble and LSTM model/model/
 Logs/
-
+Models/Roberta_Model/model/*
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
