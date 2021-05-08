@@ -11,9 +11,21 @@
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
+# Table of Contents
+- [News Cateogries](#News-Cateogries)
+- [Tech stack](#Tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Google colab notebook](#Google-colab-notebook)
+- [License](#license)
+- [Contributors](#Contributors-✨)
+
+
 ## News Cateogries
 
-| No. |                 Content                 |                                                                                            Code                                                                                            |
+[(Back to Top)](#table-of-contents)
+
+| No. |                 Content                 |                                                                                            Discription                                                                                            |
 | :-: | :-------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |  1  |                 **Fake news**                  |                       `Fake News` - Sources that entirely fabricate information, disseminate deceptive content, or grossly distort actual news reports,aim of damaging the reputation of a person or entity, or making money through advertising revenue                       |
 |  2  |                 **Satire**                  |                       `Satire` - Sources that use humor, irony, exaggeration, ridicule, and false information to comment on current events, providing fake insights about an on-going real news event.                       |
@@ -40,6 +52,8 @@
 
 ## Tech stack 
 
+[(Back to Top)](#table-of-contents)
+
 1. **Programming Language** : Python
 2. **Frontend** : streamlit
 3. **Tools** : Colab notebook, VS Code
@@ -47,12 +61,30 @@
 5. **Web framework** : Flask
 6. **Web server** : Nginx
 7. **Web application/Model Deployment** : AWS EC2 Instance
-## Clone git repository
+## Installation 
+
+[(Back to Top)](#table-of-contents)<br/>
+
+**Clone git repository**
 
 ```sh
     $ git clone "https://github.com/hritik5102/Fake-news-classification-model"
 ```
-## Setup 
+## Usage
+
+[(Back to Top)](#table-of-contents)
+
+Install the required libraries & packages using:
+
+```sh
+$ pip3 install -r requirements.txt
+```
+
+To download the trained model :
+
+```sh
+bash setup.sh
+```
 
 **Install torch from [Here](https://pytorch.org/)**
 
@@ -76,12 +108,14 @@ run ```bash stop-server.sh``` on git bash or any linux terminal
 
 ## Google colab notebook
 
+[(Back to Top)](#table-of-contents)
+
 | Filename                                    | Notebook                                                                                                                                                                                                                                           |
 | ------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **GPT2 Model** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()      |
 | **BiLSTM + GloVe Model**  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hritik5102/Fake-news-classification-model/blob/main/Models/Bidirectional_LSTM_Glove/notebook/Fake_News_Detection_GloVe.ipynb) |
 | **BERT Model**                | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()                          |
-| **Roberta Model**                | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()                          |
+| **Roberta Model**                | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hritik5102/Fake-news-classification-model/blob/main/Models/Roberta_Model/notebook/Roberta_model.ipynb)                          |
 
 
 
@@ -119,3 +153,5 @@ This project follows the [all-contributors](https://github.com/all-contributors/
   \_/ |_| |_|\__,_|_| |_|_|\_\   \_/\___/ \__,_| 
 ```
 </p>
+
+[(Back to Top)](#table-of-contents)

@@ -21,3 +21,4 @@ keras
 gsutil 
 gdown>=3.12.1
 vt-py
+simpletransformers>=0.61.4
