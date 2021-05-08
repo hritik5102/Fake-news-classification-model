@@ -1,10 +1,9 @@
 ## Fake-news-classification-model &nbsp; ![](https://img.shields.io/github/forks/hritik5102/Fake-news-classification-model?style=social) ![](https://img.shields.io/github/stars/hritik5102/Fake-news-classification-model?style=social) ![](https://img.shields.io/github/watchers/hritik5102/Fake-news-classification-model?style=social) <br>
 
-![](https://img.shields.io/github/repo-size/hritik5102/Fake-news-classification-model) ![](https://img.shields.io/github/license/hritik5102/Fake-news-classification-model?color=red) [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/hritik5102/Fake-news-classification-model)<br>
-![](https://img.shields.io/github/issues/hritik5102/Fake-news-classification-model?color=green) ![](https://img.shields.io/github/issues-pr/hritik5102/Fake-news-classification-model?color=green) ![](https://img.shields.io/github/downloads/hritik5102/Fake-news-classification-model/total) ![](https://img.shields.io/github/last-commit/hritik5102/Fake-news-classification-model) ![](https://img.shields.io/github/contributors/hritik5102/Fake-news-classification-model)
+![](https://img.shields.io/github/repo-size/hritik5102/Fake-news-classification-model) ![](https://img.shields.io/github/license/hritik5102/Fake-news-classification-model?color=red) [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/hritik5102/Fake-news-classification-model) ![](https://img.shields.io/github/issues/hritik5102/Fake-news-classification-model?color=green) <br>
+ ![](https://img.shields.io/github/issues-pr/hritik5102/Fake-news-classification-model?color=green) ![](https://img.shields.io/github/downloads/hritik5102/Fake-news-classification-model/total) ![](https://img.shields.io/github/last-commit/hritik5102/Fake-news-classification-model)
 [![contributions welcome](https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=0059b3&style=flat-square)](https://github.com/hritik5102/Fake-news-classification-model/blob/master/CONTRIBUTING.md)&nbsp;
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg?logo=paypal&style=flat-square)](https://www.paypal.me/AvsarJaiswal/100)&nbsp;
-![](https://img.shields.io/github/repo-size/TheAlgorithms/Python.svg?label=Repo%20size&style=flat-square)&nbsp;
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
@@ -12,6 +11,13 @@
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
+
+## Clone git repository
+
+```sh
+    $ git clone "https://github.com/hritik5102/Fake-news-classification-model"
+```
+## Setup 
 
 **Install torch from [Here](https://pytorch.org/)**
 
@@ -32,6 +38,21 @@ This will start the deep learning model servers.
 ### How to stop the Deep learning model servers?
 
 run ```bash stop-server.sh``` on git bash or any linux terminal
+
+## Google colab notebook
+
+| Filename                                    | Notebook                                                                                                                                                                                                                                           |
+| ------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **GPT2 Model** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()      |
+| **BiLSTM + GloVe Model**  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hritik5102/Fake-news-classification-model/blob/main/Models/Bidirectional_LSTM_Glove/notebook/Fake_News_Detection_GloVe.ipynb) |
+| **BERT Model**                | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()                          |
+| **Roberta Model**                | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()                          |
+
+
+
+## License
+
+Licensed under the [MIT License](LICENSE)
 
 ## Contributors ✨
 
