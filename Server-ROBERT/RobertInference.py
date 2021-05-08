@@ -15,18 +15,21 @@ import re
 # !pip install simpletransformers
 from simpletransformers.classification import ClassificationModel, ClassificationArgs
 
-model_path = "Add Path here"
+# ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# model_path = os.path.join(_ROOT, "Models","Roberta_Model","model","checkpoint-7500-epoch-5")
 
-inference = ClassificationModel(
-    "roberta", model_path
-)
+
+# inference = ClassificationModel(
+#     "roberta", model_path
+# )
 
 class Robert:
 
     def __init__(self):
 
-        model_path = "Add Path here"
-        self.model = ClassificationModel("roberta", model_path)
+        _ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        model_path = os.path.join(_ROOT, "Models","Roberta_Model","model","checkpoint-7500-epoch-5")
+        self.model = ClassificationModel("roberta", model_path, use_cuda = False)
 
     def clean_txt(self, text):
         text = re.sub("'", "", text)
@@ -36,10 +39,10 @@ class Robert:
 
     def predict(self, text):
 
-        sample = clean_txt(text)
-        label = self.model.predict([sample])
+        sample = self.clean_txt(text)
+        label,raw_outputs = self.model.predict([sample])
 
-        return label
+        return label[0]
 
 if __name__ == '__main__':
 
