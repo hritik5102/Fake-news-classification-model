@@ -317,7 +317,7 @@ def home_page():
                     st.markdown(
                         f'Predicted label : {output_label}', unsafe_allow_html=True)
                     st.error("Fake news")
-            st.ballons()     
+            st.balloons()     
         else:
             st.warning("Article text is not found, hence news article veracity analysis is incomplete !!")
 
