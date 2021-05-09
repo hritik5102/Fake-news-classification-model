@@ -10,7 +10,7 @@ def hello():
 @app.route('/predict', methods=['POST'])
 def predict():
     text = request.form['text']
-    label, loss  = RobertModel.predict(text)
+    label = RobertModel.predict(text)
     label = '' + str(label)
     return label
 

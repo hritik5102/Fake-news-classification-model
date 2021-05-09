@@ -18,7 +18,7 @@
 - [Usage](#usage)
 - [Google colab notebook](#Google-colab-notebook)
 - [License](#license)
-- [Contributors](#Contributors-✨)
+- [Contributors](#Contributors)
 
 
 ## News Cateogries
@@ -83,13 +83,13 @@ $ pip3 install -r requirements.txt
 To download the trained model :
 
 ```sh
-bash setup.sh
+$ bash setup.sh
 ```
 
 **Install torch from [Here](https://pytorch.org/)**
 
 ```sh
-pip3 install torch==1.8.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
+$ pip3 install torch==1.8.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
 ```
 
 ### How to run the app?
@@ -123,9 +123,9 @@ run ```bash stop-server.sh``` on git bash or any linux terminal
 
 Licensed under the [MIT License](LICENSE)
 
-## Contributors ✨
+## Contributors
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+Thanks goes to these wonderful people 👏👏
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -141,8 +141,6 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 
 ```bash
  _____ _                 _     __   __            

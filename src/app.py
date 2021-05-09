@@ -27,7 +27,7 @@ st.set_page_config(
 def main_page():
     html_temp = """
     <div style="background-color:#02203c;padding:10px">
-    <h2 style="color:white;text-align:center;font-weight:bold">Fake news site information</h2>
+    <h2 style="color:white;text-align:center;font-weight:bold">Fake vs Fact News</h2>
     </div>
     <hr/>
     """
