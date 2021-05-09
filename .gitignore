@@ -1,3 +1,12 @@
+# Model 
+Models/BERT_Fake_News_Classification/.model
+Models/BERT_Fake_News_Classification/pretrained_weights
+Models/GPT2_Model/model/ 
+Models/Bidirectional_LSTM_Glove/model
+Models/Bidirectional_LSTM_Glove/checkpoint
+Models/Ensemble and LSTM model/model/
+Logs/
+Models/Roberta_Model/model/*
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -36,6 +45,7 @@ MANIFEST
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
+src/nohup.out
 
 # Unit test / coverage reports
 htmlcov/
