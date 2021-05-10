@@ -9,17 +9,30 @@
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+<div align="center" style="height:400px"> 
+<img src="https://lh3.googleusercontent.com/proxy/v37KGivVuFtf2QixSdn8Vzd4jxINoMrt6AJUFz7NHJ6rnC49H-VTjsKgKADOx2gaXVmnt-mofUpWDC4W-47JSSH_Aq1BEZ9hpC0qHxaQ54-DS2vpiHTR1UMX1xrLStnegJIcie27pGN-BHvJrykq85xkAZMsJLEzNndmzgFjyyf4P_hXGWib" height="90%">
+<h4><a href="http://www.posterfortomorrow.org/en/gallery/view/54205">Image source :-Protect Yourself from Fake News not just Corona Virus</a></h4>
+</div>
 
+<br/>
+
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 # Table of Contents
 - [News Cateogries](#News-Cateogries)
+- [Architecture](#Architecture)
+- [Presentation](#Presentation)
+- [Demo-video](#Demo-video)
 - [Tech stack](#Tech-stack)
 - [Installation](#installation)
-- [Usage](#usage)
+- [Prerequisites](#Prerequisites)
 - [Google colab notebook](#Google-colab-notebook)
+- [Acknowledgement](#Acknowledgement)
+- [Support me](#Support-me)
+- [Roadmap](#Roadmap)
+- [Contributing](#Contributing)
 - [License](#license)
+- [Contact](#Contact)
 - [Contributors](#Contributors)
-
 
 ## News Cateogries
 
@@ -50,6 +63,23 @@
 | 22  |            **Sensationalism**            |                 `Sensationalism` - In journalism (and more specifically, the mass media), sensationalism is a type of editorial tactic. Events and topics in news stories are selected and worded to excite the greatest number of readers and viewers.                 |
 | 23  |            **Plagarism**             |                `Plagiarism` is the representation of another author's language, thoughts, ideas, or expressions as one's own original work. Plagiarism is considered a violation of integrity and a breach of journalistic ethics.                 |
 
+## Architecture 
+
+[(Back to Top)](#table-of-contents)
+
+<p align="center"><img src="https://i.ibb.co/bRkVN9p/Architecture.png" alt="Architecture" border="0" width="80%"></p>
+
+## Presentation
+
+[(Back to Top)](#table-of-contents)
+
+Read the project presentation fron [here 📌](https://docs.google.com/presentation/d/1RUkxMFmhWDfAduH-eDqUx_FYHMIZCxXCQnImiL7Nx3A/edit?usp=sharing)
+## Demo-video
+
+[(Back to Top)](#table-of-contents)
+
+
+See the demo video from [here 📌](https://drive.google.com/file/d/10cEeJRglWFTtuzeoO1A6dPVxihIv_H6U/view?usp=sharing) 
 ## Tech stack 
 
 [(Back to Top)](#table-of-contents)
@@ -70,7 +100,7 @@
 ```sh
     $ git clone "https://github.com/hritik5102/Fake-news-classification-model"
 ```
-## Usage
+## Prerequisites
 
 [(Back to Top)](#table-of-contents)
 
@@ -112,18 +142,71 @@ run ```bash stop-server.sh``` on git bash or any linux terminal
 
 | Filename                                    | Notebook                                                                                                                                                                                                                                           |
 | ------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **GPT2 Model** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()      |
+| **GPT2 Model** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hritik5102/Fake-news-classification-model/blob/main/Models/GPT2_Model/notebook/GPT2_model.ipynb)      |
 | **BiLSTM + GloVe Model**  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hritik5102/Fake-news-classification-model/blob/main/Models/Bidirectional_LSTM_Glove/notebook/Fake_News_Detection_GloVe.ipynb) |
-| **BERT Model**                | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()                          |
+| **BERT Model**                | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hritik5102/Fake-news-classification-model/blob/main/Models/BERT_Fake_News_Classification/notebook/Bert_model.ipynb)                          |
 | **Roberta Model**                | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hritik5102/Fake-news-classification-model/blob/main/Models/Roberta_Model/notebook/Roberta_model.ipynb)                          |
 
 
+## Acknowledgement 
+[(Back to Top)](#table-of-contents)
 
+Some of the resources have been used to build this project, so I'd acknowledge the resources in the [reference](reference.md) section. Take a look.
+
+If you think that I've referred any piece of code or material from a blog or website and not acknowledge them. <br/>
+
+Please create an issue mentioning the site info & link pointing to that material.
+
+## Support me
+
+[(Back to Top)](#table-of-contents)
+
+[![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://www.buymeacoffee.com/hritikdj)
+
+<!-- ROADMAP -->
+## Roadmap
+
+[(Back to Top)](#table-of-contents)
+
+See the [open issues](https://github.com/hritik5102/Fake-news-classification-model/issues) for a list of proposed features (and known issues).
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+[(Back to Top)](#table-of-contents)
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+Make sure your changes don't break existing functionality without `good reason`.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+
+Discuss the features, ideas you want to add to the project from [here 📌](https://github.com/hritik5102/Fake-news-classification-model/discussions)
 ## License
 
-Licensed under the [MIT License](LICENSE)
+[(Back to Top)](#table-of-contents)
+
+Distributed under the [MIT License](LICENSE). See LICENSE for more information.
+
+## Contact
+
+[(Back to Top)](#table-of-contents)
+
+**Heet sakaria** - [@HeetSakaria](https://twitter.com/HeetSakaria) - [heet.sakaria@somaiya.edu](mailto:heet.sakaria@somaiya.edu)
+
+**Hritik jaiswal** - [@HritikJ71241501](https://twitter.com/HeetSakaria) - [hritik.jaiswal@somaiya.edu](mailto:heet.sakaria@somaiya.edu)
+
+**Project Link** - [hritik5102/Fake-news-classification-model (github.com)](https://github.com/hritik5102/Fake-news-classification-model)
 
 ## Contributors
+
+[(Back to Top)](#table-of-contents)
 
 Thanks goes to these wonderful people 👏👏
 
@@ -133,7 +216,6 @@ Thanks goes to these wonderful people 👏👏
 <table>
   <tr>
     <td align="center"><a href="https://github.com/heet9022"><img src="https://avatars0.githubusercontent.com/u/41733742?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Heet Sakaria</b></sub></a><br /><a href="https://github.com/hritik5102/Fake-news-classification-model/commits?author=heet9022" title="Code">💻</a> <a href="#ideas-heet9022" title="Ideas, Planning, & Feedback">🤔</a></td>
-    <td align="center"><a href="https://github.com/heet9022"><img src="https://avatars0.githubusercontent.com/u/41733742?v=4" width="100px;" alt=""/><br /><sub><b>Heet Sakaria</b></sub></a><br /><a href="https://github.com/hritik5102/Fake-news-classification-model/commits?author=heet9022" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/vedangparasnis"><img src="https://avatars2.githubusercontent.com/u/35874709?v=4" width="100px;" alt=""/><br /><sub><b>vedangparasnis</b></sub></a><br /><a href="https://github.com/hritik5102/Fake-news-classification-model/commits?author=vedangparasnis" title="Code">💻</a></td>
   </tr>
 </table>

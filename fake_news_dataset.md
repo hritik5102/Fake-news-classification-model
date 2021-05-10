@@ -185,3 +185,15 @@ processed, however, the punctuations and mistakes that existed in the fake news 
 - **Dataset** : [Fake News Detection Datasets - University of Victoria (uvic.ca)](https://www.uvic.ca/engineering/ece/isot/datasets/fake-news/index.php)
 
 - **Documentation** : [ISOT Fake News Dataset ReadMe.pdf (uvic.ca)](https://www.uvic.ca/engineering/ece/isot/assets/docs/ISOT_Fake_News_Dataset_ReadMe.pdf)
+
+## Constraint@AAAI2021 - COVID19 Fake News Detection in English
+
+COVID19 Fake News Detection in English - This subtask focuses on the detection of COVID19-related fake news in English. The sources of data are various social-media platforms such as Twitter, Facebook, Instagram, etc. Given a social media post, the objective of the shared task is to classify it into either fake or real news. For example, the following two posts belong to fake and real categories, respectively. 
+
+**Reference**
+
+- [Constraint-shared-task-2021](https://constraint-shared-task-2021.github.io/)
+
+- Datasets released - COVID19 Fake News Detection in [Hindi](https://competitions.codalab.org/competitions/26654)
+
+- Datasets released - COVID19 Fake News Detection in [English](https://competitions.codalab.org/competitions/26655)
