@@ -10,7 +10,7 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 
 <div align="center" style="height:400px"> 
-<img src="https://i.ibb.co/j5GJdrp/download.jpg" height="90%">
+<img src="https://i.ibb.co/j5GJdrp/download.jpg" height="100%">
 <h4><a href="http://www.posterfortomorrow.org/en/gallery/view/54205">Image source :- Protect Yourself from Fake News not just Corona Virus</a></h4>
 </div>
 
