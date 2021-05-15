@@ -10,8 +10,8 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 
 <div align="center" style="height:400px"> 
-<img src="https://lh3.googleusercontent.com/proxy/v37KGivVuFtf2QixSdn8Vzd4jxINoMrt6AJUFz7NHJ6rnC49H-VTjsKgKADOx2gaXVmnt-mofUpWDC4W-47JSSH_Aq1BEZ9hpC0qHxaQ54-DS2vpiHTR1UMX1xrLStnegJIcie27pGN-BHvJrykq85xkAZMsJLEzNndmzgFjyyf4P_hXGWib" height="90%">
-<h4><a href="http://www.posterfortomorrow.org/en/gallery/view/54205">Image source :-Protect Yourself from Fake News not just Corona Virus</a></h4>
+<img src="https://i.ibb.co/j5GJdrp/download.jpg" height="90%">
+<h4><a href="http://www.posterfortomorrow.org/en/gallery/view/54205">Image source :- Protect Yourself from Fake News not just Corona Virus</a></h4>
 </div>
 
 <br/>
@@ -78,8 +78,8 @@ Read the project presentation fron [here 📌](https://docs.google.com/presentat
 
 [(Back to Top)](#table-of-contents)
 
+[![Project Demo Video](https://yt-embed.herokuapp.com/embed?v=_j8sBhPnF6Y)](https://www.youtube.com/watch?v=_j8sBhPnF6Y "Project Demo Video")
 
-See the demo video from [here 📌](https://drive.google.com/file/d/10cEeJRglWFTtuzeoO1A6dPVxihIv_H6U/view?usp=sharing) 
 ## Tech stack 
 
 [(Back to Top)](#table-of-contents)
@@ -198,9 +198,12 @@ Distributed under the [MIT License](LICENSE). See LICENSE for more information.
 
 [(Back to Top)](#table-of-contents)
 
-**Heet sakaria** - [@HeetSakaria](https://twitter.com/HeetSakaria) - [heet.sakaria@somaiya.edu](mailto:heet.sakaria@somaiya.edu)
+| No. | Name               |                                                      Twitter handle 🐦 | Email 📩 |
+| :-: | :-------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----: |
+|1. | Heet sakaria |[@HeetSakaria](https://twitter.com/HeetSakaria)|[heet.sakaria@somaiya.edu](mailto:heet.sakaria@somaiya.edu)|
+|2. | Hritik Jaiswal |[@imhritik_dj](https://twitter.com/HeetSakaria)|[hritik.jaiswal@somaiya.edu](mailto:hritik.jaiswal@somaiya.edu)|
 
-**Hritik jaiswal** - [@HritikJ71241501](https://twitter.com/HeetSakaria) - [hritik.jaiswal@somaiya.edu](mailto:heet.sakaria@somaiya.edu)
+
 
 **Project Link** - [hritik5102/Fake-news-classification-model (github.com)](https://github.com/hritik5102/Fake-news-classification-model)
 
@@ -236,3 +239,4 @@ Thanks goes to these wonderful people 👏👏
 </p>
 
 [(Back to Top)](#table-of-contents)
+

@@ -27,3 +27,5 @@
 - [MieszkoMakuch/fakenews-detector: University project: News article and domain analyzer written in python 3 to help user detect fake news content. (github.com)](https://github.com/MieszkoMakuch/fakenews-detector) - This repository is used only for getting the fake-news site information. further, we added fake and reliable news sites from Wikipedia and fact-checker websites.
 
 - [ThilinaRajapakse/simpletransformers: Transformers for Classification, NER, QA, Language Modelling, Language Generation, T5, Multi-Modal, and Conversational AI (github.com)](https://github.com/ThilinaRajapakse/simpletransformers)
+
+- [mdepak/fake-news-detection-resources: 📖 A curated list of resources dedicated to Fake News Detection (github.com)](https://github.com/mdepak/fake-news-detection-resources)

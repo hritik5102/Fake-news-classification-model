@@ -26,3 +26,8 @@ echo -e "[INFO] Installing GPT Model dependency ...\n"
 gdown --id 11XNr5K9IFmWSQdmidC6rIBKTlP361VNT
 mkdir -p Models/GPT2_Model/model/
 unzip -o model.zip -d Models/GPT2_Model/model/
+
+echo -e "[INFO] Installing Roberta Model dependency ...\n"
+gdown --id 1iKuZFlfKQmPV917CNrAVHZOxZjYA5Ck_
+mkdir -p Models/Roberta_Model/model/
+unzip -o model.zip -d Models/Roberta_Model/model/
