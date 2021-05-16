@@ -201,7 +201,7 @@ Distributed under the [MIT License](LICENSE). See LICENSE for more information.
 | No. | Name               |                                                      Twitter handle 🐦 | Email 📩 |
 | :-: | :-------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----: |
 |1. | Heet sakaria |[@HeetSakaria](https://twitter.com/HeetSakaria)|[heet.sakaria@somaiya.edu](mailto:heet.sakaria@somaiya.edu)|
-|2. | Hritik Jaiswal |[@imhritik_dj](https://twitter.com/HeetSakaria)|[hritik.jaiswal@somaiya.edu](mailto:hritik.jaiswal@somaiya.edu)|
+|2. | Hritik Jaiswal |[@imhritik_dj](https://twitter.com/imhritik_dj)|[hritik.jaiswal@somaiya.edu](mailto:hritik.jaiswal@somaiya.edu)|
 
 
 

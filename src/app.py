@@ -289,16 +289,6 @@ def home_page():
             st.warning(
                 "Coudn\'t able to get the summary of the article or Invalid URL Provided")
 
-        # sample = article_text if title is not None else article_text
-
-        # lgb = LGB()
-        # output_label = lgb.predict(sample)
-        # output_label = model_service.predict_from_server(sample)
-
-        # sample = "Donald Trump was born in Pakistan as Dawood Ibrahim Khan New Delhi: A video has gone viral showing a Pakistani anchor claiming that US President-elect Donald Trump was born in Pakistan and not in the United States of America.  The report further alleged that Trump's original name is Dawood Ibrahim Khan. In the video, the Neo News anchor elaborated on Trump's journey from North Waziristan to England and then finally to Queens, New York.  Neo news had cited tweets and a picture on social media to back its claim. The video was broadcast last month but went viral after Trump’s election victory on November 8."
-        # output_label = asyncio.create_task(model_service.predict_from_server(sample))
-        # output_label = await output_label
-
         st.header("News article veracity")
         st.markdown('''---''')
 

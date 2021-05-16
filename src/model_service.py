@@ -10,15 +10,6 @@ ports = ['5000', '5500', '7000']
 BASE_URL = 'http://127.0.0.1:'
 ROUTE = '/predict'
 
-# def predict_from_server(text):
-
-#     data = {'text': text}
-#     a = req.post(BASE_URL + PORT_GPT2 + ROUTE, data)
-#     b = req.post(BASE_URL + PORT_BERT + ROUTE, data) 
-#     c = req.post(BASE_URL + PORT_LSTM + ROUTE, data)  
-#     sum = int(a.text) + int(b.text) + int(c.text)
-#     return 1 if sum > 1 else 0
-
 async def predict_from_server(text):
 
     sum = 0

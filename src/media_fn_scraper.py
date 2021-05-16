@@ -1,11 +1,9 @@
 import io
 import requests
-import bs4
 from bs4 import BeautifulSoup
 import pandas as pd
 import os
-from url_utils import get_domain, format_url, get_data_path
-import urllib.parse
+from url_utils import get_data_path
 import json
 
 
