@@ -18,21 +18,24 @@
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 # Table of Contents
-- [News Cateogries](#News-Cateogries)
-- [Architecture](#Architecture)
-- [Presentation](#Presentation)
-- [Demo-video](#Demo-video)
-- [Tech stack](#Tech-stack)
-- [Installation](#installation)
-- [Prerequisites](#Prerequisites)
-- [Google colab notebook](#Google-colab-notebook)
-- [Acknowledgement](#Acknowledgement)
-- [Support me](#Support-me)
-- [Roadmap](#Roadmap)
-- [Contributing](#Contributing)
-- [License](#license)
-- [Contact](#Contact)
-- [Contributors](#Contributors)
+- [Table of Contents](#table-of-contents)
+  - [News Cateogries](#news-cateogries)
+  - [Architecture](#architecture)
+  - [Presentation](#presentation)
+  - [Demo-video](#demo-video)
+  - [Tech stack](#tech-stack)
+  - [Installation](#installation)
+  - [Prerequisites](#prerequisites)
+    - [How to run the app?](#how-to-run-the-app)
+    - [How to stop the Deep learning model servers?](#how-to-stop-the-deep-learning-model-servers)
+  - [Google colab notebook](#google-colab-notebook)
+  - [Acknowledgement](#acknowledgement)
+  - [Support me](#support-me)
+  - [Roadmap](#roadmap)
+  - [Contributing](#contributing)
+  - [License](#license)
+  - [Contact](#contact)
+  - [Contributors](#contributors)
 
 ## News Cateogries
 
@@ -91,6 +94,7 @@ Read the project presentation fron [here 📌](https://docs.google.com/presentat
 5. **Web framework** : Flask
 6. **Web server** : Nginx
 7. **Web application/Model Deployment** : AWS EC2 Instance
+   
 ## Installation 
 
 [(Back to Top)](#table-of-contents)<br/>
@@ -104,22 +108,10 @@ Read the project presentation fron [here 📌](https://docs.google.com/presentat
 
 [(Back to Top)](#table-of-contents)
 
-Install the required libraries & packages using:
-
-```sh
-$ pip3 install -r requirements.txt
-```
-
-To download the trained model :
+Run the setup file on git bash or any linux terminal:
 
 ```sh
 $ bash setup.sh
-```
-
-**Install torch from [Here](https://pytorch.org/)**
-
-```sh
-$ pip3 install torch==1.8.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
 ```
 
 ### How to run the app?
@@ -151,11 +143,9 @@ run ```bash stop-server.sh``` on git bash or any linux terminal
 ## Acknowledgement 
 [(Back to Top)](#table-of-contents)
 
-Some of the resources have been used to build this project, so I'd acknowledge the resources in the [reference](reference.md) section. Take a look.
+Some resources have been used to build this project, so I'd like to acknowledge the resources in the [reference](reference.md) section. Take a look.
 
-If you think that I've referred any piece of code or material from a blog or website and not acknowledge them. <br/>
-
-Please create an issue mentioning the site info & link pointing to that material.
+If you think that I've referred any piece of code or material but have not acknowledged it. Please create an issue mentioning the site info & a link pointing to that material.
 
 ## Support me
 
