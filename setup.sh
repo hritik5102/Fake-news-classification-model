@@ -1,5 +1,8 @@
 #!/bin/bash
 
+echo -e "[INFO] Installing Requirements ...\n"
+pip3 install -r requirements.txt
+
 # echo -e "[INFO] BERT model setup  ...\n"
 
 # echo -e "[INFO] Creating a model folder ...\n"
