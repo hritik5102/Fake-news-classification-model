@@ -1,11 +1,12 @@
 from flask import Flask, request
 from RobertInference import Robert
+
 app = Flask(__name__)
 RobertModel = Robert()
 
 @app.route('/')
 def hello():
-    return 'Welcome to the ROBERT server! \n\n use /predict[text] POST method for prediction'
+    return 'Welcome to the ROBERT server! \n \n use /predict[text] POST method for prediction'
 
 @app.route('/predict', methods=['POST'])
 def predict():

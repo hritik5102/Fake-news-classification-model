@@ -4,7 +4,7 @@ import aiohttp
 import asyncio
 
 PORT_GPT2 = '5000'
-PORT_BERT = '5500'
+PORT_ROBERT = '5500'
 PORT_LSTM = '7000'
 ports = ['5000', '5500', '7000']
 BASE_URL = 'http://127.0.0.1:'

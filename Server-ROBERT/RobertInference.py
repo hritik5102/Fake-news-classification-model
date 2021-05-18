@@ -1,18 +1,11 @@
 import os
-
-# For Removing this warning : "Could not load dynamic library 'cudart64_110.dll'; dlerror: cudart64_110.dll not found" 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
-
 import logging
 logging.getLogger('tensorflow').disabled = True
-
-# "0" means no logging. # For Removing XLA warnings
 import tensorflow as tf
 tf.autograph.set_verbosity(0)
-
 import re
 
-# !pip install simpletransformers
 from simpletransformers.classification import ClassificationModel, ClassificationArgs
 
 class Robert:
@@ -21,6 +14,7 @@ class Robert:
 
         _ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
         model_path = os.path.join(_ROOT, "Models","Roberta_Model","model","checkpoint-7500-epoch-5")
+        # model_path = "Models/Roberta_Model/model/checkpoint-7500-epoch-5"
         self.model = ClassificationModel("roberta", model_path, use_cuda = False)
 
     def clean_txt(self, text):
@@ -32,7 +26,7 @@ class Robert:
     def predict(self, text):
 
         sample = self.clean_txt(text)
-        label,raw_outputs = self.model.predict([sample])
+        label, raw_outputs = self.model.predict([sample])
 
         return label[0]
 
