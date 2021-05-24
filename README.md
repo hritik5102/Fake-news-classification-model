@@ -19,6 +19,7 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 # Table of Contents
 - [Table of Contents](#table-of-contents)
+  - [Introduction](#Introduction)
   - [News Cateogries](#news-cateogries)
   - [Architecture](#architecture)
   - [Presentation](#presentation)
@@ -36,6 +37,14 @@
   - [License](#license)
   - [Contact](#contact)
   - [Contributors](#contributors)
+
+## Introduction
+
+Fake news is playing an increasingly dominant role in spreading misinformation by influencing people’s perceptions or knowledge to distort their awareness and decision-making. 
+
+The growth of social media and online forums has spurred the spread of fake news causing it to easily blend with truthful information. 
+
+This study provides a novel text analytics–driven approach to fake news detection for reducing the risks posed by fake news consumption.
 
 ## News Cateogries
 
