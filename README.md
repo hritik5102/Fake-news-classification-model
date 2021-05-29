@@ -90,7 +90,9 @@ Read the project presentation fron [here 📌](https://docs.google.com/presentat
 
 [(Back to Top)](#table-of-contents)
 
-[![Project Demo Video](https://yt-embed.herokuapp.com/embed?v=_j8sBhPnF6Y)](https://www.youtube.com/watch?v=_j8sBhPnF6Y "Project Demo Video")
+<div align="center" style='width:500px'> 
+    <a href="https://youtu.be/_j8sBhPnF6Y"><img src="https://img.youtube.com/vi/_j8sBhPnF6Y/0.jpg" width="70%"></a>
+</div>
 
 ## Tech stack 
 
