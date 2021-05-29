@@ -29,3 +29,52 @@
 - [ThilinaRajapakse/simpletransformers: Transformers for Classification, NER, QA, Language Modelling, Language Generation, T5, Multi-Modal, and Conversational AI (github.com)](https://github.com/ThilinaRajapakse/simpletransformers)
 
 - [mdepak/fake-news-detection-resources: 📖 A curated list of resources dedicated to Fake News Detection (github.com)](https://github.com/mdepak/fake-news-detection-resources)
+
+### **Research paper**
+
+- Veronica Perez-Rosas, Bennett Kleinberg, Alexandra Lefevre1, Rada Mihalcea1, **“Automatic Detection of Fake News”**, Department of Psychology, University of Amsterdam, 2017 - [1708.07104.pdf (arxiv.org)](https://arxiv.org/pdf/1708.07104.pdf).
+
+- Ray Oshikawa, Jing Qian, William Yang Wang, **“A Survey on Natural Language Processing for Fake News Detection”** , Department of Computer Science, University of California, Santa Barbara, 2020 -  [1811.00770.pdf (arxiv.org)](https://arxiv.org/pdf/1811.00770.pdf)
+
+- William Yang Wang, **““Liar, Liar Pants on Fire”: A New Benchmark Dataset for Fake News Detection”**, University of California, Santa Barbara, 2017 - [1705.00648.pdf (arxiv.org)](https://arxiv.org/pdf/1705.00648.pdf).
+
+- Isabelle Augenstein Christina Lioma Dongsheng Wang et al.,**"MultiFC: A Real-World Multi-Domain Dataset for Evidence-Based Fact Checking of Claims"**, University of Copenhagen, 2019 - [1909.03242.pdf (arxiv.org)](https://arxiv.org/pdf/1909.03242.pdf).
+
+- 	 Saarthak Sangamnerkar, R. Srinivasan, Christhuraj M.R, Rajeev Sukumaran **"An Ensemble Technique to Detect Fabricated News Article Using Machine Learning and Natural”**, Indian Institute of Technology, Chennai, India, 2020 - [An Ensemble Technique to Detect Fabricated News Article Using Machine Learning and Natural Language Processing Techniques (sci-hub.do)](https://sci-hub.do/downloads/2020-08-29/b1/sangamnerkar2020.pdf?rand=5f9bdbe7b7dbd?download=true).
+
+- Natali Ruchansky, Sungyong Seo, Yan Liu "CSI: A Hybrid Deep Model for Fake News Detection", University of Southern California, 2017 -[https://dl.acm.org/doi/pdf/10.1145/3132847.3132877](https://dl.acm.org/doi/pdf/10.1145/3132847.3132877).
+
+- Benjamin D. Horne and Sibel Adal, "This Just In: Fake News Packs a Lot in Title, Uses Simpler, Repetitive Content in Text Body, More Similar to Satire than Real News", Rensselaer Polytechnic Institute, 2017 - [https://arxiv.org/pdf/1703.09398.pdf](https://arxiv.org/pdf/1703.09398.pdf).
+
+- XINYI ZHOU, REZA ZAFARANI, **"A Survey of Fake News: Fundamental Theories, Detection Methods, and Opportunities"**, Syracuse University, 2020 - [https://arxiv.org/pdf/1812.00315.pdf](https://arxiv.org/pdf/1812.00315.pdf).
+
+- Sahil Chopra, Saachi Jain, and John Merriman Sholar. **"Towards Automatic Identification of Fake News: Headline Article Stance Detection with LSTM Attention Models"**, 2017 -  [https://johnsholar.com/pdf/CS224NPaper.pdf](https://johnsholar.com/pdf/CS224NPaper.pdf).
+
+- Hammed Ali and Timothy Levine. , “The language of truthful and deceptive denials and confessions. Communication Reports” 21, 2 (2008), - [https://www.researchgate.net/publication/233456318_The_Language_of_Truthful_and_Deceptive_Denials_and_Confessions](https://www.researchgate.net/publication/233456318_The_Language_of_Truthful_and_Deceptive_Denials_and_Confessions).
+ 
+-	Jiawei Zhang, Bowen Dong, Philip S. Yu **"FAKEDETECTOR: Effective Fake News Detection with Deep Diffusive Neural Network"**, 2019, https://arxiv.org/pdf/1805.08751.pdf.
+[12]	Simon Lorent, Ashwin Itoo "Fake News Detection Using Machine Learning", 2019- [https://matheo.uliege.be/bitstream/2268.2/8416/1/s134450_fake_news_detection_using_machine_learning.pdf](https://matheo.uliege.be/bitstream/2268.2/8416/1/s134450_fake_news_detection_using_machine_learning.pdf) .
+
+- Gisel Bastidas Guacho, Sara Abdali, Neil Shah, Evangelos E. Papalexakis, **"Semi-supervised content-based detection of misinformation via tensor embeddings"**, UC Riverside,2018 : [https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8508241](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8508241) .
+
+-	Kai Shu, Deepak Mahudeswaran, Suhang Wang, Dongwon Lee and Huan Liu **"FakeNewsNet: A data repository with news content,social context and dynamic information for studying fake news on social media"**, Arizona and Penn State University, 2018 - [https://arxiv.org/pdf/1809.01286.pdf](https://arxiv.org/pdf/1809.01286.pdf) .
+
+- Changhe Song, Cunchao Tu, Cheng Yang, Zhiyuan Liu, Maosong Sun, **"Credible early detection of social media rumors"**, Tsinghua University, 2018, [https://arxiv.org/abs/1811.04175](https://arxiv.org/abs/1811.04175) .
+
+- Feng Yu1, Qiang Liu1, Shu Wu, Liang Wang, Tieniu Tan, **"A convolutional approach for misinformation identification"**, University of Chinese Academy of Sciences, 2017, [https://www.ijcai.org/proceedings/2017/0545.pdf](https://www.ijcai.org/proceedings/2017/0545.pdf) .
+
+- Victoria L. Rubin, Yimin Chen and Niall J. Conroy , **"Automatic Deception Detection: Methods for Finding Fake News"**, University of Western Ontario, 2016, [https://asistdl.onlinelibrary.wiley.com/doi/epdf/10.1002/pra2.2015.145052010082](https://asistdl.onlinelibrary.wiley.com/doi/epdf/10.1002/pra2.2015.145052010082).
+
+- Rohit Kumar Kaliyar, **"Fake News Detection Using A Deep Neural Network"**, Bennett University, 2018, [https://ieeexplore.ieee.org/document/8777343](https://ieeexplore.ieee.org/document/8777343) .
+
+-	Viveksinh Solanki, **"Fake News Detection: Using An Ensemble Approach", Stevens Institute Of Technology"**, 2019, [https://viveksolanki.com/data/ML_project_report_spring2019_viveksinh.pdf](https://viveksolanki.com/data/ML_project_report_spring2019_viveksinh.pdf).
+
+- Waleed Ahmed, Saif Ali Khan, Haris Jamil, Mansoor Naseer, **"Automatic Fake News Detection System"**, Ghulam Ishaq Khan Institute of Engineering Sciences andTechnology - [https://www.scribd.com/document/384424621/Fake-News-Detection](https://www.scribd.com/document/384424621/Fake-News-Detection). 
+ 
+- Nicole O’Brien, **"Machine Learning for Detection of Fake News"**, Massachusetts Institute of Technology, 2018 - [https://dspace.mit.edu/bitstream/handle/1721.1/119727/1078649610-MIT.pdf](https://dspace.mit.edu/bitstream/handle/1721.1/119727/1078649610-MIT.pdf).
+
+- Ayush Gupta, Rohan Sukumaran, Kevin John, and Sundeep Teki, **"Hostility Detection and Covid-19 Fake News Detection in Social Media"**, Indian Institute of Information Technology, Sri City, India, 2021 - [https://arxiv.org/pdf/2101.05953.pdf](https://arxiv.org/pdf/2101.05953.pdf).
+
+- Apurva Wani, Isha Joshi, Snehal Khandve, Vedangi Wagh, andRaviraj Joshi, **"Evaluating Deep Learning Approaches for Covid19 Fake News Detection"**,Pune Institute of Computer Technology, Pune, Indian Institute of Technology Madras, Chennai, 2021 - [https://arxiv.org/pdf/2101.04012.pdf](https://arxiv.org/pdf/2101.04012.pdf).
+
+- Sunil Gundapu and Radhika Mamidi, **"Transformer based Automatic COVID-19 Fake News Detection System"**, International Institute of Information Technology, Hyderabad, 2021 - [https://arxiv.org/pdf/2101.00180.pdf](https://arxiv.org/pdf/2101.00180.pdf).
