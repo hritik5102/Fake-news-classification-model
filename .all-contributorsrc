@@ -23,6 +23,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "veedata",
+      "name": "Viraj Thakkar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43007623?v=4",
+      "profile": "https://github.com/veedata",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
