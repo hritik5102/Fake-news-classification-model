@@ -6,9 +6,7 @@
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg?logo=paypal&style=flat-square)](https://www.paypal.me/AvsarJaiswal/100)&nbsp;
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
-
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 # Table of Contents
@@ -132,9 +130,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/heet9022"><img src="https://avatars0.githubusercontent.com/u/41733742?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Heet Sakaria</b></sub></a><br /><a href="https://github.com/hritik5102/Fake-news-classification-model/commits?author=heet9022" title="Code">💻</a> <a href="#ideas-heet9022" title="Ideas, Planning, & Feedback">🤔</a></td>
-    <td align="center"><a href="https://github.com/heet9022"><img src="https://avatars0.githubusercontent.com/u/41733742?v=4" width="100px;" alt=""/><br /><sub><b>Heet Sakaria</b></sub></a><br /><a href="https://github.com/hritik5102/Fake-news-classification-model/commits?author=heet9022" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/vedangparasnis"><img src="https://avatars2.githubusercontent.com/u/35874709?v=4" width="100px;" alt=""/><br /><sub><b>vedangparasnis</b></sub></a><br /><a href="https://github.com/hritik5102/Fake-news-classification-model/commits?author=vedangparasnis" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/heet9022"><img src="https://avatars0.githubusercontent.com/u/41733742?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Heet Sakaria</b></sub></a><br /><a href="https://github.com/hritik5102/Fake-news-classification-model/commits?author=heet9022" title="Code">💻</a> <a href="#ideas-heet9022" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-heet9022" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/vedangparasnis"><img src="https://avatars2.githubusercontent.com/u/35874709?v=4?s=100" width="100px;" alt=""/><br /><sub><b>vedangparasnis</b></sub></a><br /><a href="https://github.com/hritik5102/Fake-news-classification-model/commits?author=vedangparasnis" title="Code">💻</a></td>
   </tr>
 </table>
 
