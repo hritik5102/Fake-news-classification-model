@@ -30,7 +30,7 @@
 
 - [mdepak/fake-news-detection-resources: 📖 A curated list of resources dedicated to Fake News Detection (github.com)](https://github.com/mdepak/fake-news-detection-resources)
 
-### **Research paper**
+### **Research papers**
 
 - Veronica Perez-Rosas, Bennett Kleinberg, Alexandra Lefevre1, Rada Mihalcea1, **“Automatic Detection of Fake News”**, Department of Psychology, University of Amsterdam, 2017 - [1708.07104.pdf (arxiv.org)](https://arxiv.org/pdf/1708.07104.pdf).
 
@@ -40,11 +40,11 @@
 
 - Isabelle Augenstein Christina Lioma Dongsheng Wang et al.,**"MultiFC: A Real-World Multi-Domain Dataset for Evidence-Based Fact Checking of Claims"**, University of Copenhagen, 2019 - [1909.03242.pdf (arxiv.org)](https://arxiv.org/pdf/1909.03242.pdf).
 
-- 	 Saarthak Sangamnerkar, R. Srinivasan, Christhuraj M.R, Rajeev Sukumaran **"An Ensemble Technique to Detect Fabricated News Article Using Machine Learning and Natural”**, Indian Institute of Technology, Chennai, India, 2020 - [An Ensemble Technique to Detect Fabricated News Article Using Machine Learning and Natural Language Processing Techniques (sci-hub.do)](https://sci-hub.do/downloads/2020-08-29/b1/sangamnerkar2020.pdf?rand=5f9bdbe7b7dbd?download=true).
+- Saarthak Sangamnerkar, R. Srinivasan, Christhuraj M.R, Rajeev Sukumaran **"An Ensemble Technique to Detect Fabricated News Article Using Machine Learning and Natural”**, Indian Institute of Technology, Chennai, India, 2020 - [An Ensemble Technique to Detect Fabricated News Article Using Machine Learning and Natural Language Processing Techniques (sci-hub.do)](https://sci-hub.do/downloads/2020-08-29/b1/sangamnerkar2020.pdf?rand=5f9bdbe7b7dbd?download=true).
 
-- Natali Ruchansky, Sungyong Seo, Yan Liu "CSI: A Hybrid Deep Model for Fake News Detection", University of Southern California, 2017 -[https://dl.acm.org/doi/pdf/10.1145/3132847.3132877](https://dl.acm.org/doi/pdf/10.1145/3132847.3132877).
+- Natali Ruchansky, Sungyong Seo, Yan Liu **"CSI: A Hybrid Deep Model for Fake News Detection"**, University of Southern California, 2017 -[https://dl.acm.org/doi/pdf/10.1145/3132847.3132877](https://dl.acm.org/doi/pdf/10.1145/3132847.3132877).
 
-- Benjamin D. Horne and Sibel Adal, "This Just In: Fake News Packs a Lot in Title, Uses Simpler, Repetitive Content in Text Body, More Similar to Satire than Real News", Rensselaer Polytechnic Institute, 2017 - [https://arxiv.org/pdf/1703.09398.pdf](https://arxiv.org/pdf/1703.09398.pdf).
+- Benjamin D. Horne and Sibel Adal, **"This Just In: Fake News Packs a Lot in Title, Uses Simpler, Repetitive Content in Text Body, More Similar to Satire than Real News"**, Rensselaer Polytechnic Institute, 2017 - [https://arxiv.org/pdf/1703.09398.pdf](https://arxiv.org/pdf/1703.09398.pdf).
 
 - XINYI ZHOU, REZA ZAFARANI, **"A Survey of Fake News: Fundamental Theories, Detection Methods, and Opportunities"**, Syracuse University, 2020 - [https://arxiv.org/pdf/1812.00315.pdf](https://arxiv.org/pdf/1812.00315.pdf).
 
@@ -53,7 +53,8 @@
 - Hammed Ali and Timothy Levine. , “The language of truthful and deceptive denials and confessions. Communication Reports” 21, 2 (2008), - [https://www.researchgate.net/publication/233456318_The_Language_of_Truthful_and_Deceptive_Denials_and_Confessions](https://www.researchgate.net/publication/233456318_The_Language_of_Truthful_and_Deceptive_Denials_and_Confessions).
  
 -	Jiawei Zhang, Bowen Dong, Philip S. Yu **"FAKEDETECTOR: Effective Fake News Detection with Deep Diffusive Neural Network"**, 2019, https://arxiv.org/pdf/1805.08751.pdf.
-[12]	Simon Lorent, Ashwin Itoo "Fake News Detection Using Machine Learning", 2019- [https://matheo.uliege.be/bitstream/2268.2/8416/1/s134450_fake_news_detection_using_machine_learning.pdf](https://matheo.uliege.be/bitstream/2268.2/8416/1/s134450_fake_news_detection_using_machine_learning.pdf) .
+
+- Simon Lorent, Ashwin Itoo "Fake News Detection Using Machine Learning", 2019- [https://matheo.uliege.be/bitstream/2268.2/8416/1/s134450_fake_news_detection_using_machine_learning.pdf](https://matheo.uliege.be/bitstream/2268.2/8416/1/s134450_fake_news_detection_using_machine_learning.pdf) .
 
 - Gisel Bastidas Guacho, Sara Abdali, Neil Shah, Evangelos E. Papalexakis, **"Semi-supervised content-based detection of misinformation via tensor embeddings"**, UC Riverside,2018 : [https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8508241](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8508241) .
 
@@ -78,3 +79,19 @@
 - Apurva Wani, Isha Joshi, Snehal Khandve, Vedangi Wagh, andRaviraj Joshi, **"Evaluating Deep Learning Approaches for Covid19 Fake News Detection"**,Pune Institute of Computer Technology, Pune, Indian Institute of Technology Madras, Chennai, 2021 - [https://arxiv.org/pdf/2101.04012.pdf](https://arxiv.org/pdf/2101.04012.pdf).
 
 - Sunil Gundapu and Radhika Mamidi, **"Transformer based Automatic COVID-19 Fake News Detection System"**, International Institute of Information Technology, Hyderabad, 2021 - [https://arxiv.org/pdf/2101.00180.pdf](https://arxiv.org/pdf/2101.00180.pdf).
+
+- Jacob Devlin Ming-Wei Chang Kenton Lee Kristina Toutanova,"BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", Google AI Language, 2019 - [https://arxiv.org/pdf/1810.04805.pdf](https://arxiv.org/pdf/1810.04805.pdf)
+
+- Liu, Y., Ott, M., Goyal, N., Du, J., Joshi, M., Chen, D., Levy, O., Lewis, M., Zettlemoyer, L., and Stoyanov, V, **"RoBERTa: A Robustly Optimized BERT Pretraining Approach"**, 2019 - ]https://arxiv.org/pdf/1907.11692](https://arxiv.org/pdf/1907.11692)
+
+- Jeffrey Pennington, Richard Socher, Christopher D. Manning **GloVe: Global Vectors for Word Representation**" Computer Science Department, Stanford University, Stanford, 2014 - [https://nlp.stanford.edu/pubs/glove.pdf](https://nlp.stanford.edu/pubs/glove.pdf)
+
+- Victor Sanh, Lysandre Debut, Julien Chaumond, Thomas Wolf **"DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter"**, Hugging Face, 2020 - [https://arxiv.org/pdf/1910.01108.pdf](https://arxiv.org/pdf/1910.01108.pdf)
+
+- Valeriya Slovikovskaya, Giuseppe Attard, **"Transfer Learning from Transformers to Fake News Challenge Stance Detection (FNC-1) Task**, University of Pisa, 2019 - https://arxiv.org/pdf/1910.14353
+
+- Galbraith, B., Iqbal, H., van Veen, H., Rao, D., Thorne, J., and Pan, Y. (2016). **"Baseline FNC implementation"**. [https://github.com/FakeNewsChallenge/fnc-1-baseline](https://github.com/FakeNewsChallenge/fnc-1-baseline).
+
+- Yuxi Pan, Doug Sibley, Sean Baird, **"Talos Targets Disinformation with Fake News Challenge Victory"**, [https://blog.talosintelligence.com/2017/06/talos-fake-news-challenge.html](https://blog.talosintelligence.com/2017/06/talos-fake-news-challenge.html)
+
+- A. Aziz Sharfuddin, M. Nafis Tihami and M. Saiful Islam, **"A Deep Recurrent Neural Network with BiLSTM model for Sentiment Classification**"** 2018 International Conference on Bangla Speech and Language Processing (ICBSLP), 2018, pp. 1-4, doi: 10.1109/ICB-SLP.2018.8554396.

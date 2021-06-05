@@ -19,12 +19,14 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 # Table of Contents
 - [Table of Contents](#table-of-contents)
-  - [Introduction](#Introduction)
+  - [Introduction](#introduction)
   - [News Cateogries](#news-cateogries)
   - [Architecture](#architecture)
-  - [Presentation](#presentation)
+  - [System interface design](#system-interface-design)
+  - [Poster](#poster)
   - [Demo-video](#demo-video)
   - [Tech stack](#tech-stack)
+  - [Project Deliverables](#project-deliverables)
   - [Installation](#installation)
   - [Prerequisites](#prerequisites)
     - [How to run the app?](#how-to-run-the-app)
@@ -39,6 +41,8 @@
   - [Contributors](#contributors)
 
 ## Introduction
+
+[(Back to Top)](#table-of-contents)
 
 Fake news is playing an increasingly dominant role in spreading misinformation by influencing people’s perceptions or knowledge to distort their awareness and decision-making. 
 
@@ -81,11 +85,28 @@ This study provides a novel text analytics–driven approach to fake news detect
 
 <p align="center"><img src="https://i.ibb.co/bRkVN9p/Architecture.png" alt="Architecture" border="0" width="80%"></p>
 
-## Presentation
+## System interface design 
 
 [(Back to Top)](#table-of-contents)
 
-Read the project presentation fron [here 📌](https://docs.google.com/presentation/d/1RUkxMFmhWDfAduH-eDqUx_FYHMIZCxXCQnImiL7Nx3A/edit?usp=sharing)
+<p align="center"><img src="https://i.ibb.co/D7pYd16/Implementation-Details.png" alt="Architecture" border="0" width="80%"></p>
+
+
+## Poster 
+[(Back to Top)](#table-of-contents)
+
+<table>
+  <tr>
+    <td><p align="center"><b>Poster-01</b></p></td>
+    <td><p align="center"><b>Poster-02</b></p></td>
+  </tr>
+  <tr>
+    <td><p align="center"><img src='https://i.ibb.co/2q70sd3/BE-Project-Poster-1.png' width="70%" /><br><a href="https://drive.google.com/file/d/1dOrXb28A6tcHszRNKbHvGano7PbgjEmw/view?usp=sharing">PDF</a></p></td>
+    <td><img src="https://i.ibb.co/8MT0xQJ/BE-Project-Poster.png"  width="86%" /><p align="center"><br><a href="https://drive.google.com/file/d/1zPzecq5xmhi7W5Kwz9bU1o3rKn3Jxi6s/view?usp=sharing">PDF</a></p></td>
+  </tr>
+ </table>
+
+
 ## Demo-video
 
 [(Back to Top)](#table-of-contents)
@@ -99,13 +120,23 @@ Read the project presentation fron [here 📌](https://docs.google.com/presentat
 [(Back to Top)](#table-of-contents)
 
 1. **Programming Language** : Python
-2. **Frontend** : streamlit
-3. **Tools** : Colab notebook, VS Code
-4. **Machine learning Library** : Tensorflow, PyTorch, Keras, Huggingface transformers, simpletransformers
-5. **Web framework** : Flask
-6. **Web server** : Nginx
-7. **Web application/Model Deployment** : AWS EC2 Instance
-   
+2. **Frontend** : Streamlit
+3. **API** : VirusTotal API
+4. **Platform** : Colab notebook, Jupyter notebook, Visual studio code
+5. **Testing tool** : Apache Jmeter, Google PageSpeed insights, Selenium
+6. **Machine learning Library** : Tensorflow, PyTorch, Keras, Huggingface transformers, simpletransformers
+7. **Web framework** : Flask
+8. **WSGI server** : Gunicorn
+9. **Web server** : Nginx
+10. **Cloud infrastructure support**: AWS EC2 instance, AWS secret manager
+11. **Containerization/deployment**: Docker
+
+## Project Deliverables
+
+[(Back to Top)](#table-of-contents)
+
+The [Project Deliverables](https://drive.google.com/file/d/1Tm0H7ytr_JyLz3nu2DrOFcWIIYX2WJxJ/view?usp=sharing) includes detailed documentation of the project, including `Software Requirement Specifications (SRS)`, `Software Project Management Plan (SPMP)`, `Software Design Description (SDD)`, `Software Testing Document (STD)`, `Implementation details`, and `Result and conclusion`.
+  
 ## Installation 
 
 [(Back to Top)](#table-of-contents)<br/>
