@@ -6,16 +6,7 @@
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg?logo=paypal&style=flat-square)](https://www.paypal.me/AvsarJaiswal/100)&nbsp;
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
-
-<div align="center" style="height:400px"> 
-<img src="https://i.ibb.co/j5GJdrp/download.jpg" height="100%">
-<h4><a href="http://www.posterfortomorrow.org/en/gallery/view/54205">Image source :- Protect Yourself from Fake News not just Corona Virus</a></h4>
-</div>
-
-<br/>
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 # Table of Contents
 - [Table of Contents](#table-of-contents)
@@ -251,7 +242,8 @@ Thanks goes to these wonderful people 👏👏
 <table>
   <tr>
     <td align="center"><a href="https://github.com/heet9022"><img src="https://avatars0.githubusercontent.com/u/41733742?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Heet Sakaria</b></sub></a><br /><a href="https://github.com/hritik5102/Fake-news-classification-model/commits?author=heet9022" title="Code">💻</a> <a href="#ideas-heet9022" title="Ideas, Planning, & Feedback">🤔</a></td>
-    <td align="center"><a href="https://github.com/vedangparasnis"><img src="https://avatars2.githubusercontent.com/u/35874709?v=4" width="100px;" alt=""/><br /><sub><b>vedangparasnis</b></sub></a><br /><a href="https://github.com/hritik5102/Fake-news-classification-model/commits?author=vedangparasnis" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/vedangparasnis"><img src="https://avatars2.githubusercontent.com/u/35874709?v=4?s=100" width="100px;" alt=""/><br /><sub><b>vedangparasnis</b></sub></a><br /><a href="https://github.com/hritik5102/Fake-news-classification-model/commits?author=vedangparasnis" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/veedata"><img src="https://avatars.githubusercontent.com/u/43007623?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Viraj Thakkar</b></sub></a><br /><a href="https://github.com/hritik5102/Fake-news-classification-model/commits?author=veedata" title="Documentation">📖</a></td>
   </tr>
 </table>
 
