@@ -1,6 +1,6 @@
 aiohttp==3.7.4
 contractions>=0.0.48
-tensorflow==2.5.1
+tensorflow==2.7.2
 bert_for_tf2==0.14.9
 transformers>=4.5.1
 nltk>=3.4.5
